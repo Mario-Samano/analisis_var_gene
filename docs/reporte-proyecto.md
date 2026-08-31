@@ -351,11 +351,11 @@ y cómo citarlo. Relacionen esta sección con LICENSE, CITATION.cff, codemeta.js
 release final y, cuando corresponda, un DOI.
 EJEMPLO: Código en GitHub bajo MIT; cita disponible en CITATION.cff. -->
 
-**Código:** [URL]  
-**Datos:** [URL, identificador o instrucciones]  
-**Licencia del código:** [Licencia]  
-**Cómo citar:** [Referencia o enlace a CITATION.cff]  
-**Versión o release:** [URL]
+**Código:** Almacenado en GitHub  
+**Datos:** *Pendiente*  
+**Licencia del código:** [MIT License](https://github.com/Mario-Samano/analisis_var_gene/blob/main/LICENSE)  
+**Cómo citar:** *Pendiente*  
+**Versión o release:** *Pendiente* 
 
 ## 15. Referencias
 
