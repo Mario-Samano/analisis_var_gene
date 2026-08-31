@@ -1,27 +1,15 @@
-# [Nombre del proyecto]
+# Búsqueda de variantes clínicas perjudiciales, benéficas y similares a esos grupos asociadas con el desarrollo de COVID-19 severo entre mexicanos
 
-<!--
-AYUDA:
-Escriban el nombre del proyecto. Debe ser breve, específico y fácil de identificar.
-Puede coincidir con el nombre del repositorio.
-
-EJEMPLO:
-# Comparación de genes de resistencia antimicrobiana
--->
-
-[Describan el proyecto en una o dos frases.]
-
+_Versión preliminar_. 
+Se buscarán variantes genéticas que inciden en la susceptibilidad de la enfermedad por SARS-CoV-2 (COVID-19) en genomas de mexicanos residentes en Estados Unidos.
 
 Para conocer el planteamiento, las preguntas de investigación, la metodología y
-los resultados, consulta el [reporte del proyecto](docs/reporte-proyecto.md).
+los resultados, consulta el [reporte-proyecto.md](https://github.com/Mario-Samano/analisis_var_gene/blob/main/docs/reporte-proyecto.md).
 
-<!--
-AYUDA:
-Ajusten la ruta del enlace si el reporte tiene otro nombre o se encuentra en otra
-carpeta. Comprueben que el enlace funcione desde GitHub.
--->
+
 
 ## Funcionalidades
+#### _Pendientes, se agregarán mediante el desarrollo del proyecto:_
 
 - [Funcionalidad disponible 1]
 - [Funcionalidad disponible 2]
@@ -42,45 +30,33 @@ EJEMPLO:
 
 ```text
 proyecto/
-├── data/           # Datos de ejemplo o archivos pequeños
-├── docs/           # Reporte y documentación
-├── notebooks/      # Análisis exploratorios
-├── results/        # Tablas y figuras generadas
-├── src/            # Código fuente
-├── tests/          # Pruebas
-├── CITATION.cff    # Información para citar el software
-├── LICENSE         # Licencia
-└── README.md       # Introducción y guía rápida de uso
+├── data/   #Información importante usada en el proyecto
+│   ├── raw/   # Carpeta de datos crudos
+│   └── processed/   # Carpeta de datos de interés
+├── docs/   # Carpeta que contiene la documentación del proyecto
+├── notebooks/  # Carpeta para organizar mejor el código generado.
+├── results/   # Se guardarán aquí posteriormente los resultados obtenidos
+├── src/   # Carpeta que contiene el código que se desarrollará 
+└── tests/   # Resultados de pruebas realizadas a lo largo del proyecto
+├── LICENSE    # Detalles de la licencia
+└── README.md    # Introducción y guía rápida de uso
 ```
 
-<!--
-AYUDA:
-Modifiquen el árbol para que represente su repositorio real y eliminen carpetas
-que no utilicen. Expliquen solamente los elementos principales; no enumeren cada
-archivo. Eviten almacenar datos grandes, usuarios/contraseñas o información sensible.
--->
 
 ## Requisitos
+#### Pendiente algunos detalles de la siguiente información:
+- Python [versión] 
+- Librerias: 
+| Herramienta | Versión |
+|:--|:--|
+| Processes (librería de Python) | 3.14.7 |
+| Seaborn (librería de Python) | 0.13.2 |
 
-- [Lenguaje y versión]
-- [Herramienta o biblioteca indispensable]
 - [Recurso computacional o condición de acceso]
-
-<!--
-AYUDA:
-Indiquen lo necesario antes de instalar o ejecutar el proyecto: versión de Python,
-sistema operativo si es relevante, memoria, almacenamiento o acceso a servicios.
-
-EJEMPLO:
-- Python 3.12 o posterior.
-- Git.
-- 4 GB de memoria RAM.
-- Conexión a internet para obtener datos.
-
-No registren usuarios, contraseñas, tokens ni llaves privadas-->
 
 
 ## Datos
+### _Pendientes, se agregarán mediante el desarrollo del proyecto:_
 
 [Expliquen cómo obtener los datos y dónde colocarlos.]
 
@@ -154,8 +130,8 @@ figuras utilizadas en el reporte. Sus nombres esperados deben indicarse aquí.
 
 ## Documentación
 
-- [Reporte del proyecto](docs/reporte-proyecto.md)
-- [Información para citar el software](CITATION.cff)
+- [Reporte del proyecto]([docs/reporte-proyecto.md](https://github.com/Mario-Samano/analisis_var_gene/blob/main/docs/reporte-proyecto.md))
+
 
 <!--
 AYUDA:
@@ -168,9 +144,10 @@ EJEMPLO:
 
 ## Equipo
 
-- [Nombre completo] — [Contribución o responsabilidad general]
-- [Nombre completo] — [Contribución o responsabilidad general]
-- [Nombre completo] — [Contribución o responsabilidad general]
+#### Pendiente detalles de la siguiente información:
+- Fátima Abril Gómez Martínez — [Contribución o responsabilidad general]
+- Mario Alejandro Samano — [Contribución o responsabilidad general]
+- Jana Noemí Azamar Ramírez — [Contribución o responsabilidad general]
 
 <!--
 AYUDA:
@@ -200,20 +177,12 @@ La forma recomendada de citar la versión v1.0.0 se encuentra en CITATION.cff.
 
 ## Licencia
 
-[Indiquen el nombre de la licencia.] Consulta [LICENSE](LICENSE) para conocer
+Licencia bajo la que trabajaremos es la licencia MIT. Consulta [LICENSE](https://github.com/Mario-Samano/analisis_var_gene/blob/main/LICENSE) para conocer
 los términos de uso.
 
-<!--
-AYUDA:
-Especifiquen la licencia del código y asegúrense de incluir el archivo LICENSE.
-Las condiciones de uso de los datos pueden ser distintas y deben indicarse en la
-sección Datos y en el reporte.
-
-EJEMPLO:
-El código se distribuye bajo la licencia MIT. Consulta LICENSE.
--->
 
 ## Agradecimientos
+#### Pendiente la siguiente información:
 
 [Incluyan reconocimientos institucionales o académicos]
 
@@ -230,13 +199,3 @@ de la asignatura [nombre].
 
 ---
 
-<!--
-LISTA DE COMPROBACIÓN ANTES DE ENTREGAR:
-- [ ] Se eliminaron o sustituyeron todos los textos entre corchetes.
-- [ ] Los enlaces funcionan desde GitHub.
-- [ ] Los comandos fueron probados en un ambiente limpio.
-- [ ] El README permite instalar y ejecutar un ejemplo.
-- [ ] No se incluyeron credenciales ni información sensible.
-- [ ] El reporte contiene la explicación científica y evita duplicar el README.
-- [ ] La versión, la licencia y la información de citación están actualizadas.
--->
