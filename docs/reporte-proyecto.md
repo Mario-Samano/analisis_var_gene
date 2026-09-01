@@ -375,7 +375,7 @@ https://doi.org/10.1126/science.277.5331.1453 -->
 
 4. Giné-Garriga, R., Delepiere, A., Ward, R., Alvarez-Sala, J., Alvarez-Murrillo, I., Mariezcurrena, V., Göransson Sandberg, H., Saikia, P., Avello, P., Thakar, K., Ibrahim, E., Nuvellon, A., El Hattab, O., Hutton, G., Jimenez, A. (2021). COVID-19 water, sanitation, and hygiene response: Review of measures and initiatives adopted by governments, regulators, utilities, and other stakeholders in 84 countries. *Science of 4. the Total Environment, 795* (15), 148789. https://doi.org/10.1016/j.scitotenv.2021.148789
 
-5. Gong, Z., Song, T., Hu, M. Che, Q., Guo, J., Zhang, H., Li, H., Wang, Y., Liu, B., Shi, N. (2024). Natural and socio-environmental factors in the transmission of COVID-19: a comprehensive analysis of epidemiology and mechanisms. *BMC Public Health, 24,* 2196. https://doi.org/10.1186/s12889-024-197495-3
+5. Gong, Z., Song, T., Hu, M. Che, Q., Guo, J., Zhang, H., Li, H., Wang, Y., Liu, B., Shi, N. (2024). Ntural and socio-environmental factors in the transmission of COVID-19: a comprehensive analysis of epidemiology and mechanisms. *BMC Public Health, 24,* 2196. https://doi.org/10.1186/s12889-024-19749-3
 
 6. Montero R,I., Dionicio, C.L., Noris, G., Piña-Pozas, M., Santana, C., Gómez, R. (2025) Genetic variants in TMPRSS2 influence SARS-CoV-2 infection susceptibility within Mexican Mestizos. *Frontiers in Genetics, 16*, 1558189. https://doi.org/10.3389/fgene.2025.1558189
 
