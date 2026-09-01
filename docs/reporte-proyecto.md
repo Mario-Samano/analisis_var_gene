@@ -12,7 +12,7 @@ Escherichia coli. -->
 | Integrante 2 | Jana Noemí Azamar Ramírez |
 | Integrante 3 | Fátima Abril Gómez Martínez |
 | Fecha de creación | 25/08/2026 |
-| Última actualización | 30/08/2026 |
+| Última actualización | 01/09/2026 |
 | Repositorio | https://github.com/Mario-Samano/analisis_var_gene |
 
 <!-- AYUDA: Mantengan actualizados el estado, la fecha y la versión. La versión debe coincidir con una etiqueta de Git cuando exista una entrega identificable. -->
@@ -64,7 +64,7 @@ Los estudios encaminados a dilucidar la presencia de variantes genéticas que in
 
 La escasa información sobre la existencia de variantes genéticas entre los mexicanos vinculadas con la infección y el progreso clínico de COVID-19 es inquietante, ya que en 2023 México estaba en el doceavo puesto de casos reportados de COVID-19 (Montero et al., 2025). También se estima que, entre 2020 y 2024, la dolencia provocó alrededor de 335 000 óbitos en ese territorio; este fue el quinto total más elevado en el mundo (Chakraborty et al., 2025). 
 
-Por añadidura, Riley et al. (2025) aseveran que, al calcular la mortalidad excesiva de COVID-19, que es la diferencia entre los fallecimientos registrados y las muertes predichas de manera estadística dadas las tendencias epidemiológicas, se constató que los mexicanos y centroamericanos que radican en California, Estados Unidos de América, fueron un grupo afectado de forma notoria. Ellos presentan algunos de los factores de riesgo enumerados más arriba: tienen edades avanzadas, enfrentan barreras para acceder a servicios de salud, y sus ocupaciones conllevan interacción regular con otras personas. Además, es común que su nivel educativo y su lugar de procedencia los orillen a tomar vacantes laborales precarias y que no los protejan de exponerse al virus causante de la susosidicha patología (Riley et al., 2025). 
+Por añadidura, Riley et al. (2025) aseveran que, al calcular la mortalidad excesiva de COVID-19, que es la diferencia entre los fallecimientos registrados y las muertes predichas de manera estadística dadas las tendencias epidemiológicas, se constató que los mexicanos y centroamericanos que radican en California, Estados Unidos de América (EUA), fueron un grupo afectado de forma notoria. Ellos presentan algunos de los factores de riesgo enumerados más arriba: tienen edades avanzadas, enfrentan barreras para acceder a servicios de salud, y sus ocupaciones conllevan interacción regular con otras personas. Además, es común que su nivel educativo y su lugar de procedencia los orillen a tomar vacantes laborales precarias y que no los protejan de exponerse al virus causante de la susosidicha patología (Riley et al., 2025). 
 
 <br>
 
@@ -75,7 +75,7 @@ relevancia biológica, científica, técnica o social y quién podría beneficia
 EJEMPLO: Un flujo automatizado reducirá errores y permitirá repetir el análisis
 con los mismos datos, parámetros y versiones del software. -->
 
-Realizar un estudio orientado a la detección, en genomas mexicanos, de variantes genéticas que repercuten en la predisposición a exhibir síntomas severos de COVID-19 permitiría enriquecer y actualizar el análisis realizado por Montero et al. (2025). En particular, focalizar el trabajo en personas oriundas de México pero que se encuentran en Estados Unidos de América (EUA) brindaría información genética sobre un grupo que fue perjudicado por una significativa mortalidad excesiva de la antedicha enfermedad debido a numerosas disparidades socioeconómicas; aunado a ello, indicaría si entre la población había genotipos que ahora se sabe que influyen en la susceptibilidad de que un paciente infectado por SARS-CoV-2 llegue al estado crítico.
+Realizar un estudio orientado a la detección, en genomas mexicanos, de variantes genéticas que repercuten en la predisposición a exhibir síntomas severos de COVID-19 permitiría enriquecer y actualizar el análisis realizado por Montero et al. (2025). En particular, focalizar el trabajo en personas oriundas de México pero que se encuentran en Los Ángeles (L.A.), California brindaría información genética sobre una comunidad abundante en L.A. (Riley et al., 2025) y que fue perjudicada por una significativa mortalidad excesiva de la antedicha enfermedad debido a numerosas disparidades socioeconómicas; aunado a ello, indicaría si entre la población había genotipos que ahora se sabe que influyen en la susceptibilidad de que un paciente infectado por SARS-CoV-2 llegue al estado crítico.
 
 Si esta investigación logra esclarecer cuán frecuentes son las variantes que auspician o minimizan el riesgo de tener COVID-19 severo, estos hallazgos podrían servir para diseñar mejores estrategias de salud pública en EUA. Esas iniciativas podrían más adelante modificarse para su implementación en México, luego de contrastar los resultados del presente proyecto con análisis llevados a cabo empleando datos del Biobanco Mexicano u otro repositorio con información específica sobre personas que nacieron y viven en México.
 
