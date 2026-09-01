@@ -206,14 +206,16 @@ EJEMPLO: data/raw conserva originales y data/processed los derivados. -->
 
 ```text
 proyecto/
-├── data/
-│   ├── raw/
-│   └── processed/
-├── docs/
-├── notebooks/ #Falta agregar esta carpeta para organizar mejor el código generado.
-├── results/
-├── src/
-└── tests/ # ¿Pueden hacerse tests en este caso? ¿Cómo?
+├── data/   #Información importante usada en el proyecto
+│   ├── raw/   # Carpeta de datos crudos
+│   └── processed/   # Carpeta de datos de interés
+├── docs/   # Carpeta que contiene la documentación del proyecto
+├── notebooks/  # Carpeta para organizar mejor el código generado.
+├── results/   # Se guardarán aquí posteriormente los resultados obtenidos
+├── src/   # Carpeta que contiene el código que se desarrollará 
+└── tests/   # Resultados de pruebas realizadas a lo largo del proyecto
+├── LICENSE    # Detalles de la licencia
+└── README.md    # Introducción y guía rápida de uso
 ```
 
 ### 8.4 Diccionario o formato de los datos
