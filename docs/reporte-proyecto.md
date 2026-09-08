@@ -12,7 +12,7 @@ Escherichia coli. -->
 | Integrante 2 | Jana Noemí Azamar Ramírez |
 | Integrante 3 | Fátima Abril Gómez Martínez |
 | Fecha de creación | 25/08/2026 |
-| Última actualización | 01/09/2026 |
+| Última actualización | 08/09/2026 |
 | Repositorio | https://github.com/Mario-Samano/analisis_var_gene |
 
 <!-- AYUDA: Mantengan actualizados el estado, la fecha y la versión. La versión debe coincidir con una etiqueta de Git cuando exista una entrega identificable. -->
@@ -24,8 +24,6 @@ solución propuesta y el resultado principal. Conviene actualizarlo al final.
 EJEMPLO: Se analizarán genomas de E. coli disponibles en NCBI para identificar
 y comparar genes de resistencia. Se desarrollará un flujo reproducible en Python
 que obtenga los datos y genere tablas y visualizaciones comparativas. -->
-
-[Redacten aquí el resumen.]
 
 *Versión preliminar*
 Se investigará si en los genomas mexicanos hay variantes genéticas que inciden en la susceptibilidad a desarrollar síntomas severos de COVID-19, una enfermedad que afectó de manera desproporcional a los mexicanos y centroamericanos que residían en Estados Unidos de América. Las variantes se tomarán de ClinVar y, mediante herramientas de Bash que serán parte de un flujo estructurado en Python, serán buscadas en genomas de migrantes con ancestría mexicana. Al final, se usará Python y Seaborn para calcular y graficar las frecuencias de las variantes mencionadas.
@@ -75,9 +73,9 @@ relevancia biológica, científica, técnica o social y quién podría beneficia
 EJEMPLO: Un flujo automatizado reducirá errores y permitirá repetir el análisis
 con los mismos datos, parámetros y versiones del software. -->
 
-Realizar un estudio orientado a la detección, en genomas mexicanos, de variantes genéticas que repercuten en la predisposición a exhibir síntomas severos de COVID-19 permitiría enriquecer y actualizar el análisis realizado por Montero et al. (2025). En particular, focalizar el trabajo en personas oriundas de México pero que se encuentran en Los Ángeles (L.A.), California brindaría información genética sobre una comunidad abundante en L.A. (Riley et al., 2025) y que fue perjudicada por una significativa mortalidad excesiva de la antedicha enfermedad debido a numerosas disparidades socioeconómicas; aunado a ello, indicaría si entre la población había genotipos que ahora se sabe que influyen en la susceptibilidad de que un paciente infectado por SARS-CoV-2 llegue al estado crítico.
+Realizar un estudio orientado a la detección, en genomas mexicanos, de variantes genéticas que repercuten en la predisposición a exhibir síntomas severos de COVID-19 permitiría enriquecer y actualizar el análisis realizado por Montero et al. (2025). En particular, focalizar el trabajo en personas oriundas de México pero que se encuentran en Los Ángeles (L.A.), California brindaría información genética sobre una comunidad abundante en L.A. (Riley et al., 2025) y que fue perjudicada en gran medida por una mortalidad excesiva de la antedicha enfermedad debido a numerosas disparidades socioeconómicas; aunado a ello, indicaría si entre la población había genotipos que ahora se sabe que influyen en la susceptibilidad de que un paciente infectado por SARS-CoV-2 llegue al estado crítico.
 
-Si esta investigación logra esclarecer cuán frecuentes son las variantes que auspician o minimizan el riesgo de tener COVID-19 severo, estos hallazgos podrían servir para diseñar mejores estrategias de salud pública en EUA. Esas iniciativas podrían más adelante modificarse para su implementación en México, luego de contrastar los resultados del presente proyecto con análisis llevados a cabo empleando datos del Biobanco Mexicano u otro repositorio con información específica sobre personas que nacieron y viven en México.
+Si esta investigación logra esclarecer cuán frecuentes son las variantes que auspician o minimizan el riesgo de tener COVID-19 severo, y se complemente esta información con datos de otras poblaciones mencionadas en 1000 Genomes, estos hallazgos podrían servir para diseñar mejores estrategias de salud pública en EUA. Esas iniciativas podrían más adelante modificarse para su implementación en México, luego de contrastar los resultados del presente proyecto con análisis llevados a cabo empleando datos del Biobanco Mexicano u otro repositorio con información específica sobre personas que nacieron y viven en México.
 
 Al mismo tiempo, si en esta investigación se detecta que los mexicanos en EUA poseen variantes genéticas (beneficiosas, patogénicas o afines a esas categorías) vinculadas con la posibilidad de que una infección por SARS-CoV-2 se agrave, podrían hacerse análisis similares en poblaciones de otras partes del planeta. De este modo, los resultados podrían aprovecharse para mejorar los tratamientos que han surgido contra la enfermedad o, tras reconcocer posibles blancos que podrían ser explotados por cepas vigentes o futuras de SARS-CoV-2 y por ende podrían acrecentar la mortalidad del COVID-19, reforzar la vigilancia epidemiológica de este padecimiento (Rocha et al., 2025).  
 
@@ -90,7 +88,6 @@ ser alcanzable durante el semestre.
 EJEMPLO: Desarrollar un flujo reproducible en Python para identificar y comparar
 genes de resistencia en un conjunto de genomas de E. coli. -->
 
-[Escriban aquí el objetivo general.]
 Identificar si, entre los genomas de mexicanos que radican en EUA, está presente alguna de las variantes genéticas que se han reportado en relación con la susceptibilidad a desarrollar síntomas severos de COVID-19.
 
 <br>
@@ -114,6 +111,14 @@ de presencia y ausencia obtenida de las anotaciones. -->
 **Pregunta:**  En los genomas anteriores, ¿existe alguna variante genética benigna, o candidata a serlo, respecto a la posibilidad de que un paciente que tenga COVID-19 muestre sintomatología severa? En caso positivo, ¿en qué frecuencia está presente?
 
 **Evidencia necesaria:** Genotipos presentes en las posiciones donde deberían ubicarse las variantes genéticas sobre cada cromosoma. Luego, se tabularán y graficarán las frecuencias de las variantes.
+
+### Posibles preguntas adicionales:
+
+, dependiendo de si se trabajará con archivos CRAM/BAM
+
+. Allele support
+How many reads support REF vs ALT?
+⭐⭐ Easy
 
 <br>
 
@@ -158,9 +163,11 @@ EJEMPLO: Un programa modular recibirá identificadores, descargará archivos,
 extraerá genes, almacenará resultados y generará visualizaciones. -->
 
 
-**Esta es una propuesta, asumiendo que se trabajará con datos de archivos CRAM (lo cual parece agilizar la búsqueda de las variantes señaladas con anterioridad).**
+**Esta es la segunda propuesta, ya que persisten algunas dudas acerca del tipo de datos de secuenciación que deben usarse.**
 
-Un programa modular recibirá un archivo sobre variantes genéticas, extraerá sus posiciones y el número del cromosoma al que pertenecen, revisará el genotipo que existe en el archivo CRAM y calculará las frecuencias de las variantes correspondientes. Estas últimas después podrán graficarse mediante Seaborn.
+Un programa modular recibirá un archivo de ClinVar sobre variantes genéticas relacionadas con un alud de patologías, extraerá los datos relacionados con el COVID-19 severo (enfocándose en sus coordenadas genómicas, el cromosoma al que pertenecen, y cuáles tipos de cambios atravesaron los nucleótidos presentes en aquellas zonas), buscará estas variaciones en el archivo VCF de una población con ancestría mexicana y calculará las frecuencias correspondientes. Estas últimas después podrán contrastarse con los datos de otras poblaciones y graficarse mediante Seaborn.
+
+Luego, podrían descargarse archivos BAM o CRAM para tratar de validar las posiciones de las variantes que hayan sido más recurrentes o que, por su patogenicidad o benevolencia, sobresalieron en el análisis previo. Gracias a esta actividad, se cumpliría el requisito de procesar datos de secuenciación masiva en este trabajo, aunque el uso de archivos de alguno de los dos tipos aludidos implicaría añadir una capa de complejidad al proyecto. 
 
 ### 7.1 Resultado o producto esperado
 
@@ -257,7 +264,7 @@ EJEMPLO: descarga, validación, transformación, análisis, visualización y pru
 3. [Etapa 3]
 
 
-**Esbozo: Descarga de datos -> Validación de que estén completos -> Creación del archivo que solo contiene información sobre el COVID-19 -> Extracción de las posiciones de las variantes genéticas -> Búsqueda de esas variaciones entre los genotipos de los genomas mexicanos secuenciados -> Cálculo de las frecuencias de las variantes genéticas mencionadas -> Graficación de los resultados**
+**Esbozo: Descarga de datos de Clinvar -> Validación de que estén completos -> Creación del archivo que solo contiene información sobre el COVID-19 -> Extracción de las posiciones de las variantes genéticas -> Búsqueda de esas variaciones entre los genotipos de mexicanos y otros grupos en el documento VCF -> Cálculo de las frecuencias de las variantes genéticas mencionadas -> Graficación de los resultados -> Búsqueda de los genotipos reportados en **
 
 ### 9.2 Herramientas y tecnologías
 
@@ -268,11 +275,11 @@ visualización. -->
 
 | Herramienta | Versión | Propósito |
 |:--|:--|:--|
-| Processes (librería de Python) | 3.14.7 | Diseñar procesos para trabajar con herramientas de Unix diseñadas para manipular archivos CRAM o FASTQ |
+| Processes (librería de Python) | 3.14.7 | Diseñar procesos para trabajar con herramientas de Unix diseñadas para manipular archivos VCF, provenientes de 1000 Genomes y enfocados en varias poblaciones, y la lista de enfermedades descargada de ClinVar |
 | Seaborn (librería de Python) | 0.13.2 | Visualizar las frecuencias de las variantes genéticas en la población seleccionada |
 
 
-**También se ocuparán herramientas de Bash para manipular archivos CRAM o FASTQ, pero aún es incierto cuál tipo de documentos se usarán.**
+**Si se opta por examinar algunos documentos BAM o CRAM, pueden emplearse herramientas del paquete samtoools.**
 
 ### 9.3 Estrategia de validación
 
@@ -281,10 +288,8 @@ datos conocidos, comparación con otra herramienta o revisión manual.
 EJEMPLO: Se compararán cinco anotaciones conocidas y se probarán entradas
 válidas, identificadores inexistentes y archivos incompletos. -->
 
-[Describan aquí la validación.]
-
 **Pendiente. ¿Qué tipo de validaciones pueden hacerse?**
-
+**La única validación que se ha concebido hasta el momento sería la revisión, a través de herramientas de samtools en Bash, de que en los documentos CRAM o BAM que sustentan al VCF de 1000 Genomes sobre la población mexicana que reside en Los Ángeles se mencionan los mismos alelos de referencia (normales) y sus variantes que en el archivo obtenido de ClinVar.**
 ## 10. Plan de trabajo
 
 #### *Esta sección solo muestra un esbozo. Tenemos dudas sobre las responsabilidades que deberíamos incluir aquí.*
@@ -300,7 +305,7 @@ EJEMPLO: Ana desarrolla la descarga y revisa el módulo de visualización. -->
 |:--|:--|:--|
 | Abril | Descarga de datos de ClinVar| Revisará, por checksum, que el archivo se haya descargado por completo |
 
-**Aún falta distribuir responsabilidades, pero primero será imperativo determinar si se trabajará con archivos FASTQ o CRAM. En este momento, como se esbozó en el punto 7, parece que con el segundo tipo de archivos puede crearse un piepeline más eficiente.**
+**Aún falta distribuir responsabilidades, pero primero será imperativo determinar si se trabajará con archivos BAM o CRAM. En este momento, como se esbozó en el punto 7, parece que estos últimos tipos de archivos pueden aprovecharse para crear un pipeline que incluya consultar las variantes genéticas del COVID-19 severo, escoger 5 variantes disímiles y verificar que ellas estén representadas de manera correcta en los documentos BAM o CRAM.*
 
 ### 10.2 Riesgos y alternativas
 
