@@ -1,7 +1,7 @@
-# Búsqueda de variantes clínicas perjudiciales, benéficas y similares a esos grupos asociadas con el desarrollo de COVID-19 severo entre mexicanos
+# Análisis de variantes del SARS-CoV-2 en México (2020–2024)
 
 _Versión preliminar_. 
-Se buscarán variantes genéticas que inciden en la susceptibilidad de la enfermedad por SARS-CoV-2 (COVID-19) en genomas de mexicanos residentes en Estados Unidos.
+Se buscarán variantes genéticas en genomas de SARS-CoV-2 (COVID-19) en regiones de genes potenciales a incidecia en la susceptibilidad de la enfermedad con el mismo nombre en pacientes mexicanos
 
 Para conocer el planteamiento, las preguntas de investigación, la metodología y
 los resultados, consulta el [reporte-proyecto.md](https://github.com/Mario-Samano/analisis_var_gene/blob/main/docs/reporte-proyecto.md).
@@ -9,11 +9,10 @@ los resultados, consulta el [reporte-proyecto.md](https://github.com/Mario-Saman
 
 
 ## Funcionalidades
-#### _Pendientes, se agregarán mediante el desarrollo del proyecto:_
+#### _Pendientes, se agregarán más mediante el desarrollo del proyecto:_
 
-- [Funcionalidad disponible 1]
-- [Funcionalidad disponible 2]
-- [Funcionalidad disponible 3]
+- Descarga de genomas mediante identificadores de NCBI de los años 2020-2024 especificamente
+
 
 <!--
 AYUDA:
@@ -34,7 +33,7 @@ proyecto/
 │   ├── raw/   # Carpeta de datos crudos
 │   └── processed/   # Carpeta de datos de interés
 ├── docs/   # Carpeta que contiene la documentación del proyecto
-├── notebooks/  # Carpeta para organizar mejor el código generado.
+├── notebooks/  # Carpeta que contiene y organiza los códigos generados dependiendo de su función
 ├── results/   # Se guardarán aquí posteriormente los resultados obtenidos
 ├── src/   # Carpeta que contiene el código que se desarrollará 
 └── tests/   # Resultados de pruebas realizadas a lo largo del proyecto
@@ -45,18 +44,25 @@ proyecto/
 
 ## Requisitos
 #### Pendiente algunos detalles de la siguiente información:
-- Python [versión] 
+
+- Python 3.13 
 - Librerias: 
-| Herramienta | Versión |
-|:--|:--|
-| Processes (librería de Python) | 3.14.7 |
-| Seaborn (librería de Python) | 0.13.2 |
+
+| Herramienta | Descripción breve de uso                                                                                                                                       | Versión   |
+|-------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------|
+| BioPython   | Uso de: Bio.Entrez para descarga de genomas de NCBI  Bio.Seq para manipular los genomas obtenidos de NCBI y GISAID Bio.Blast para poder usar el programa BLAST | Pendiente |
+| pandas      | En general su uso se hace para manipular con los datos estructurados de los datos obtenidos                                                                    | Pendiente |
+| Nexclade    | Uso de Nexclade para el alineamiento global de genomas con el de Referencia (Wuhan-Hu-1)                                                                       | Pendiente |
+| BLAST+      | Uso de BLAST para el alineamiento local de genomas con el de Referencia (Mexicano)                                                                             | Pendiente |
+| SciPy       | Se usa esta libreria para las pruebas estadisticas                                                                                                             | Pendiente |
+| Statsmodels | Se usa para regresión lineal y análisis de tendencia                                                                                                           | Pendiente |
+| Matplotlib  | Su uso recae en volver en difentes formatos gráficos los resultados obtenidos de las pruebas estádisticas                                                      | Pendiente |
+| Seaborn     | Importante para la visualización de frecuencias y de densidades                                                                                                | Pendiente |
 
 - [Recurso computacional o condición de acceso]
 
 
 ## Datos
-### _Pendientes, se agregarán mediante el desarrollo del proyecto:_
 
 [Expliquen cómo obtener los datos y dónde colocarlos.]
 
@@ -76,21 +82,52 @@ Los archivos se guardarán en data/raw/. Los identificadores, versiones y criter
 de selección se documentan en docs/reporte-proyecto.md.
 -->
 
+Los datos de genomas proceden de **NCBI Nucleotide** y **NCBI RefSeq***, incluyendo el genoma de referencia global con ID: NC_045512.2 (Wuhan-Hu-1) 
+Para su descarga, ejecute:
+
+    python notebooks/download_genomes.ipynb
+
+Los resultados los encontrará con el nombre de "wuhan_ref.fasta" en la carpeta raw en data:
+```text
+proyecto/
+├── data/   #Datos esenciales para el proyecto
+│   ├── raw/ # datos crudos, como genomas de referencia
+|       ├──reference #aquí se encuentra el genoma Wuhan-Hu-1 
+``` 
+
+El genoma de referencia local del paciente cero en México procede de **GISAID** (hCoV-19). Para su obtención, descargue el archivo "gisaid_hcov-19_2026_10_02_20.fasta" de la carpeta raw en data:
+
+```text
+proyecto/
+├── data/   #Información importante usada en el proyecto
+│   ├── raw/ # aquí se encuentra el archivo con el genoma de SARS-CoV-2 del paciente 0 en México
+```
+O si cuenta con un usuario en GISAID, puede buscarlo con el siguiente ID:
+ID: EPI_ISL_412972
+
 La procedencia y características detalladas se describen en el
 [reporte del proyecto](docs/reporte-proyecto.md).
+
 
 ## Uso
 
 [Expliquen qué hace el siguiente comando y qué entradas necesita.]
 
+Para descargas los datos y ver sus outputs, ejecute:
 ```bash
-python src/main.py [argumentos]
+    python notebooks/download_genomes.ipynb 
 ```
 
-[Indiquen dónde se guardan los resultados.]
+El comando generará "/data/raw/ncbi_{year}.fasta", "/data/raw/reference/wuhan_ref.fasta", "data/processed/boxplots_scatterplots_generales.png" y "data/processed/tendencias_genomas_longitud.png"
+
+
 
 <!--
 AYUDA:
+
+[Indiquen dónde se guardan los resultados.]
+
+
 Incluyan al menos un ejemplo mínimo que pueda copiarse y ejecutarse. Sustituyan
 los corchetes por valores reales. Expliquen entradas, opciones importantes y
 archivos de salida sin describir toda la metodología.
@@ -106,14 +143,14 @@ El comando generará results/gene_matrix.csv y results/heatmap.png.
 ## Reproducción de resultados
 
 Ejecuten los siguientes pasos en el orden indicado:
+_parte pendiente, se irá actualizando conforme el proyecto avance_
 
 ```bash
-python scripts/download_data.py
-python src/run_analysis.py
-python src/create_figures.py
+python notebooks/download_genomes.ipynb
+
 ```
 
-Los resultados esperados se generarán en `results/`.
+Los resultados esperados se guardarán en `data` en 'raw y processed.
 
 <!--
 AYUDA:
@@ -145,9 +182,9 @@ EJEMPLO:
 ## Equipo
 
 #### Pendiente detalles de la siguiente información:
-- Fátima Abril Gómez Martínez — [Contribución o responsabilidad general]
-- Mario Alejandro Samano — [Contribución o responsabilidad general]
-- Jana Noemí Azamar Ramírez — [Contribución o responsabilidad general]
+- Fátima Abril Gómez Martínez — Descarga de datos y pruebas
+- Mario Alejandro Samano — Descarga de datos y alineamientos globales
+- Jana Noemí Azamar Ramírez — Documentación 
 
 <!--
 AYUDA:
