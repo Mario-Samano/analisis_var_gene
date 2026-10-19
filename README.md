@@ -1,4 +1,4 @@
-# Búsqueda de variantes clínicas perjudiciales, benéficas y similares a esos grupos asociadas con el desarrollo de COVID-19 severo entre mexicanos
+# Análisis de variantes del SARS-CoV-2 en México (2020–2024)
 
 _Versión preliminar_. 
 Se buscarán variantes genéticas en genomas de SARS-CoV-2 (COVID-19) en regiones de genes potenciales a incidecia en la susceptibilidad de la enfermedad con el mismo nombre en pacientes mexicanos
