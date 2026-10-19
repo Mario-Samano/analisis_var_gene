@@ -107,7 +107,7 @@ utilizarán datos clínicos ni se realizará validación experimental. -->
 
 ### Incluye
 
-- Genomas de SARS-CoV-2 de México recolectados entre 2020 y 2023, obtenidos de NCBI Nucleotide.
+- Genomas de SARS-CoV-2 de México recolectados entre 2020 y 2024, obtenidos de NCBI Nucleotide.
 - Control de calidad y filtrado de las secuencias por longitud y contenido de bases ambiguas (N).
 - Alineamiento y llamado de mutaciones con Nextclade contra la referencia de Wuhan (NC_045512.2).
 - Anotación de mutaciones por gen y clasificación en sinónimas y no sinónimas.
