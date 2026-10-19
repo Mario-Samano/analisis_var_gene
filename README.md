@@ -88,19 +88,20 @@ Para su descarga, ejecute:
     python notebooks/download_genomes.ipynb
 
 Los resultados los encontrará con el nombre de "wuhan_ref.fasta" en la carpeta raw en data:
-
+```text
 proyecto/
 ├── data/   #Datos esenciales para el proyecto
 │   ├── raw/ # datos crudos, como genomas de referencia
 |       ├──reference #aquí se encuentra el genoma Wuhan-Hu-1 
-
+``` 
 
 El genoma de referencia local del paciente cero en México procede de **GISAID** (hCoV-19). Para su obtención, descargue el archivo "gisaid_hcov-19_2026_10_02_20.fasta" de la carpeta raw en data:
 
+```text
 proyecto/
 ├── data/   #Información importante usada en el proyecto
 │   ├── raw/ # aquí se encuentra el archivo con el genoma de SARS-CoV-2 del paciente 0 en México
-
+```
 O si cuenta con un usuario en GISAID, puede buscarlo con el siguiente ID:
 ID: EPI_ISL_412972
 
