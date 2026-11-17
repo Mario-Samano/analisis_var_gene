@@ -1,0 +1,14 @@
+cff-version: 1.0.0
+message: "Si utiliza este software, por favor cítelo como se indica."
+title: "Análisis de variantes del SARS-CoV-2 en México (2020–2024)"
+authors:
+  - family-names: "Samano Basilio"
+    given-names: "Mario Alejandro"
+  - family-names: "Azamar Ramírez"
+    given-names: "Jana Noemí"
+  - family-names: "Gómez Martínez"
+    given-names: "Fátima Abril"
+version: 1.1.0
+date-released: "2026-10-19"
+license: MIT
+repository-code: "https://github.com/Mario-Samano/analisis_var_gene"
