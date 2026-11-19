@@ -976,6 +976,29 @@ MZ410031.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/hu
 MZ410031.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/USA/NMDOH-2020512389/2020, complete genome	2020	20B	G28903T	28903	G	T	N	210	N:M210I	nonsynonymous
 MZ410031.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/USA/NMDOH-2020512389/2020, complete genome	2020	20B	C29311T	29311	C	T	N	346		synonymous
 MZ410031.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/USA/NMDOH-2020512389/2020, complete genome	2020	20B	C29614T	29614	C	T	intergenic			noncoding
+MW454483.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/USA/NMDOH-2020644749/2020, complete genome	2020	20C	C241T	241	C	T	intergenic			noncoding
+MW454483.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/USA/NMDOH-2020644749/2020, complete genome	2020	20C	C583T	583	C	T	ORF1a	106		synonymous
+MW454483.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/USA/NMDOH-2020644749/2020, complete genome	2020	20C	C1059T	1059	C	T	ORF1a	265	ORF1a:T265I	nonsynonymous
+MW454483.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/USA/NMDOH-2020644749/2020, complete genome	2020	20C	C1314T	1314	C	T	ORF1a	350	ORF1a:T350I	nonsynonymous
+MW454483.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/USA/NMDOH-2020644749/2020, complete genome	2020	20C	C3037T	3037	C	T	ORF1a	924		synonymous
+MW454483.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/USA/NMDOH-2020644749/2020, complete genome	2020	20C	C3130T	3130	C	T	ORF1a	955		synonymous
+MW454483.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/USA/NMDOH-2020644749/2020, complete genome	2020	20C	C6310T	6310	C	T	ORF1a	2015		synonymous
+MW454483.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/USA/NMDOH-2020644749/2020, complete genome	2020	20C	T8662C	8662	T	C	ORF1a	2799		synonymous
+MW454483.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/USA/NMDOH-2020644749/2020, complete genome	2020	20C	A10323G	10323	A	G	ORF1a	3353	ORF1a:K3353R	nonsynonymous
+MW454483.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/USA/NMDOH-2020644749/2020, complete genome	2020	20C	A10924G	10924	A	G	ORF1a	3553		synonymous
+MW454483.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/USA/NMDOH-2020644749/2020, complete genome	2020	20C	C11455T	11455	C	T	ORF1a	3730		synonymous
+MW454483.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/USA/NMDOH-2020644749/2020, complete genome	2020	20C	C13821T	13821	C	T	ORF1b	118		synonymous
+MW454483.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/USA/NMDOH-2020644749/2020, complete genome	2020	20C	C14408T	14408	C	T	ORF1b	314	ORF1b:P314L	nonsynonymous
+MW454483.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/USA/NMDOH-2020644749/2020, complete genome	2020	20C	G15760A	15760	G	A	ORF1b	765	ORF1b:G765S	nonsynonymous
+MW454483.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/USA/NMDOH-2020644749/2020, complete genome	2020	20C	G17196A	17196	G	A	ORF1b	1243		synonymous
+MW454483.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/USA/NMDOH-2020644749/2020, complete genome	2020	20C	G17211T	17211	G	T	ORF1b	1248	ORF1b:L1248F	nonsynonymous
+MW454483.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/USA/NMDOH-2020644749/2020, complete genome	2020	20C	A19125G	19125	A	G	ORF1b	1886		synonymous
+MW454483.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/USA/NMDOH-2020644749/2020, complete genome	2020	20C	C20451T	20451	C	T	ORF1b	2328		synonymous
+MW454483.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/USA/NMDOH-2020644749/2020, complete genome	2020	20C	A23403G	23403	A	G	S	614	S:D614G	nonsynonymous
+MW454483.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/USA/NMDOH-2020644749/2020, complete genome	2020	20C	G25563T	25563	G	T	ORF3a	57	ORF3a:Q57H	nonsynonymous
+MW454483.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/USA/NMDOH-2020644749/2020, complete genome	2020	20C	T25695A	25695	T	A	ORF3a	101		synonymous
+MW454483.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/USA/NMDOH-2020644749/2020, complete genome	2020	20C	C28830T	28830	C	T	N	186	N:S186F	nonsynonymous
+MW454483.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/USA/NMDOH-2020644749/2020, complete genome	2020	20C	G29543T	29543	G	T	intergenic			noncoding
 MW006569.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/USA/NMDOH-2020134982/2020, complete genome	2020	20C	C241T	241	C	T	intergenic			noncoding
 MW006569.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/USA/NMDOH-2020134982/2020, complete genome	2020	20C	C1059T	1059	C	T	ORF1a	265	ORF1a:T265I	nonsynonymous
 MW006569.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/USA/NMDOH-2020134982/2020, complete genome	2020	20C	C1288T	1288	C	T	ORF1a	341		synonymous
@@ -1408,6 +1431,48 @@ ON487812.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/hu
 ON487812.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/YUC-1_3102/2021, complete genome	2021	21J	G29402T	29402	G	T	N	377	N:D377Y	nonsynonymous
 ON487812.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/YUC-1_3102/2021, complete genome	2021	21J	G29527T	29527	G	T	N	418	N:Q418H	nonsynonymous
 ON487812.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/YUC-1_3102/2021, complete genome	2021	21J	G29742T	29742	G	T	intergenic			noncoding
+OQ084987.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/ZAC- 1_5360/2021, complete genome	2021	21I	G210T	210	G	T	intergenic			noncoding
+OQ084987.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/ZAC- 1_5360/2021, complete genome	2021	21I	C241T	241	C	T	intergenic			noncoding
+OQ084987.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/ZAC- 1_5360/2021, complete genome	2021	21I	C1437T	1437	C	T	ORF1a	391	ORF1a:S391F	nonsynonymous
+OQ084987.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/ZAC- 1_5360/2021, complete genome	2021	21I	T2911G	2911	T	G	ORF1a	882		synonymous
+OQ084987.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/ZAC- 1_5360/2021, complete genome	2021	21I	T2974C	2974	T	C	ORF1a	903		synonymous
+OQ084987.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/ZAC- 1_5360/2021, complete genome	2021	21I	C3037T	3037	C	T	ORF1a	924		synonymous
+OQ084987.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/ZAC- 1_5360/2021, complete genome	2021	21I	C5051T	5051	C	T	ORF1a	1596	ORF1a:P1596S	nonsynonymous
+OQ084987.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/ZAC- 1_5360/2021, complete genome	2021	21I	C5184T	5184	C	T	ORF1a	1640	ORF1a:P1640L	nonsynonymous
+OQ084987.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/ZAC- 1_5360/2021, complete genome	2021	21I	A5584G	5584	A	G	ORF1a	1773		synonymous
+OQ084987.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/ZAC- 1_5360/2021, complete genome	2021	21I	C9559T	9559	C	T	ORF1a	3098		synonymous
+OQ084987.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/ZAC- 1_5360/2021, complete genome	2021	21I	C9891T	9891	C	T	ORF1a	3209	ORF1a:A3209V	nonsynonymous
+OQ084987.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/ZAC- 1_5360/2021, complete genome	2021	21I	C10645T	10645	C	T	ORF1a	3460		synonymous
+OQ084987.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/ZAC- 1_5360/2021, complete genome	2021	21I	C10681T	10681	C	T	ORF1a	3472		synonymous
+OQ084987.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/ZAC- 1_5360/2021, complete genome	2021	21I	G11083T	11083	G	T	ORF1a	3606	ORF1a:L3606F	nonsynonymous
+OQ084987.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/ZAC- 1_5360/2021, complete genome	2021	21I	T11418C	11418	T	C	ORF1a	3718	ORF1a:V3718A	nonsynonymous
+OQ084987.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/ZAC- 1_5360/2021, complete genome	2021	21I	C11514T	11514	C	T	ORF1a	3750	ORF1a:T3750I	nonsynonymous
+OQ084987.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/ZAC- 1_5360/2021, complete genome	2021	21I	C13019T	13019	C	T	ORF1a	4252		synonymous
+OQ084987.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/ZAC- 1_5360/2021, complete genome	2021	21I	C14408T	14408	C	T	ORF1b	314	ORF1b:P314L	nonsynonymous
+OQ084987.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/ZAC- 1_5360/2021, complete genome	2021	21I	G15451A	15451	G	A	ORF1b	662	ORF1b:G662S	nonsynonymous
+OQ084987.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/ZAC- 1_5360/2021, complete genome	2021	21I	C16466T	16466	C	T	ORF1b	1000	ORF1b:P1000L	nonsynonymous
+OQ084987.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/ZAC- 1_5360/2021, complete genome	2021	21I	C21618G	21618	C	G	S	19	S:T19R	nonsynonymous
+OQ084987.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/ZAC- 1_5360/2021, complete genome	2021	21I	C22227T	22227	C	T	S	222	S:A222V	nonsynonymous
+OQ084987.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/ZAC- 1_5360/2021, complete genome	2021	21I	T22917G	22917	T	G	S	452	S:L452R	nonsynonymous
+OQ084987.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/ZAC- 1_5360/2021, complete genome	2021	21I	C22995A	22995	C	A	S	478	S:T478K	nonsynonymous
+OQ084987.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/ZAC- 1_5360/2021, complete genome	2021	21I	A23403G	23403	A	G	S	614	S:D614G	nonsynonymous
+OQ084987.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/ZAC- 1_5360/2021, complete genome	2021	21I	C23604G	23604	C	G	S	681	S:P681R	nonsynonymous
+OQ084987.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/ZAC- 1_5360/2021, complete genome	2021	21I	G24410A	24410	G	A	S	950	S:D950N	nonsynonymous
+OQ084987.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/ZAC- 1_5360/2021, complete genome	2021	21I	A24783G	24783	A	G	S	1074	S:N1074S	nonsynonymous
+OQ084987.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/ZAC- 1_5360/2021, complete genome	2021	21I	G25352T	25352	G	T	S	1264	S:V1264L	nonsynonymous
+OQ084987.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/ZAC- 1_5360/2021, complete genome	2021	21I	C25469T	25469	C	T	ORF3a	26	ORF3a:S26L	nonsynonymous
+OQ084987.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/ZAC- 1_5360/2021, complete genome	2021	21I	G25855T	25855	G	T	ORF3a	155	ORF3a:D155Y	nonsynonymous
+OQ084987.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/ZAC- 1_5360/2021, complete genome	2021	21I	T26767C	26767	T	C	M	82	M:I82T	nonsynonymous
+OQ084987.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/ZAC- 1_5360/2021, complete genome	2021	21I	A27345T	27345	A	T	ORF6	48	ORF6:K48N	nonsynonymous
+OQ084987.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/ZAC- 1_5360/2021, complete genome	2021	21I	T27638C	27638	T	C	ORF7a	82	ORF7a:V82A	nonsynonymous
+OQ084987.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/ZAC- 1_5360/2021, complete genome	2021	21I	A27711T	27711	A	T	ORF7a	106		synonymous
+OQ084987.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/ZAC- 1_5360/2021, complete genome	2021	21I	C27752T	27752	C	T	ORF7a	120	ORF7a:T120I	nonsynonymous
+OQ084987.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/ZAC- 1_5360/2021, complete genome	2021	21I	A28461G	28461	A	G	N	63	N:D63G	nonsynonymous
+OQ084987.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/ZAC- 1_5360/2021, complete genome	2021	21I	A28461G	28461	A	G	ORF9b	60	ORF9b:T60A	nonsynonymous
+OQ084987.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/ZAC- 1_5360/2021, complete genome	2021	21I	G28881T	28881	G	T	N	203	N:R203M	nonsynonymous
+OQ084987.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/ZAC- 1_5360/2021, complete genome	2021	21I	C28905T	28905	C	T	N	211	N:A211V	nonsynonymous
+OQ084987.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/ZAC- 1_5360/2021, complete genome	2021	21I	G29402T	29402	G	T	N	377	N:D377Y	nonsynonymous
+OQ084987.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/ZAC- 1_5360/2021, complete genome	2021	21I	G29742T	29742	G	T	intergenic			noncoding
 OL735760.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/USA/NM-CDC-LC0390750/2021, complete genome	2021	21J	G210T	210	G	T	intergenic			noncoding
 OL735760.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/USA/NM-CDC-LC0390750/2021, complete genome	2021	21J	C241T	241	C	T	intergenic			noncoding
 OL735760.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/USA/NM-CDC-LC0390750/2021, complete genome	2021	21J	A2367G	2367	A	G	ORF1a	701	ORF1a:K701R	nonsynonymous
@@ -2487,6 +2552,52 @@ PP119446.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/hu
 PP119446.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/Mexico/SEARCH-104107/2021, complete genome	2021	21A	G28881T	28881	G	T	N	203	N:R203M	nonsynonymous
 PP119446.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/Mexico/SEARCH-104107/2021, complete genome	2021	21A	C29095T	29095	C	T	N	274		synonymous
 PP119446.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/Mexico/SEARCH-104107/2021, complete genome	2021	21A	G29402T	29402	G	T	N	377	N:D377Y	nonsynonymous
+ON488287.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/MIC-4_3572/2021, complete genome	2021	21J	G210T	210	G	T	intergenic			noncoding
+ON488287.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/MIC-4_3572/2021, complete genome	2021	21J	C241T	241	C	T	intergenic			noncoding
+ON488287.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/MIC-4_3572/2021, complete genome	2021	21J	C2061T	2061	C	T	ORF1a	599	ORF1a:A599V	nonsynonymous
+ON488287.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/MIC-4_3572/2021, complete genome	2021	21J	C2942T	2942	C	T	ORF1a	893		synonymous
+ON488287.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/MIC-4_3572/2021, complete genome	2021	21J	C3037T	3037	C	T	ORF1a	924		synonymous
+ON488287.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/MIC-4_3572/2021, complete genome	2021	21J	G4181T	4181	G	T	ORF1a	1306	ORF1a:A1306S	nonsynonymous
+ON488287.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/MIC-4_3572/2021, complete genome	2021	21J	C6402T	6402	C	T	ORF1a	2046	ORF1a:P2046L	nonsynonymous
+ON488287.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/MIC-4_3572/2021, complete genome	2021	21J	C6629T	6629	C	T	ORF1a	2122	ORF1a:L2122F	nonsynonymous
+ON488287.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/MIC-4_3572/2021, complete genome	2021	21J	C7124T	7124	C	T	ORF1a	2287	ORF1a:P2287S	nonsynonymous
+ON488287.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/MIC-4_3572/2021, complete genome	2021	21J	C8880T	8880	C	T	ORF1a	2872	ORF1a:T2872M	nonsynonymous
+ON488287.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/MIC-4_3572/2021, complete genome	2021	21J	C8986T	8986	C	T	ORF1a	2907		synonymous
+ON488287.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/MIC-4_3572/2021, complete genome	2021	21J	G9053T	9053	G	T	ORF1a	2930	ORF1a:V2930L	nonsynonymous
+ON488287.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/MIC-4_3572/2021, complete genome	2021	21J	G9190T	9190	G	T	ORF1a	2975		synonymous
+ON488287.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/MIC-4_3572/2021, complete genome	2021	21J	C10029T	10029	C	T	ORF1a	3255	ORF1a:T3255I	nonsynonymous
+ON488287.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/MIC-4_3572/2021, complete genome	2021	21J	A11201G	11201	A	G	ORF1a	3646	ORF1a:T3646A	nonsynonymous
+ON488287.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/MIC-4_3572/2021, complete genome	2021	21J	A11332G	11332	A	G	ORF1a	3689		synonymous
+ON488287.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/MIC-4_3572/2021, complete genome	2021	21J	G13903A	13903	G	A	ORF1b	146	ORF1b:D146N	nonsynonymous
+ON488287.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/MIC-4_3572/2021, complete genome	2021	21J	C14408T	14408	C	T	ORF1b	314	ORF1b:P314L	nonsynonymous
+ON488287.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/MIC-4_3572/2021, complete genome	2021	21J	G15451A	15451	G	A	ORF1b	662	ORF1b:G662S	nonsynonymous
+ON488287.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/MIC-4_3572/2021, complete genome	2021	21J	C16466T	16466	C	T	ORF1b	1000	ORF1b:P1000L	nonsynonymous
+ON488287.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/MIC-4_3572/2021, complete genome	2021	21J	C19220T	19220	C	T	ORF1b	1918	ORF1b:A1918V	nonsynonymous
+ON488287.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/MIC-4_3572/2021, complete genome	2021	21J	C19813T	19813	C	T	ORF1b	2116	ORF1b:P2116S	nonsynonymous
+ON488287.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/MIC-4_3572/2021, complete genome	2021	21J	C20436T	20436	C	T	ORF1b	2323		synonymous
+ON488287.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/MIC-4_3572/2021, complete genome	2021	21J	C21618G	21618	C	G	S	19	S:T19R	nonsynonymous
+ON488287.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/MIC-4_3572/2021, complete genome	2021	21J	C21846T	21846	C	T	S	95	S:T95I	nonsynonymous
+ON488287.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/MIC-4_3572/2021, complete genome	2021	21J	T22917G	22917	T	G	S	452	S:L452R	nonsynonymous
+ON488287.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/MIC-4_3572/2021, complete genome	2021	21J	C22995A	22995	C	A	S	478	S:T478K	nonsynonymous
+ON488287.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/MIC-4_3572/2021, complete genome	2021	21J	A23403G	23403	A	G	S	614	S:D614G	nonsynonymous
+ON488287.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/MIC-4_3572/2021, complete genome	2021	21J	C23604G	23604	C	G	S	681	S:P681R	nonsynonymous
+ON488287.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/MIC-4_3572/2021, complete genome	2021	21J	G24410A	24410	G	A	S	950	S:D950N	nonsynonymous
+ON488287.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/MIC-4_3572/2021, complete genome	2021	21J	G24872T	24872	G	T	S	1104	S:V1104L	nonsynonymous
+ON488287.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/MIC-4_3572/2021, complete genome	2021	21J	G25244T	25244	G	T	S	1228	S:V1228L	nonsynonymous
+ON488287.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/MIC-4_3572/2021, complete genome	2021	21J	C25469T	25469	C	T	ORF3a	26	ORF3a:S26L	nonsynonymous
+ON488287.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/MIC-4_3572/2021, complete genome	2021	21J	T26767C	26767	T	C	M	82	M:I82T	nonsynonymous
+ON488287.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/MIC-4_3572/2021, complete genome	2021	21J	C27393T	27393	C	T	intergenic			noncoding
+ON488287.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/MIC-4_3572/2021, complete genome	2021	21J	T27638C	27638	T	C	ORF7a	82	ORF7a:V82A	nonsynonymous
+ON488287.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/MIC-4_3572/2021, complete genome	2021	21J	C27752T	27752	C	T	ORF7a	120	ORF7a:T120I	nonsynonymous
+ON488287.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/MIC-4_3572/2021, complete genome	2021	21J	C27874T	27874	C	T	ORF7b	40	ORF7b:T40I	nonsynonymous
+ON488287.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/MIC-4_3572/2021, complete genome	2021	21J	A28461G	28461	A	G	N	63	N:D63G	nonsynonymous
+ON488287.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/MIC-4_3572/2021, complete genome	2021	21J	A28461G	28461	A	G	ORF9b	60	ORF9b:T60A	nonsynonymous
+ON488287.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/MIC-4_3572/2021, complete genome	2021	21J	G28881T	28881	G	T	N	203	N:R203M	nonsynonymous
+ON488287.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/MIC-4_3572/2021, complete genome	2021	21J	G28916T	28916	G	T	N	215	N:G215C	nonsynonymous
+ON488287.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/MIC-4_3572/2021, complete genome	2021	21J	A29390G	29390	A	G	N	373	N:K373E	nonsynonymous
+ON488287.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/MIC-4_3572/2021, complete genome	2021	21J	G29402T	29402	G	T	N	377	N:D377Y	nonsynonymous
+ON488287.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/MIC-4_3572/2021, complete genome	2021	21J	G29737T	29737	G	T	intergenic			noncoding
+ON488287.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/MIC-4_3572/2021, complete genome	2021	21J	G29742T	29742	G	T	intergenic			noncoding
 ON488394.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/GUA-4_3570/2021, complete genome	2021	21J	G210T	210	G	T	intergenic			noncoding
 ON488394.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/GUA-4_3570/2021, complete genome	2021	21J	C241T	241	C	T	intergenic			noncoding
 ON488394.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/GUA-4_3570/2021, complete genome	2021	21J	C3037T	3037	C	T	ORF1a	924		synonymous
@@ -2780,6 +2891,53 @@ ON484496.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/hu
 ON484496.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/VER-5_2575/2021, complete genome	2021	21I	A28951G	28951	A	G	N	226		synonymous
 ON484496.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/VER-5_2575/2021, complete genome	2021	21I	G29402T	29402	G	T	N	377	N:D377Y	nonsynonymous
 ON484496.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/VER-5_2575/2021, complete genome	2021	21I	G29742T	29742	G	T	intergenic			noncoding
+OQ084673.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/MEX- 4_4252/2021, complete genome	2021	21J	G210T	210	G	T	intergenic			noncoding
+OQ084673.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/MEX- 4_4252/2021, complete genome	2021	21J	C241T	241	C	T	intergenic			noncoding
+OQ084673.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/MEX- 4_4252/2021, complete genome	2021	21J	A1123G	1123	A	G	ORF1a	286		synonymous
+OQ084673.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/MEX- 4_4252/2021, complete genome	2021	21J	C2061T	2061	C	T	ORF1a	599	ORF1a:A599V	nonsynonymous
+OQ084673.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/MEX- 4_4252/2021, complete genome	2021	21J	T2974C	2974	T	C	ORF1a	903		synonymous
+OQ084673.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/MEX- 4_4252/2021, complete genome	2021	21J	C3037T	3037	C	T	ORF1a	924		synonymous
+OQ084673.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/MEX- 4_4252/2021, complete genome	2021	21J	G4181T	4181	G	T	ORF1a	1306	ORF1a:A1306S	nonsynonymous
+OQ084673.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/MEX- 4_4252/2021, complete genome	2021	21J	C4921T	4921	C	T	ORF1a	1552		synonymous
+OQ084673.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/MEX- 4_4252/2021, complete genome	2021	21J	C5284T	5284	C	T	ORF1a	1673		synonymous
+OQ084673.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/MEX- 4_4252/2021, complete genome	2021	21J	C5544T	5544	C	T	ORF1a	1760	ORF1a:T1760I	nonsynonymous
+OQ084673.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/MEX- 4_4252/2021, complete genome	2021	21J	C6402T	6402	C	T	ORF1a	2046	ORF1a:P2046L	nonsynonymous
+OQ084673.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/MEX- 4_4252/2021, complete genome	2021	21J	C7124T	7124	C	T	ORF1a	2287	ORF1a:P2287S	nonsynonymous
+OQ084673.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/MEX- 4_4252/2021, complete genome	2021	21J	C8986T	8986	C	T	ORF1a	2907		synonymous
+OQ084673.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/MEX- 4_4252/2021, complete genome	2021	21J	G9053T	9053	G	T	ORF1a	2930	ORF1a:V2930L	nonsynonymous
+OQ084673.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/MEX- 4_4252/2021, complete genome	2021	21J	C10029T	10029	C	T	ORF1a	3255	ORF1a:T3255I	nonsynonymous
+OQ084673.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/MEX- 4_4252/2021, complete genome	2021	21J	A11201G	11201	A	G	ORF1a	3646	ORF1a:T3646A	nonsynonymous
+OQ084673.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/MEX- 4_4252/2021, complete genome	2021	21J	A11332G	11332	A	G	ORF1a	3689		synonymous
+OQ084673.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/MEX- 4_4252/2021, complete genome	2021	21J	C14408T	14408	C	T	ORF1b	314	ORF1b:P314L	nonsynonymous
+OQ084673.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/MEX- 4_4252/2021, complete genome	2021	21J	G15451A	15451	G	A	ORF1b	662	ORF1b:G662S	nonsynonymous
+OQ084673.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/MEX- 4_4252/2021, complete genome	2021	21J	C16466T	16466	C	T	ORF1b	1000	ORF1b:P1000L	nonsynonymous
+OQ084673.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/MEX- 4_4252/2021, complete genome	2021	21J	C16726T	16726	C	T	ORF1b	1087	ORF1b:H1087Y	nonsynonymous
+OQ084673.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/MEX- 4_4252/2021, complete genome	2021	21J	C18981T	18981	C	T	ORF1b	1838		synonymous
+OQ084673.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/MEX- 4_4252/2021, complete genome	2021	21J	C19220T	19220	C	T	ORF1b	1918	ORF1b:A1918V	nonsynonymous
+OQ084673.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/MEX- 4_4252/2021, complete genome	2021	21J	C21618G	21618	C	G	S	19	S:T19R	nonsynonymous
+OQ084673.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/MEX- 4_4252/2021, complete genome	2021	21J	C21846T	21846	C	T	S	95	S:T95I	nonsynonymous
+OQ084673.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/MEX- 4_4252/2021, complete genome	2021	21J	C22281A	22281	C	A	S	240	S:T240N	nonsynonymous
+OQ084673.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/MEX- 4_4252/2021, complete genome	2021	21J	T22917G	22917	T	G	S	452	S:L452R	nonsynonymous
+OQ084673.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/MEX- 4_4252/2021, complete genome	2021	21J	C22995A	22995	C	A	S	478	S:T478K	nonsynonymous
+OQ084673.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/MEX- 4_4252/2021, complete genome	2021	21J	A23403G	23403	A	G	S	614	S:D614G	nonsynonymous
+OQ084673.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/MEX- 4_4252/2021, complete genome	2021	21J	C23604G	23604	C	G	S	681	S:P681R	nonsynonymous
+OQ084673.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/MEX- 4_4252/2021, complete genome	2021	21J	C23758T	23758	C	T	S	732		synonymous
+OQ084673.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/MEX- 4_4252/2021, complete genome	2021	21J	G24410A	24410	G	A	S	950	S:D950N	nonsynonymous
+OQ084673.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/MEX- 4_4252/2021, complete genome	2021	21J	G24872T	24872	G	T	S	1104	S:V1104L	nonsynonymous
+OQ084673.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/MEX- 4_4252/2021, complete genome	2021	21J	C25469T	25469	C	T	ORF3a	26	ORF3a:S26L	nonsynonymous
+OQ084673.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/MEX- 4_4252/2021, complete genome	2021	21J	A25608G	25608	A	G	ORF3a	72		synonymous
+OQ084673.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/MEX- 4_4252/2021, complete genome	2021	21J	C25904T	25904	C	T	ORF3a	171	ORF3a:S171L	nonsynonymous
+OQ084673.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/MEX- 4_4252/2021, complete genome	2021	21J	C26625T	26625	C	T	M	35		synonymous
+OQ084673.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/MEX- 4_4252/2021, complete genome	2021	21J	T26767C	26767	T	C	M	82	M:I82T	nonsynonymous
+OQ084673.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/MEX- 4_4252/2021, complete genome	2021	21J	C27752T	27752	C	T	ORF7a	120	ORF7a:T120I	nonsynonymous
+OQ084673.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/MEX- 4_4252/2021, complete genome	2021	21J	C27874T	27874	C	T	ORF7b	40	ORF7b:T40I	nonsynonymous
+OQ084673.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/MEX- 4_4252/2021, complete genome	2021	21J	A28461G	28461	A	G	N	63	N:D63G	nonsynonymous
+OQ084673.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/MEX- 4_4252/2021, complete genome	2021	21J	A28461G	28461	A	G	ORF9b	60	ORF9b:T60A	nonsynonymous
+OQ084673.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/MEX- 4_4252/2021, complete genome	2021	21J	C28818A	28818	C	A	N	182	N:A182D	nonsynonymous
+OQ084673.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/MEX- 4_4252/2021, complete genome	2021	21J	G28881T	28881	G	T	N	203	N:R203M	nonsynonymous
+OQ084673.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/MEX- 4_4252/2021, complete genome	2021	21J	G28916T	28916	G	T	N	215	N:G215C	nonsynonymous
+OQ084673.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/MEX- 4_4252/2021, complete genome	2021	21J	G29402T	29402	G	T	N	377	N:D377Y	nonsynonymous
+OQ084673.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/MEX- 4_4252/2021, complete genome	2021	21J	G29742T	29742	G	T	intergenic			noncoding
 ON482425.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/GUA-5_3055/2021, complete genome	2021	21J	G210T	210	G	T	intergenic			noncoding
 ON482425.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/GUA-5_3055/2021, complete genome	2021	21J	C222T	222	C	T	intergenic			noncoding
 ON482425.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/GUA-5_3055/2021, complete genome	2021	21J	C241T	241	C	T	intergenic			noncoding
@@ -2867,6 +3025,49 @@ ON487390.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/hu
 ON487390.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/COL-4_2540/2021, complete genome	2021	21J	G29402T	29402	G	T	N	377	N:D377Y	nonsynonymous
 ON487390.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/COL-4_2540/2021, complete genome	2021	21J	G29422A	29422	G	A	N	383		synonymous
 ON487390.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/COL-4_2540/2021, complete genome	2021	21J	G29742T	29742	G	T	intergenic			noncoding
+OQ085000.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/ZAC- 1_5357/2021, complete genome	2021	21I	G210T	210	G	T	intergenic			noncoding
+OQ085000.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/ZAC- 1_5357/2021, complete genome	2021	21I	C241T	241	C	T	intergenic			noncoding
+OQ085000.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/ZAC- 1_5357/2021, complete genome	2021	21I	C1437T	1437	C	T	ORF1a	391	ORF1a:S391F	nonsynonymous
+OQ085000.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/ZAC- 1_5357/2021, complete genome	2021	21I	T2911G	2911	T	G	ORF1a	882		synonymous
+OQ085000.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/ZAC- 1_5357/2021, complete genome	2021	21I	T2974C	2974	T	C	ORF1a	903		synonymous
+OQ085000.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/ZAC- 1_5357/2021, complete genome	2021	21I	C3037T	3037	C	T	ORF1a	924		synonymous
+OQ085000.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/ZAC- 1_5357/2021, complete genome	2021	21I	C5184T	5184	C	T	ORF1a	1640	ORF1a:P1640L	nonsynonymous
+OQ085000.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/ZAC- 1_5357/2021, complete genome	2021	21I	A5584G	5584	A	G	ORF1a	1773		synonymous
+OQ085000.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/ZAC- 1_5357/2021, complete genome	2021	21I	A8062G	8062	A	G	ORF1a	2599		synonymous
+OQ085000.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/ZAC- 1_5357/2021, complete genome	2021	21I	C9559T	9559	C	T	ORF1a	3098		synonymous
+OQ085000.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/ZAC- 1_5357/2021, complete genome	2021	21I	C9891T	9891	C	T	ORF1a	3209	ORF1a:A3209V	nonsynonymous
+OQ085000.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/ZAC- 1_5357/2021, complete genome	2021	21I	C10645T	10645	C	T	ORF1a	3460		synonymous
+OQ085000.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/ZAC- 1_5357/2021, complete genome	2021	21I	C10681T	10681	C	T	ORF1a	3472		synonymous
+OQ085000.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/ZAC- 1_5357/2021, complete genome	2021	21I	T11418C	11418	T	C	ORF1a	3718	ORF1a:V3718A	nonsynonymous
+OQ085000.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/ZAC- 1_5357/2021, complete genome	2021	21I	C11514T	11514	C	T	ORF1a	3750	ORF1a:T3750I	nonsynonymous
+OQ085000.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/ZAC- 1_5357/2021, complete genome	2021	21I	C13019T	13019	C	T	ORF1a	4252		synonymous
+OQ085000.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/ZAC- 1_5357/2021, complete genome	2021	21I	C14408T	14408	C	T	ORF1b	314	ORF1b:P314L	nonsynonymous
+OQ085000.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/ZAC- 1_5357/2021, complete genome	2021	21I	G15451A	15451	G	A	ORF1b	662	ORF1b:G662S	nonsynonymous
+OQ085000.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/ZAC- 1_5357/2021, complete genome	2021	21I	C16466T	16466	C	T	ORF1b	1000	ORF1b:P1000L	nonsynonymous
+OQ085000.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/ZAC- 1_5357/2021, complete genome	2021	21I	G19816T	19816	G	T	ORF1b	2117	ORF1b:V2117L	nonsynonymous
+OQ085000.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/ZAC- 1_5357/2021, complete genome	2021	21I	C21618G	21618	C	G	S	19	S:T19R	nonsynonymous
+OQ085000.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/ZAC- 1_5357/2021, complete genome	2021	21I	C22227T	22227	C	T	S	222	S:A222V	nonsynonymous
+OQ085000.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/ZAC- 1_5357/2021, complete genome	2021	21I	T22917G	22917	T	G	S	452	S:L452R	nonsynonymous
+OQ085000.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/ZAC- 1_5357/2021, complete genome	2021	21I	C22995A	22995	C	A	S	478	S:T478K	nonsynonymous
+OQ085000.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/ZAC- 1_5357/2021, complete genome	2021	21I	A23403G	23403	A	G	S	614	S:D614G	nonsynonymous
+OQ085000.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/ZAC- 1_5357/2021, complete genome	2021	21I	C23604G	23604	C	G	S	681	S:P681R	nonsynonymous
+OQ085000.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/ZAC- 1_5357/2021, complete genome	2021	21I	G24410A	24410	G	A	S	950	S:D950N	nonsynonymous
+OQ085000.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/ZAC- 1_5357/2021, complete genome	2021	21I	T24685C	24685	T	C	S	1041		synonymous
+OQ085000.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/ZAC- 1_5357/2021, complete genome	2021	21I	A24783G	24783	A	G	S	1074	S:N1074S	nonsynonymous
+OQ085000.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/ZAC- 1_5357/2021, complete genome	2021	21I	G25352T	25352	G	T	S	1264	S:V1264L	nonsynonymous
+OQ085000.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/ZAC- 1_5357/2021, complete genome	2021	21I	C25469T	25469	C	T	ORF3a	26	ORF3a:S26L	nonsynonymous
+OQ085000.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/ZAC- 1_5357/2021, complete genome	2021	21I	T26767C	26767	T	C	M	82	M:I82T	nonsynonymous
+OQ085000.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/ZAC- 1_5357/2021, complete genome	2021	21I	A27345T	27345	A	T	ORF6	48	ORF6:K48N	nonsynonymous
+OQ085000.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/ZAC- 1_5357/2021, complete genome	2021	21I	T27638C	27638	T	C	ORF7a	82	ORF7a:V82A	nonsynonymous
+OQ085000.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/ZAC- 1_5357/2021, complete genome	2021	21I	A27711T	27711	A	T	ORF7a	106		synonymous
+OQ085000.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/ZAC- 1_5357/2021, complete genome	2021	21I	C27752T	27752	C	T	ORF7a	120	ORF7a:T120I	nonsynonymous
+OQ085000.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/ZAC- 1_5357/2021, complete genome	2021	21I	T28031C	28031	T	C	ORF8	46		synonymous
+OQ085000.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/ZAC- 1_5357/2021, complete genome	2021	21I	A28461G	28461	A	G	N	63	N:D63G	nonsynonymous
+OQ085000.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/ZAC- 1_5357/2021, complete genome	2021	21I	A28461G	28461	A	G	ORF9b	60	ORF9b:T60A	nonsynonymous
+OQ085000.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/ZAC- 1_5357/2021, complete genome	2021	21I	G28881T	28881	G	T	N	203	N:R203M	nonsynonymous
+OQ085000.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/ZAC- 1_5357/2021, complete genome	2021	21I	C28905T	28905	C	T	N	211	N:A211V	nonsynonymous
+OQ085000.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/ZAC- 1_5357/2021, complete genome	2021	21I	G29402T	29402	G	T	N	377	N:D377Y	nonsynonymous
+OQ085000.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/ZAC- 1_5357/2021, complete genome	2021	21I	G29742T	29742	G	T	intergenic			noncoding
 ON483733.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/COA-5_2794/2021, complete genome	2021	21J	G210T	210	G	T	intergenic			noncoding
 ON483733.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/COA-5_2794/2021, complete genome	2021	21J	C241T	241	C	T	intergenic			noncoding
 ON483733.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/COA-5_2794/2021, complete genome	2021	21J	C3037T	3037	C	T	ORF1a	924		synonymous
@@ -3141,6 +3342,53 @@ ON613160.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/hu
 ON613160.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/USA/NM-UNM-01965/2021, complete genome	2021	20G	C28472T	28472	C	T	N	67	N:P67S	nonsynonymous
 ON613160.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/USA/NM-UNM-01965/2021, complete genome	2021	20G	C28472T	28472	C	T	ORF9b	63		synonymous
 ON613160.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/USA/NM-UNM-01965/2021, complete genome	2021	20G	C28869T	28869	C	T	N	199	N:P199L	nonsynonymous
+ON488054.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/JAL-4_3549/2021, complete genome	2021	21J	G210T	210	G	T	intergenic			noncoding
+ON488054.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/JAL-4_3549/2021, complete genome	2021	21J	C241T	241	C	T	intergenic			noncoding
+ON488054.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/JAL-4_3549/2021, complete genome	2021	21J	C335T	335	C	T	ORF1a	24	ORF1a:R24C	nonsynonymous
+ON488054.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/JAL-4_3549/2021, complete genome	2021	21J	C3037T	3037	C	T	ORF1a	924		synonymous
+ON488054.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/JAL-4_3549/2021, complete genome	2021	21J	G4181T	4181	G	T	ORF1a	1306	ORF1a:A1306S	nonsynonymous
+ON488054.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/JAL-4_3549/2021, complete genome	2021	21J	C5784T	5784	C	T	ORF1a	1840	ORF1a:T1840I	nonsynonymous
+ON488054.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/JAL-4_3549/2021, complete genome	2021	21J	C6402T	6402	C	T	ORF1a	2046	ORF1a:P2046L	nonsynonymous
+ON488054.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/JAL-4_3549/2021, complete genome	2021	21J	C7124T	7124	C	T	ORF1a	2287	ORF1a:P2287S	nonsynonymous
+ON488054.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/JAL-4_3549/2021, complete genome	2021	21J	C8986T	8986	C	T	ORF1a	2907		synonymous
+ON488054.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/JAL-4_3549/2021, complete genome	2021	21J	G9053T	9053	G	T	ORF1a	2930	ORF1a:V2930L	nonsynonymous
+ON488054.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/JAL-4_3549/2021, complete genome	2021	21J	A9301G	9301	A	G	ORF1a	3012		synonymous
+ON488054.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/JAL-4_3549/2021, complete genome	2021	21J	C10029T	10029	C	T	ORF1a	3255	ORF1a:T3255I	nonsynonymous
+ON488054.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/JAL-4_3549/2021, complete genome	2021	21J	A10075G	10075	A	G	ORF1a	3270		synonymous
+ON488054.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/JAL-4_3549/2021, complete genome	2021	21J	A11201G	11201	A	G	ORF1a	3646	ORF1a:T3646A	nonsynonymous
+ON488054.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/JAL-4_3549/2021, complete genome	2021	21J	A11332G	11332	A	G	ORF1a	3689		synonymous
+ON488054.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/JAL-4_3549/2021, complete genome	2021	21J	A11456G	11456	A	G	ORF1a	3731	ORF1a:I3731V	nonsynonymous
+ON488054.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/JAL-4_3549/2021, complete genome	2021	21J	C14408T	14408	C	T	ORF1b	314	ORF1b:P314L	nonsynonymous
+ON488054.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/JAL-4_3549/2021, complete genome	2021	21J	T15114C	15114	T	C	ORF1b	549		synonymous
+ON488054.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/JAL-4_3549/2021, complete genome	2021	21J	G15451A	15451	G	A	ORF1b	662	ORF1b:G662S	nonsynonymous
+ON488054.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/JAL-4_3549/2021, complete genome	2021	21J	C16466T	16466	C	T	ORF1b	1000	ORF1b:P1000L	nonsynonymous
+ON488054.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/JAL-4_3549/2021, complete genome	2021	21J	C18555T	18555	C	T	ORF1b	1696		synonymous
+ON488054.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/JAL-4_3549/2021, complete genome	2021	21J	C19220T	19220	C	T	ORF1b	1918	ORF1b:A1918V	nonsynonymous
+ON488054.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/JAL-4_3549/2021, complete genome	2021	21J	C21618G	21618	C	G	S	19	S:T19R	nonsynonymous
+ON488054.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/JAL-4_3549/2021, complete genome	2021	21J	T22917G	22917	T	G	S	452	S:L452R	nonsynonymous
+ON488054.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/JAL-4_3549/2021, complete genome	2021	21J	C22995A	22995	C	A	S	478	S:T478K	nonsynonymous
+ON488054.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/JAL-4_3549/2021, complete genome	2021	21J	A23369C	23369	A	C	S	603	S:N603H	nonsynonymous
+ON488054.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/JAL-4_3549/2021, complete genome	2021	21J	A23403G	23403	A	G	S	614	S:D614G	nonsynonymous
+ON488054.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/JAL-4_3549/2021, complete genome	2021	21J	C23604G	23604	C	G	S	681	S:P681R	nonsynonymous
+ON488054.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/JAL-4_3549/2021, complete genome	2021	21J	G24410A	24410	G	A	S	950	S:D950N	nonsynonymous
+ON488054.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/JAL-4_3549/2021, complete genome	2021	21J	C25469T	25469	C	T	ORF3a	26	ORF3a:S26L	nonsynonymous
+ON488054.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/JAL-4_3549/2021, complete genome	2021	21J	T26767C	26767	T	C	M	82	M:I82T	nonsynonymous
+ON488054.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/JAL-4_3549/2021, complete genome	2021	21J	T27638C	27638	T	C	ORF7a	82	ORF7a:V82A	nonsynonymous
+ON488054.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/JAL-4_3549/2021, complete genome	2021	21J	C27752T	27752	C	T	ORF7a	120	ORF7a:T120I	nonsynonymous
+ON488054.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/JAL-4_3549/2021, complete genome	2021	21J	C27874T	27874	C	T	ORF7b	40	ORF7b:T40I	nonsynonymous
+ON488054.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/JAL-4_3549/2021, complete genome	2021	21J	A28461G	28461	A	G	N	63	N:D63G	nonsynonymous
+ON488054.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/JAL-4_3549/2021, complete genome	2021	21J	A28461G	28461	A	G	ORF9b	60	ORF9b:T60A	nonsynonymous
+ON488054.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/JAL-4_3549/2021, complete genome	2021	21J	G28541T	28541	G	T	N	90	N:A90S	nonsynonymous
+ON488054.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/JAL-4_3549/2021, complete genome	2021	21J	G28541T	28541	G	T	ORF9b	86	ORF9b:E86D	nonsynonymous
+ON488054.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/JAL-4_3549/2021, complete genome	2021	21J	G28881T	28881	G	T	N	203	N:R203M	nonsynonymous
+ON488054.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/JAL-4_3549/2021, complete genome	2021	21J	G28916T	28916	G	T	N	215	N:G215C	nonsynonymous
+ON488054.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/JAL-4_3549/2021, complete genome	2021	21J	T28978C	28978	T	C	N	235		synonymous
+ON488054.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/JAL-4_3549/2021, complete genome	2021	21J	G29050A	29050	G	A	N	259		synonymous
+ON488054.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/JAL-4_3549/2021, complete genome	2021	21J	G29402T	29402	G	T	N	377	N:D377Y	nonsynonymous
+ON488054.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/JAL-4_3549/2021, complete genome	2021	21J	C29509T	29509	C	T	N	412		synonymous
+ON488054.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/JAL-4_3549/2021, complete genome	2021	21J	G29706T	29706	G	T	intergenic			noncoding
+ON488054.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/JAL-4_3549/2021, complete genome	2021	21J	G29742T	29742	G	T	intergenic			noncoding
+ON488054.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/JAL-4_3549/2021, complete genome	2021	21J	C29750T	29750	C	T	intergenic			noncoding
 ON487196.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/CAM-5_2126/2021, complete genome	2021	21J	G210T	210	G	T	intergenic			noncoding
 ON487196.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/CAM-5_2126/2021, complete genome	2021	21J	C241T	241	C	T	intergenic			noncoding
 ON487196.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/CAM-5_2126/2021, complete genome	2021	21J	C1473T	1473	C	T	ORF1a	403	ORF1a:T403I	nonsynonymous
@@ -3810,6 +4058,47 @@ ON485577.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/hu
 ON485577.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/SON-4_2271/2021, complete genome	2021	21J	G28916T	28916	G	T	N	215	N:G215C	nonsynonymous
 ON485577.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/SON-4_2271/2021, complete genome	2021	21J	G29402T	29402	G	T	N	377	N:D377Y	nonsynonymous
 ON485577.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/SON-4_2271/2021, complete genome	2021	21J	G29742T	29742	G	T	intergenic			noncoding
+ON483686.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/BCN-5_2830/2021, complete genome	2021	21I	G210T	210	G	T	intergenic			noncoding
+ON483686.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/BCN-5_2830/2021, complete genome	2021	21I	C241T	241	C	T	intergenic			noncoding
+ON483686.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/BCN-5_2830/2021, complete genome	2021	21I	G569A	569	G	A	ORF1a	102	ORF1a:E102K	nonsynonymous
+ON483686.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/BCN-5_2830/2021, complete genome	2021	21I	T2911G	2911	T	G	ORF1a	882		synonymous
+ON483686.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/BCN-5_2830/2021, complete genome	2021	21I	C3037T	3037	C	T	ORF1a	924		synonymous
+ON483686.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/BCN-5_2830/2021, complete genome	2021	21I	C5184T	5184	C	T	ORF1a	1640	ORF1a:P1640L	nonsynonymous
+ON483686.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/BCN-5_2830/2021, complete genome	2021	21I	A5584G	5584	A	G	ORF1a	1773		synonymous
+ON483686.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/BCN-5_2830/2021, complete genome	2021	21I	G7745A	7745	G	A	ORF1a	2494	ORF1a:V2494I	nonsynonymous
+ON483686.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/BCN-5_2830/2021, complete genome	2021	21I	C9891T	9891	C	T	ORF1a	3209	ORF1a:A3209V	nonsynonymous
+ON483686.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/BCN-5_2830/2021, complete genome	2021	21I	T11418C	11418	T	C	ORF1a	3718	ORF1a:V3718A	nonsynonymous
+ON483686.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/BCN-5_2830/2021, complete genome	2021	21I	C11514T	11514	C	T	ORF1a	3750	ORF1a:T3750I	nonsynonymous
+ON483686.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/BCN-5_2830/2021, complete genome	2021	21I	C13019T	13019	C	T	ORF1a	4252		synonymous
+ON483686.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/BCN-5_2830/2021, complete genome	2021	21I	C14408T	14408	C	T	ORF1b	314	ORF1b:P314L	nonsynonymous
+ON483686.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/BCN-5_2830/2021, complete genome	2021	21I	G15451A	15451	G	A	ORF1b	662	ORF1b:G662S	nonsynonymous
+ON483686.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/BCN-5_2830/2021, complete genome	2021	21I	C16466T	16466	C	T	ORF1b	1000	ORF1b:P1000L	nonsynonymous
+ON483686.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/BCN-5_2830/2021, complete genome	2021	21I	C21618G	21618	C	G	S	19	S:T19R	nonsynonymous
+ON483686.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/BCN-5_2830/2021, complete genome	2021	21I	G21987A	21987	G	A	S	142	S:G142D	nonsynonymous
+ON483686.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/BCN-5_2830/2021, complete genome	2021	21I	C22227T	22227	C	T	S	222	S:A222V	nonsynonymous
+ON483686.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/BCN-5_2830/2021, complete genome	2021	21I	T22917G	22917	T	G	S	452	S:L452R	nonsynonymous
+ON483686.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/BCN-5_2830/2021, complete genome	2021	21I	C22995A	22995	C	A	S	478	S:T478K	nonsynonymous
+ON483686.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/BCN-5_2830/2021, complete genome	2021	21I	A23403G	23403	A	G	S	614	S:D614G	nonsynonymous
+ON483686.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/BCN-5_2830/2021, complete genome	2021	21I	C23575T	23575	C	T	S	671		synonymous
+ON483686.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/BCN-5_2830/2021, complete genome	2021	21I	C23604G	23604	C	G	S	681	S:P681R	nonsynonymous
+ON483686.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/BCN-5_2830/2021, complete genome	2021	21I	G24410A	24410	G	A	S	950	S:D950N	nonsynonymous
+ON483686.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/BCN-5_2830/2021, complete genome	2021	21I	A24783G	24783	A	G	S	1074	S:N1074S	nonsynonymous
+ON483686.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/BCN-5_2830/2021, complete genome	2021	21I	C25207T	25207	C	T	S	1215		synonymous
+ON483686.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/BCN-5_2830/2021, complete genome	2021	21I	G25352T	25352	G	T	S	1264	S:V1264L	nonsynonymous
+ON483686.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/BCN-5_2830/2021, complete genome	2021	21I	C25469T	25469	C	T	ORF3a	26	ORF3a:S26L	nonsynonymous
+ON483686.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/BCN-5_2830/2021, complete genome	2021	21I	T26767C	26767	T	C	M	82	M:I82T	nonsynonymous
+ON483686.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/BCN-5_2830/2021, complete genome	2021	21I	A27345T	27345	A	T	ORF6	48	ORF6:K48N	nonsynonymous
+ON483686.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/BCN-5_2830/2021, complete genome	2021	21I	T27484C	27484	T	C	ORF7a	31		synonymous
+ON483686.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/BCN-5_2830/2021, complete genome	2021	21I	T27638C	27638	T	C	ORF7a	82	ORF7a:V82A	nonsynonymous
+ON483686.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/BCN-5_2830/2021, complete genome	2021	21I	C27752T	27752	C	T	ORF7a	120	ORF7a:T120I	nonsynonymous
+ON483686.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/BCN-5_2830/2021, complete genome	2021	21I	G28027T	28027	G	T	ORF8	45	ORF8:W45L	nonsynonymous
+ON483686.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/BCN-5_2830/2021, complete genome	2021	21I	C28311T	28311	C	T	N	13	N:P13L	nonsynonymous
+ON483686.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/BCN-5_2830/2021, complete genome	2021	21I	C28311T	28311	C	T	ORF9b	10	ORF9b:P10S	nonsynonymous
+ON483686.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/BCN-5_2830/2021, complete genome	2021	21I	A28461G	28461	A	G	N	63	N:D63G	nonsynonymous
+ON483686.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/BCN-5_2830/2021, complete genome	2021	21I	A28461G	28461	A	G	ORF9b	60	ORF9b:T60A	nonsynonymous
+ON483686.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/BCN-5_2830/2021, complete genome	2021	21I	G28881T	28881	G	T	N	203	N:R203M	nonsynonymous
+ON483686.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/BCN-5_2830/2021, complete genome	2021	21I	G29402T	29402	G	T	N	377	N:D377Y	nonsynonymous
+ON483686.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/BCN-5_2830/2021, complete genome	2021	21I	G29742T	29742	G	T	intergenic			noncoding
 ON487335.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/VER-5_2242/2021, complete genome	2021	21I	G210T	210	G	T	intergenic			noncoding
 ON487335.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/VER-5_2242/2021, complete genome	2021	21I	C241T	241	C	T	intergenic			noncoding
 ON487335.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/VER-5_2242/2021, complete genome	2021	21I	T2911G	2911	T	G	ORF1a	882		synonymous
@@ -4013,6 +4302,53 @@ MW914266.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/hu
 MW914266.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/USA/NM-CDC-LC0034551/2021, complete genome	2021	20I	G28883C	28883	G	C	N	204	N:G204R	nonsynonymous
 MW914266.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/USA/NM-CDC-LC0034551/2021, complete genome	2021	20I	C28977T	28977	C	T	N	235	N:S235F	nonsynonymous
 MW914266.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/USA/NM-CDC-LC0034551/2021, complete genome	2021	20I	G29764A	29764	G	A	intergenic			noncoding
+OM876571.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/USA/NMDOH-2021232808/2021, complete genome	2021	21J	G210T	210	G	T	intergenic			noncoding
+OM876571.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/USA/NMDOH-2021232808/2021, complete genome	2021	21J	C241T	241	C	T	intergenic			noncoding
+OM876571.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/USA/NMDOH-2021232808/2021, complete genome	2021	21J	G1957T	1957	G	T	ORF1a	564	ORF1a:K564N	nonsynonymous
+OM876571.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/USA/NMDOH-2021232808/2021, complete genome	2021	21J	C3037T	3037	C	T	ORF1a	924		synonymous
+OM876571.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/USA/NMDOH-2021232808/2021, complete genome	2021	21J	G4181T	4181	G	T	ORF1a	1306	ORF1a:A1306S	nonsynonymous
+OM876571.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/USA/NMDOH-2021232808/2021, complete genome	2021	21J	C5183T	5183	C	T	ORF1a	1640	ORF1a:P1640S	nonsynonymous
+OM876571.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/USA/NMDOH-2021232808/2021, complete genome	2021	21J	C6040T	6040	C	T	ORF1a	1925		synonymous
+OM876571.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/USA/NMDOH-2021232808/2021, complete genome	2021	21J	C6402T	6402	C	T	ORF1a	2046	ORF1a:P2046L	nonsynonymous
+OM876571.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/USA/NMDOH-2021232808/2021, complete genome	2021	21J	T6661C	6661	T	C	ORF1a	2132		synonymous
+OM876571.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/USA/NMDOH-2021232808/2021, complete genome	2021	21J	C7124T	7124	C	T	ORF1a	2287	ORF1a:P2287S	nonsynonymous
+OM876571.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/USA/NMDOH-2021232808/2021, complete genome	2021	21J	T7484C	7484	T	C	ORF1a	2407	ORF1a:S2407P	nonsynonymous
+OM876571.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/USA/NMDOH-2021232808/2021, complete genome	2021	21J	C8986T	8986	C	T	ORF1a	2907		synonymous
+OM876571.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/USA/NMDOH-2021232808/2021, complete genome	2021	21J	G9053T	9053	G	T	ORF1a	2930	ORF1a:V2930L	nonsynonymous
+OM876571.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/USA/NMDOH-2021232808/2021, complete genome	2021	21J	C10029T	10029	C	T	ORF1a	3255	ORF1a:T3255I	nonsynonymous
+OM876571.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/USA/NMDOH-2021232808/2021, complete genome	2021	21J	A11201G	11201	A	G	ORF1a	3646	ORF1a:T3646A	nonsynonymous
+OM876571.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/USA/NMDOH-2021232808/2021, complete genome	2021	21J	A11332G	11332	A	G	ORF1a	3689		synonymous
+OM876571.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/USA/NMDOH-2021232808/2021, complete genome	2021	21J	C11514T	11514	C	T	ORF1a	3750	ORF1a:T3750I	nonsynonymous
+OM876571.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/USA/NMDOH-2021232808/2021, complete genome	2021	21J	C13019T	13019	C	T	ORF1a	4252		synonymous
+OM876571.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/USA/NMDOH-2021232808/2021, complete genome	2021	21J	C14408T	14408	C	T	ORF1b	314	ORF1b:P314L	nonsynonymous
+OM876571.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/USA/NMDOH-2021232808/2021, complete genome	2021	21J	G15451A	15451	G	A	ORF1b	662	ORF1b:G662S	nonsynonymous
+OM876571.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/USA/NMDOH-2021232808/2021, complete genome	2021	21J	C16466T	16466	C	T	ORF1b	1000	ORF1b:P1000L	nonsynonymous
+OM876571.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/USA/NMDOH-2021232808/2021, complete genome	2021	21J	G16485A	16485	G	A	ORF1b	1006		synonymous
+OM876571.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/USA/NMDOH-2021232808/2021, complete genome	2021	21J	A17236G	17236	A	G	ORF1b	1257	ORF1b:I1257V	nonsynonymous
+OM876571.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/USA/NMDOH-2021232808/2021, complete genome	2021	21J	C19220T	19220	C	T	ORF1b	1918	ORF1b:A1918V	nonsynonymous
+OM876571.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/USA/NMDOH-2021232808/2021, complete genome	2021	21J	C21614T	21614	C	T	S	18	S:L18F	nonsynonymous
+OM876571.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/USA/NMDOH-2021232808/2021, complete genome	2021	21J	C21618G	21618	C	G	S	19	S:T19R	nonsynonymous
+OM876571.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/USA/NMDOH-2021232808/2021, complete genome	2021	21J	G21987A	21987	G	A	S	142	S:G142D	nonsynonymous
+OM876571.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/USA/NMDOH-2021232808/2021, complete genome	2021	21J	T22917G	22917	T	G	S	452	S:L452R	nonsynonymous
+OM876571.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/USA/NMDOH-2021232808/2021, complete genome	2021	21J	C22995A	22995	C	A	S	478	S:T478K	nonsynonymous
+OM876571.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/USA/NMDOH-2021232808/2021, complete genome	2021	21J	A23403G	23403	A	G	S	614	S:D614G	nonsynonymous
+OM876571.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/USA/NMDOH-2021232808/2021, complete genome	2021	21J	C23604G	23604	C	G	S	681	S:P681R	nonsynonymous
+OM876571.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/USA/NMDOH-2021232808/2021, complete genome	2021	21J	C24208T	24208	C	T	S	882		synonymous
+OM876571.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/USA/NMDOH-2021232808/2021, complete genome	2021	21J	G24410A	24410	G	A	S	950	S:D950N	nonsynonymous
+OM876571.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/USA/NMDOH-2021232808/2021, complete genome	2021	21J	C25469T	25469	C	T	ORF3a	26	ORF3a:S26L	nonsynonymous
+OM876571.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/USA/NMDOH-2021232808/2021, complete genome	2021	21J	T26767C	26767	T	C	M	82	M:I82T	nonsynonymous
+OM876571.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/USA/NMDOH-2021232808/2021, complete genome	2021	21J	T27291C	27291	T	C	ORF6	30		synonymous
+OM876571.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/USA/NMDOH-2021232808/2021, complete genome	2021	21J	G27463A	27463	G	A	ORF7a	24	ORF7a:V24I	nonsynonymous
+OM876571.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/USA/NMDOH-2021232808/2021, complete genome	2021	21J	T27638C	27638	T	C	ORF7a	82	ORF7a:V82A	nonsynonymous
+OM876571.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/USA/NMDOH-2021232808/2021, complete genome	2021	21J	C27752T	27752	C	T	ORF7a	120	ORF7a:T120I	nonsynonymous
+OM876571.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/USA/NMDOH-2021232808/2021, complete genome	2021	21J	C27874T	27874	C	T	ORF7b	40	ORF7b:T40I	nonsynonymous
+OM876571.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/USA/NMDOH-2021232808/2021, complete genome	2021	21J	A28461G	28461	A	G	N	63	N:D63G	nonsynonymous
+OM876571.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/USA/NMDOH-2021232808/2021, complete genome	2021	21J	A28461G	28461	A	G	ORF9b	60	ORF9b:T60A	nonsynonymous
+OM876571.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/USA/NMDOH-2021232808/2021, complete genome	2021	21J	G28881T	28881	G	T	N	203	N:R203M	nonsynonymous
+OM876571.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/USA/NMDOH-2021232808/2021, complete genome	2021	21J	G28916T	28916	G	T	N	215	N:G215C	nonsynonymous
+OM876571.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/USA/NMDOH-2021232808/2021, complete genome	2021	21J	G29402T	29402	G	T	N	377	N:D377Y	nonsynonymous
+OM876571.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/USA/NMDOH-2021232808/2021, complete genome	2021	21J	G29742T	29742	G	T	intergenic			noncoding
+OM876571.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/USA/NMDOH-2021232808/2021, complete genome	2021	21J	C29769T	29769	C	T	intergenic			noncoding
 ON485306.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/JAL-5_1913/2021, complete genome	2021	21I	G210T	210	G	T	intergenic			noncoding
 ON485306.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/JAL-5_1913/2021, complete genome	2021	21I	C241T	241	C	T	intergenic			noncoding
 ON485306.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/JAL-5_1913/2021, complete genome	2021	21I	T2911G	2911	T	G	ORF1a	882		synonymous
@@ -4209,6 +4545,52 @@ OQ087427.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/hu
 OQ087427.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/NLE-1_5026/2021, complete genome	2021	21K	G28881A	28881	G	A	N	203	N:R203K	nonsynonymous
 OQ087427.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/NLE-1_5026/2021, complete genome	2021	21K	G28882A	28882	G	A	N	203	N:R203K	nonsynonymous
 OQ087427.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/NLE-1_5026/2021, complete genome	2021	21K	G28883C	28883	G	C	N	204	N:G204R	nonsynonymous
+OQ083900.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/JAL- 4_3666/2021, complete genome	2022	21J	G210T	210	G	T	intergenic			noncoding
+OQ083900.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/JAL- 4_3666/2021, complete genome	2022	21J	C241T	241	C	T	intergenic			noncoding
+OQ083900.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/JAL- 4_3666/2021, complete genome	2022	21J	C593T	593	C	T	ORF1a	110	ORF1a:H110Y	nonsynonymous
+OQ083900.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/JAL- 4_3666/2021, complete genome	2022	21J	C3037T	3037	C	T	ORF1a	924		synonymous
+OQ083900.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/JAL- 4_3666/2021, complete genome	2022	21J	G4181T	4181	G	T	ORF1a	1306	ORF1a:A1306S	nonsynonymous
+OQ083900.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/JAL- 4_3666/2021, complete genome	2022	21J	G4709T	4709	G	T	ORF1a	1482	ORF1a:A1482S	nonsynonymous
+OQ083900.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/JAL- 4_3666/2021, complete genome	2022	21J	C5784T	5784	C	T	ORF1a	1840	ORF1a:T1840I	nonsynonymous
+OQ083900.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/JAL- 4_3666/2021, complete genome	2022	21J	C6402T	6402	C	T	ORF1a	2046	ORF1a:P2046L	nonsynonymous
+OQ083900.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/JAL- 4_3666/2021, complete genome	2022	21J	C7124T	7124	C	T	ORF1a	2287	ORF1a:P2287S	nonsynonymous
+OQ083900.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/JAL- 4_3666/2021, complete genome	2022	21J	C8986T	8986	C	T	ORF1a	2907		synonymous
+OQ083900.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/JAL- 4_3666/2021, complete genome	2022	21J	G9053T	9053	G	T	ORF1a	2930	ORF1a:V2930L	nonsynonymous
+OQ083900.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/JAL- 4_3666/2021, complete genome	2022	21J	C10029T	10029	C	T	ORF1a	3255	ORF1a:T3255I	nonsynonymous
+OQ083900.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/JAL- 4_3666/2021, complete genome	2022	21J	A10075G	10075	A	G	ORF1a	3270		synonymous
+OQ083900.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/JAL- 4_3666/2021, complete genome	2022	21J	A11201G	11201	A	G	ORF1a	3646	ORF1a:T3646A	nonsynonymous
+OQ083900.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/JAL- 4_3666/2021, complete genome	2022	21J	A11332G	11332	A	G	ORF1a	3689		synonymous
+OQ083900.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/JAL- 4_3666/2021, complete genome	2022	21J	A11456G	11456	A	G	ORF1a	3731	ORF1a:I3731V	nonsynonymous
+OQ083900.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/JAL- 4_3666/2021, complete genome	2022	21J	A11595G	11595	A	G	ORF1a	3777	ORF1a:Q3777R	nonsynonymous
+OQ083900.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/JAL- 4_3666/2021, complete genome	2022	21J	G13897T	13897	G	T	ORF1b	144	ORF1b:D144Y	nonsynonymous
+OQ083900.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/JAL- 4_3666/2021, complete genome	2022	21J	C14408T	14408	C	T	ORF1b	314	ORF1b:P314L	nonsynonymous
+OQ083900.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/JAL- 4_3666/2021, complete genome	2022	21J	G15451A	15451	G	A	ORF1b	662	ORF1b:G662S	nonsynonymous
+OQ083900.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/JAL- 4_3666/2021, complete genome	2022	21J	C16466T	16466	C	T	ORF1b	1000	ORF1b:P1000L	nonsynonymous
+OQ083900.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/JAL- 4_3666/2021, complete genome	2022	21J	G18583A	18583	G	A	ORF1b	1706	ORF1b:V1706I	nonsynonymous
+OQ083900.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/JAL- 4_3666/2021, complete genome	2022	21J	C19220T	19220	C	T	ORF1b	1918	ORF1b:A1918V	nonsynonymous
+OQ083900.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/JAL- 4_3666/2021, complete genome	2022	21J	C21618G	21618	C	G	S	19	S:T19R	nonsynonymous
+OQ083900.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/JAL- 4_3666/2021, complete genome	2022	21J	T22917G	22917	T	G	S	452	S:L452R	nonsynonymous
+OQ083900.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/JAL- 4_3666/2021, complete genome	2022	21J	C22995A	22995	C	A	S	478	S:T478K	nonsynonymous
+OQ083900.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/JAL- 4_3666/2021, complete genome	2022	21J	A23403G	23403	A	G	S	614	S:D614G	nonsynonymous
+OQ083900.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/JAL- 4_3666/2021, complete genome	2022	21J	T23427C	23427	T	C	S	622	S:V622A	nonsynonymous
+OQ083900.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/JAL- 4_3666/2021, complete genome	2022	21J	C23604G	23604	C	G	S	681	S:P681R	nonsynonymous
+OQ083900.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/JAL- 4_3666/2021, complete genome	2022	21J	C24034T	24034	C	T	S	824		synonymous
+OQ083900.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/JAL- 4_3666/2021, complete genome	2022	21J	G24410A	24410	G	A	S	950	S:D950N	nonsynonymous
+OQ083900.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/JAL- 4_3666/2021, complete genome	2022	21J	C25469T	25469	C	T	ORF3a	26	ORF3a:S26L	nonsynonymous
+OQ083900.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/JAL- 4_3666/2021, complete genome	2022	21J	T26767C	26767	T	C	M	82	M:I82T	nonsynonymous
+OQ083900.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/JAL- 4_3666/2021, complete genome	2022	21J	T27638C	27638	T	C	ORF7a	82	ORF7a:V82A	nonsynonymous
+OQ083900.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/JAL- 4_3666/2021, complete genome	2022	21J	C27752T	27752	C	T	ORF7a	120	ORF7a:T120I	nonsynonymous
+OQ083900.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/JAL- 4_3666/2021, complete genome	2022	21J	C27874T	27874	C	T	ORF7b	40	ORF7b:T40I	nonsynonymous
+OQ083900.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/JAL- 4_3666/2021, complete genome	2022	21J	A28461G	28461	A	G	N	63	N:D63G	nonsynonymous
+OQ083900.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/JAL- 4_3666/2021, complete genome	2022	21J	A28461G	28461	A	G	ORF9b	60	ORF9b:T60A	nonsynonymous
+OQ083900.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/JAL- 4_3666/2021, complete genome	2022	21J	G28881T	28881	G	T	N	203	N:R203M	nonsynonymous
+OQ083900.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/JAL- 4_3666/2021, complete genome	2022	21J	G28916T	28916	G	T	N	215	N:G215C	nonsynonymous
+OQ083900.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/JAL- 4_3666/2021, complete genome	2022	21J	G29050A	29050	G	A	N	259		synonymous
+OQ083900.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/JAL- 4_3666/2021, complete genome	2022	21J	G29402T	29402	G	T	N	377	N:D377Y	nonsynonymous
+OQ083900.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/JAL- 4_3666/2021, complete genome	2022	21J	C29509T	29509	C	T	N	412		synonymous
+OQ083900.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/JAL- 4_3666/2021, complete genome	2022	21J	C29724T	29724	C	T	intergenic			noncoding
+OQ083900.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/JAL- 4_3666/2021, complete genome	2022	21J	G29742T	29742	G	T	intergenic			noncoding
+OQ083900.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/JAL- 4_3666/2021, complete genome	2022	21J	C29750T	29750	C	T	intergenic			noncoding
 OR953191.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/Mexico/BN-SEARCH-119752/2022, complete genome	2022	21K	C241T	241	C	T	intergenic			noncoding
 OR953191.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/Mexico/BN-SEARCH-119752/2022, complete genome	2022	21K	G1957T	1957	G	T	ORF1a	564	ORF1a:K564N	nonsynonymous
 OR953191.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/Mexico/BN-SEARCH-119752/2022, complete genome	2022	21K	A2832G	2832	A	G	ORF1a	856	ORF1a:K856R	nonsynonymous
@@ -4839,6 +5221,118 @@ OQ083910.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/hu
 OQ083910.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/NLE- 4_3687/2021, complete genome	2022	21J	G29402T	29402	G	T	N	377	N:D377Y	nonsynonymous
 OQ083910.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/NLE- 4_3687/2021, complete genome	2022	21J	G29422A	29422	G	A	N	383		synonymous
 OQ083910.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/NLE- 4_3687/2021, complete genome	2022	21J	G29742T	29742	G	T	intergenic			noncoding
+OQ084240.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/SON- 4_4753/2021, complete genome	2022	21J	G210T	210	G	T	intergenic			noncoding
+OQ084240.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/SON- 4_4753/2021, complete genome	2022	21J	C241T	241	C	T	intergenic			noncoding
+OQ084240.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/SON- 4_4753/2021, complete genome	2022	21J	G386A	386	G	A	ORF1a	41	ORF1a:E41K	nonsynonymous
+OQ084240.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/SON- 4_4753/2021, complete genome	2022	21J	C1178A	1178	C	A	ORF1a	305	ORF1a:P305T	nonsynonymous
+OQ084240.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/SON- 4_4753/2021, complete genome	2022	21J	C2061T	2061	C	T	ORF1a	599	ORF1a:A599V	nonsynonymous
+OQ084240.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/SON- 4_4753/2021, complete genome	2022	21J	C3037T	3037	C	T	ORF1a	924		synonymous
+OQ084240.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/SON- 4_4753/2021, complete genome	2022	21J	T3049C	3049	T	C	ORF1a	928		synonymous
+OQ084240.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/SON- 4_4753/2021, complete genome	2022	21J	C3543T	3543	C	T	ORF1a	1093	ORF1a:T1093I	nonsynonymous
+OQ084240.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/SON- 4_4753/2021, complete genome	2022	21J	G4181T	4181	G	T	ORF1a	1306	ORF1a:A1306S	nonsynonymous
+OQ084240.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/SON- 4_4753/2021, complete genome	2022	21J	C6402T	6402	C	T	ORF1a	2046	ORF1a:P2046L	nonsynonymous
+OQ084240.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/SON- 4_4753/2021, complete genome	2022	21J	C7124T	7124	C	T	ORF1a	2287	ORF1a:P2287S	nonsynonymous
+OQ084240.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/SON- 4_4753/2021, complete genome	2022	21J	C8880T	8880	C	T	ORF1a	2872	ORF1a:T2872M	nonsynonymous
+OQ084240.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/SON- 4_4753/2021, complete genome	2022	21J	C8986T	8986	C	T	ORF1a	2907		synonymous
+OQ084240.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/SON- 4_4753/2021, complete genome	2022	21J	G9053T	9053	G	T	ORF1a	2930	ORF1a:V2930L	nonsynonymous
+OQ084240.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/SON- 4_4753/2021, complete genome	2022	21J	G9190T	9190	G	T	ORF1a	2975		synonymous
+OQ084240.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/SON- 4_4753/2021, complete genome	2022	21J	C10029T	10029	C	T	ORF1a	3255	ORF1a:T3255I	nonsynonymous
+OQ084240.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/SON- 4_4753/2021, complete genome	2022	21J	C10525T	10525	C	T	ORF1a	3420		synonymous
+OQ084240.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/SON- 4_4753/2021, complete genome	2022	21J	A11201G	11201	A	G	ORF1a	3646	ORF1a:T3646A	nonsynonymous
+OQ084240.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/SON- 4_4753/2021, complete genome	2022	21J	A11332G	11332	A	G	ORF1a	3689		synonymous
+OQ084240.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/SON- 4_4753/2021, complete genome	2022	21J	C12676T	12676	C	T	ORF1a	4137		synonymous
+OQ084240.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/SON- 4_4753/2021, complete genome	2022	21J	C13247T	13247	C	T	ORF1a	4328		synonymous
+OQ084240.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/SON- 4_4753/2021, complete genome	2022	21J	C14408T	14408	C	T	ORF1b	314	ORF1b:P314L	nonsynonymous
+OQ084240.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/SON- 4_4753/2021, complete genome	2022	21J	G15451A	15451	G	A	ORF1b	662	ORF1b:G662S	nonsynonymous
+OQ084240.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/SON- 4_4753/2021, complete genome	2022	21J	C16466T	16466	C	T	ORF1b	1000	ORF1b:P1000L	nonsynonymous
+OQ084240.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/SON- 4_4753/2021, complete genome	2022	21J	C19220T	19220	C	T	ORF1b	1918	ORF1b:A1918V	nonsynonymous
+OQ084240.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/SON- 4_4753/2021, complete genome	2022	21J	T20769C	20769	T	C	ORF1b	2434		synonymous
+OQ084240.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/SON- 4_4753/2021, complete genome	2022	21J	G21123T	21123	G	T	ORF1b	2552		synonymous
+OQ084240.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/SON- 4_4753/2021, complete genome	2022	21J	C21618G	21618	C	G	S	19	S:T19R	nonsynonymous
+OQ084240.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/SON- 4_4753/2021, complete genome	2022	21J	T22917G	22917	T	G	S	452	S:L452R	nonsynonymous
+OQ084240.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/SON- 4_4753/2021, complete genome	2022	21J	C22995A	22995	C	A	S	478	S:T478K	nonsynonymous
+OQ084240.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/SON- 4_4753/2021, complete genome	2022	21J	A23403G	23403	A	G	S	614	S:D614G	nonsynonymous
+OQ084240.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/SON- 4_4753/2021, complete genome	2022	21J	G23522A	23522	G	A	S	654	S:E654K	nonsynonymous
+OQ084240.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/SON- 4_4753/2021, complete genome	2022	21J	C23604G	23604	C	G	S	681	S:P681R	nonsynonymous
+OQ084240.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/SON- 4_4753/2021, complete genome	2022	21J	G24410A	24410	G	A	S	950	S:D950N	nonsynonymous
+OQ084240.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/SON- 4_4753/2021, complete genome	2022	21J	G24872T	24872	G	T	S	1104	S:V1104L	nonsynonymous
+OQ084240.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/SON- 4_4753/2021, complete genome	2022	21J	C25469T	25469	C	T	ORF3a	26	ORF3a:S26L	nonsynonymous
+OQ084240.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/SON- 4_4753/2021, complete genome	2022	21J	T26767C	26767	T	C	M	82	M:I82T	nonsynonymous
+OQ084240.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/SON- 4_4753/2021, complete genome	2022	21J	C27393T	27393	C	T	intergenic			noncoding
+OQ084240.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/SON- 4_4753/2021, complete genome	2022	21J	T27638C	27638	T	C	ORF7a	82	ORF7a:V82A	nonsynonymous
+OQ084240.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/SON- 4_4753/2021, complete genome	2022	21J	C27752T	27752	C	T	ORF7a	120	ORF7a:T120I	nonsynonymous
+OQ084240.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/SON- 4_4753/2021, complete genome	2022	21J	C27874T	27874	C	T	ORF7b	40	ORF7b:T40I	nonsynonymous
+OQ084240.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/SON- 4_4753/2021, complete genome	2022	21J	A28461G	28461	A	G	N	63	N:D63G	nonsynonymous
+OQ084240.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/SON- 4_4753/2021, complete genome	2022	21J	A28461G	28461	A	G	ORF9b	60	ORF9b:T60A	nonsynonymous
+OQ084240.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/SON- 4_4753/2021, complete genome	2022	21J	G28881T	28881	G	T	N	203	N:R203M	nonsynonymous
+OQ084240.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/SON- 4_4753/2021, complete genome	2022	21J	G28916T	28916	G	T	N	215	N:G215C	nonsynonymous
+OQ084240.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/SON- 4_4753/2021, complete genome	2022	21J	G29402T	29402	G	T	N	377	N:D377Y	nonsynonymous
+OQ084240.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/SON- 4_4753/2021, complete genome	2022	21J	G29737T	29737	G	T	intergenic			noncoding
+OQ084240.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/SON- 4_4753/2021, complete genome	2022	21J	G29742T	29742	G	T	intergenic			noncoding
+OR151149.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/CMX_1742/2022, complete genome	2022	21K	C241T	241	C	T	intergenic			noncoding
+OR151149.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/CMX_1742/2022, complete genome	2022	21K	C2470T	2470	C	T	ORF1a	735		synonymous
+OR151149.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/CMX_1742/2022, complete genome	2022	21K	A2832G	2832	A	G	ORF1a	856	ORF1a:K856R	nonsynonymous
+OR151149.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/CMX_1742/2022, complete genome	2022	21K	C3037T	3037	C	T	ORF1a	924		synonymous
+OR151149.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/CMX_1742/2022, complete genome	2022	21K	T5287C	5287	T	C	ORF1a	1674		synonymous
+OR151149.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/CMX_1742/2022, complete genome	2022	21K	T5386G	5386	T	G	ORF1a	1707		synonymous
+OR151149.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/CMX_1742/2022, complete genome	2022	21K	T7633C	7633	T	C	ORF1a	2456		synonymous
+OR151149.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/CMX_1742/2022, complete genome	2022	21K	G8393A	8393	G	A	ORF1a	2710	ORF1a:A2710T	nonsynonymous
+OR151149.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/CMX_1742/2022, complete genome	2022	21K	C10029T	10029	C	T	ORF1a	3255	ORF1a:T3255I	nonsynonymous
+OR151149.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/CMX_1742/2022, complete genome	2022	21K	C10449A	10449	C	A	ORF1a	3395	ORF1a:P3395H	nonsynonymous
+OR151149.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/CMX_1742/2022, complete genome	2022	21K	A11537G	11537	A	G	ORF1a	3758	ORF1a:I3758V	nonsynonymous
+OR151149.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/CMX_1742/2022, complete genome	2022	21K	T13195C	13195	T	C	ORF1a	4310		synonymous
+OR151149.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/CMX_1742/2022, complete genome	2022	21K	C14408T	14408	C	T	ORF1b	314	ORF1b:P314L	nonsynonymous
+OR151149.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/CMX_1742/2022, complete genome	2022	21K	C15240T	15240	C	T	ORF1b	591		synonymous
+OR151149.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/CMX_1742/2022, complete genome	2022	21K	A18163G	18163	A	G	ORF1b	1566	ORF1b:I1566V	nonsynonymous
+OR151149.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/CMX_1742/2022, complete genome	2022	21K	C21595T	21595	C	T	S	11		synonymous
+OR151149.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/CMX_1742/2022, complete genome	2022	21K	G21606T	21606	G	T	S	15	S:C15F	nonsynonymous
+OR151149.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/CMX_1742/2022, complete genome	2022	21K	C21762T	21762	C	T	S	67	S:A67V	nonsynonymous
+OR151149.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/CMX_1742/2022, complete genome	2022	21K	C21846T	21846	C	T	S	95	S:T95I	nonsynonymous
+OR151149.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/CMX_1742/2022, complete genome	2022	21K	G22578A	22578	G	A	S	339	S:G339D	nonsynonymous
+OR151149.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/CMX_1742/2022, complete genome	2022	21K	G22599A	22599	G	A	S	346	S:R346K	nonsynonymous
+OR151149.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/CMX_1742/2022, complete genome	2022	21K	T22673C	22673	T	C	S	371	S:S371L	nonsynonymous
+OR151149.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/CMX_1742/2022, complete genome	2022	21K	C22674T	22674	C	T	S	371	S:S371L	nonsynonymous
+OR151149.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/CMX_1742/2022, complete genome	2022	21K	T22679C	22679	T	C	S	373	S:S373P	nonsynonymous
+OR151149.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/CMX_1742/2022, complete genome	2022	21K	C22686T	22686	C	T	S	375	S:S375F	nonsynonymous
+OR151149.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/CMX_1742/2022, complete genome	2022	21K	G22813T	22813	G	T	S	417	S:K417N	nonsynonymous
+OR151149.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/CMX_1742/2022, complete genome	2022	21K	T22882G	22882	T	G	S	440	S:N440K	nonsynonymous
+OR151149.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/CMX_1742/2022, complete genome	2022	21K	C22916A	22916	C	A	S	452	S:L452M	nonsynonymous
+OR151149.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/CMX_1742/2022, complete genome	2022	21K	G22992A	22992	G	A	S	477	S:S477N	nonsynonymous
+OR151149.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/CMX_1742/2022, complete genome	2022	21K	C22995A	22995	C	A	S	478	S:T478K	nonsynonymous
+OR151149.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/CMX_1742/2022, complete genome	2022	21K	G23012C	23012	G	C	S	484	S:E484P	nonsynonymous
+OR151149.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/CMX_1742/2022, complete genome	2022	21K	A23013C	23013	A	C	S	484	S:E484P	nonsynonymous
+OR151149.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/CMX_1742/2022, complete genome	2022	21K	A23040G	23040	A	G	S	493	S:Q493R	nonsynonymous
+OR151149.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/CMX_1742/2022, complete genome	2022	21K	G23048A	23048	G	A	S	496	S:G496S	nonsynonymous
+OR151149.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/CMX_1742/2022, complete genome	2022	21K	A23055G	23055	A	G	S	498	S:Q498R	nonsynonymous
+OR151149.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/CMX_1742/2022, complete genome	2022	21K	A23063T	23063	A	T	S	501	S:N501Y	nonsynonymous
+OR151149.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/CMX_1742/2022, complete genome	2022	21K	C23202A	23202	C	A	S	547	S:T547K	nonsynonymous
+OR151149.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/CMX_1742/2022, complete genome	2022	21K	A23403G	23403	A	G	S	614	S:D614G	nonsynonymous
+OR151149.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/CMX_1742/2022, complete genome	2022	21K	G23405A	23405	G	A	S	615	S:V615I	nonsynonymous
+OR151149.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/CMX_1742/2022, complete genome	2022	21K	C23525T	23525	C	T	S	655	S:H655Y	nonsynonymous
+OR151149.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/CMX_1742/2022, complete genome	2022	21K	T23599G	23599	T	G	S	679	S:N679K	nonsynonymous
+OR151149.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/CMX_1742/2022, complete genome	2022	21K	C23604A	23604	C	A	S	681	S:P681H	nonsynonymous
+OR151149.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/CMX_1742/2022, complete genome	2022	21K	C23854A	23854	C	A	S	764	S:N764K	nonsynonymous
+OR151149.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/CMX_1742/2022, complete genome	2022	21K	G23948T	23948	G	T	S	796	S:D796Y	nonsynonymous
+OR151149.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/CMX_1742/2022, complete genome	2022	21K	C24130A	24130	C	A	S	856	S:N856K	nonsynonymous
+OR151149.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/CMX_1742/2022, complete genome	2022	21K	G24368T	24368	G	T	S	936	S:D936Y	nonsynonymous
+OR151149.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/CMX_1742/2022, complete genome	2022	21K	A24424T	24424	A	T	S	954	S:Q954H	nonsynonymous
+OR151149.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/CMX_1742/2022, complete genome	2022	21K	T24469A	24469	T	A	S	969	S:N969K	nonsynonymous
+OR151149.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/CMX_1742/2022, complete genome	2022	21K	C24503T	24503	C	T	S	981	S:L981F	nonsynonymous
+OR151149.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/CMX_1742/2022, complete genome	2022	21K	C25000T	25000	C	T	S	1146		synonymous
+OR151149.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/CMX_1742/2022, complete genome	2022	21K	C25517T	25517	C	T	ORF3a	42	ORF3a:P42L	nonsynonymous
+OR151149.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/CMX_1742/2022, complete genome	2022	21K	C25584T	25584	C	T	ORF3a	64		synonymous
+OR151149.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/CMX_1742/2022, complete genome	2022	21K	C26270T	26270	C	T	E	9	E:T9I	nonsynonymous
+OR151149.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/CMX_1742/2022, complete genome	2022	21K	A26530G	26530	A	G	M	3	M:D3G	nonsynonymous
+OR151149.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/CMX_1742/2022, complete genome	2022	21K	C26577G	26577	C	G	M	19	M:Q19E	nonsynonymous
+OR151149.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/CMX_1742/2022, complete genome	2022	21K	G26709A	26709	G	A	M	63	M:A63T	nonsynonymous
+OR151149.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/CMX_1742/2022, complete genome	2022	21K	A27259C	27259	A	C	ORF6	20		synonymous
+OR151149.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/CMX_1742/2022, complete genome	2022	21K	C27807T	27807	C	T	ORF7b	18		synonymous
+OR151149.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/CMX_1742/2022, complete genome	2022	21K	A28271T	28271	A	T	intergenic			noncoding
+OR151149.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/CMX_1742/2022, complete genome	2022	21K	C28311T	28311	C	T	N	13	N:P13L	nonsynonymous
+OR151149.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/CMX_1742/2022, complete genome	2022	21K	C28311T	28311	C	T	ORF9b	10	ORF9b:P10S	nonsynonymous
+OR151149.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/CMX_1742/2022, complete genome	2022	21K	G28881A	28881	G	A	N	203	N:R203K	nonsynonymous
+OR151149.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/CMX_1742/2022, complete genome	2022	21K	G28882A	28882	G	A	N	203	N:R203K	nonsynonymous
+OR151149.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/CMX_1742/2022, complete genome	2022	21K	G28883C	28883	G	C	N	204	N:G204R	nonsynonymous
 OQ362915.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/USA/NMDOH-2022151282/2022, complete genome	2022	22B	C241T	241	C	T	intergenic			noncoding
 OQ362915.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/USA/NMDOH-2022151282/2022, complete genome	2022	22B	T670G	670	T	G	ORF1a	135	ORF1a:S135R	nonsynonymous
 OQ362915.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/USA/NMDOH-2022151282/2022, complete genome	2022	22B	C1627T	1627	C	T	ORF1a	454		synonymous
@@ -4981,6 +5475,59 @@ OQ089816.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/hu
 OQ089816.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/MEX-1_6421/2022, complete genome	2022	21K	G28882A	28882	G	A	N	203	N:R203K	nonsynonymous
 OQ089816.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/MEX-1_6421/2022, complete genome	2022	21K	G28883C	28883	G	C	N	204	N:G204R	nonsynonymous
 OQ089816.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/MEX-1_6421/2022, complete genome	2022	21K	A29301G	29301	A	G	N	343	N:D343G	nonsynonymous
+OQ088914.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/MOR-1_6139/2022, complete genome	2022	21K	C241T	241	C	T	intergenic			noncoding
+OQ088914.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/MOR-1_6139/2022, complete genome	2022	21K	C2470T	2470	C	T	ORF1a	735		synonymous
+OQ088914.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/MOR-1_6139/2022, complete genome	2022	21K	A2832G	2832	A	G	ORF1a	856	ORF1a:K856R	nonsynonymous
+OQ088914.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/MOR-1_6139/2022, complete genome	2022	21K	C3037T	3037	C	T	ORF1a	924		synonymous
+OQ088914.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/MOR-1_6139/2022, complete genome	2022	21K	T5386G	5386	T	G	ORF1a	1707		synonymous
+OQ088914.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/MOR-1_6139/2022, complete genome	2022	21K	G8393A	8393	G	A	ORF1a	2710	ORF1a:A2710T	nonsynonymous
+OQ088914.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/MOR-1_6139/2022, complete genome	2022	21K	C10029T	10029	C	T	ORF1a	3255	ORF1a:T3255I	nonsynonymous
+OQ088914.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/MOR-1_6139/2022, complete genome	2022	21K	C10449A	10449	C	A	ORF1a	3395	ORF1a:P3395H	nonsynonymous
+OQ088914.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/MOR-1_6139/2022, complete genome	2022	21K	A11277G	11277	A	G	ORF1a	3671	ORF1a:D3671G	nonsynonymous
+OQ088914.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/MOR-1_6139/2022, complete genome	2022	21K	A11537G	11537	A	G	ORF1a	3758	ORF1a:I3758V	nonsynonymous
+OQ088914.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/MOR-1_6139/2022, complete genome	2022	21K	T13195C	13195	T	C	ORF1a	4310		synonymous
+OQ088914.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/MOR-1_6139/2022, complete genome	2022	21K	C14408T	14408	C	T	ORF1b	314	ORF1b:P314L	nonsynonymous
+OQ088914.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/MOR-1_6139/2022, complete genome	2022	21K	C15240T	15240	C	T	ORF1b	591		synonymous
+OQ088914.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/MOR-1_6139/2022, complete genome	2022	21K	A18163G	18163	A	G	ORF1b	1566	ORF1b:I1566V	nonsynonymous
+OQ088914.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/MOR-1_6139/2022, complete genome	2022	21K	C21595T	21595	C	T	S	11		synonymous
+OQ088914.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/MOR-1_6139/2022, complete genome	2022	21K	C21762T	21762	C	T	S	67	S:A67V	nonsynonymous
+OQ088914.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/MOR-1_6139/2022, complete genome	2022	21K	C21846T	21846	C	T	S	95	S:T95I	nonsynonymous
+OQ088914.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/MOR-1_6139/2022, complete genome	2022	21K	G22578A	22578	G	A	S	339	S:G339D	nonsynonymous
+OQ088914.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/MOR-1_6139/2022, complete genome	2022	21K	G22599A	22599	G	A	S	346	S:R346K	nonsynonymous
+OQ088914.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/MOR-1_6139/2022, complete genome	2022	21K	G22898A	22898	G	A	S	446	S:G446S	nonsynonymous
+OQ088914.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/MOR-1_6139/2022, complete genome	2022	21K	G22992A	22992	G	A	S	477	S:S477N	nonsynonymous
+OQ088914.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/MOR-1_6139/2022, complete genome	2022	21K	C22995A	22995	C	A	S	478	S:T478K	nonsynonymous
+OQ088914.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/MOR-1_6139/2022, complete genome	2022	21K	A23013C	23013	A	C	S	484	S:E484A	nonsynonymous
+OQ088914.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/MOR-1_6139/2022, complete genome	2022	21K	A23040G	23040	A	G	S	493	S:Q493R	nonsynonymous
+OQ088914.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/MOR-1_6139/2022, complete genome	2022	21K	G23048A	23048	G	A	S	496	S:G496S	nonsynonymous
+OQ088914.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/MOR-1_6139/2022, complete genome	2022	21K	A23055G	23055	A	G	S	498	S:Q498R	nonsynonymous
+OQ088914.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/MOR-1_6139/2022, complete genome	2022	21K	A23063T	23063	A	T	S	501	S:N501Y	nonsynonymous
+OQ088914.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/MOR-1_6139/2022, complete genome	2022	21K	T23075C	23075	T	C	S	505	S:Y505H	nonsynonymous
+OQ088914.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/MOR-1_6139/2022, complete genome	2022	21K	C23202A	23202	C	A	S	547	S:T547K	nonsynonymous
+OQ088914.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/MOR-1_6139/2022, complete genome	2022	21K	A23403G	23403	A	G	S	614	S:D614G	nonsynonymous
+OQ088914.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/MOR-1_6139/2022, complete genome	2022	21K	C23525T	23525	C	T	S	655	S:H655Y	nonsynonymous
+OQ088914.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/MOR-1_6139/2022, complete genome	2022	21K	T23599G	23599	T	G	S	679	S:N679K	nonsynonymous
+OQ088914.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/MOR-1_6139/2022, complete genome	2022	21K	C23604A	23604	C	A	S	681	S:P681H	nonsynonymous
+OQ088914.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/MOR-1_6139/2022, complete genome	2022	21K	C23854A	23854	C	A	S	764	S:N764K	nonsynonymous
+OQ088914.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/MOR-1_6139/2022, complete genome	2022	21K	G23948T	23948	G	T	S	796	S:D796Y	nonsynonymous
+OQ088914.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/MOR-1_6139/2022, complete genome	2022	21K	C24130A	24130	C	A	S	856	S:N856K	nonsynonymous
+OQ088914.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/MOR-1_6139/2022, complete genome	2022	21K	A24424T	24424	A	T	S	954	S:Q954H	nonsynonymous
+OQ088914.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/MOR-1_6139/2022, complete genome	2022	21K	T24469A	24469	T	A	S	969	S:N969K	nonsynonymous
+OQ088914.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/MOR-1_6139/2022, complete genome	2022	21K	C24503T	24503	C	T	S	981	S:L981F	nonsynonymous
+OQ088914.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/MOR-1_6139/2022, complete genome	2022	21K	C25000T	25000	C	T	S	1146		synonymous
+OQ088914.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/MOR-1_6139/2022, complete genome	2022	21K	C25584T	25584	C	T	ORF3a	64		synonymous
+OQ088914.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/MOR-1_6139/2022, complete genome	2022	21K	C26270T	26270	C	T	E	9	E:T9I	nonsynonymous
+OQ088914.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/MOR-1_6139/2022, complete genome	2022	21K	A26530G	26530	A	G	M	3	M:D3G	nonsynonymous
+OQ088914.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/MOR-1_6139/2022, complete genome	2022	21K	C26577G	26577	C	G	M	19	M:Q19E	nonsynonymous
+OQ088914.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/MOR-1_6139/2022, complete genome	2022	21K	G26709A	26709	G	A	M	63	M:A63T	nonsynonymous
+OQ088914.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/MOR-1_6139/2022, complete genome	2022	21K	A27259C	27259	A	C	ORF6	20		synonymous
+OQ088914.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/MOR-1_6139/2022, complete genome	2022	21K	C27807T	27807	C	T	ORF7b	18		synonymous
+OQ088914.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/MOR-1_6139/2022, complete genome	2022	21K	A28271T	28271	A	T	intergenic			noncoding
+OQ088914.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/MOR-1_6139/2022, complete genome	2022	21K	C28311T	28311	C	T	N	13	N:P13L	nonsynonymous
+OQ088914.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/MOR-1_6139/2022, complete genome	2022	21K	C28311T	28311	C	T	ORF9b	10	ORF9b:P10S	nonsynonymous
+OQ088914.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/MOR-1_6139/2022, complete genome	2022	21K	G28881A	28881	G	A	N	203	N:R203K	nonsynonymous
+OQ088914.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/MOR-1_6139/2022, complete genome	2022	21K	G28882A	28882	G	A	N	203	N:R203K	nonsynonymous
+OQ088914.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/MOR-1_6139/2022, complete genome	2022	21K	G28883C	28883	G	C	N	204	N:G204R	nonsynonymous
 OR151392.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/YUC_7528/2022, complete genome	2022	21L	C241T	241	C	T	intergenic			noncoding
 OR151392.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/YUC_7528/2022, complete genome	2022	21L	T670G	670	T	G	ORF1a	135	ORF1a:S135R	nonsynonymous
 OR151392.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/YUC_7528/2022, complete genome	2022	21L	C2790T	2790	C	T	ORF1a	842	ORF1a:T842I	nonsynonymous
@@ -5445,6 +5992,55 @@ OR182820.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/hu
 OR182820.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/USA/NM-UNM-TRL_0423_081/2022, complete genome	2022	21K	G28881A	28881	G	A	N	203	N:R203K	nonsynonymous
 OR182820.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/USA/NM-UNM-TRL_0423_081/2022, complete genome	2022	21K	G28882A	28882	G	A	N	203	N:R203K	nonsynonymous
 OR182820.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/USA/NM-UNM-TRL_0423_081/2022, complete genome	2022	21K	G28883C	28883	G	C	N	204	N:G204R	nonsynonymous
+OQ084179.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/TAM- 1_5030/2021, complete genome	2022	21J	C186T	186	C	T	intergenic			noncoding
+OQ084179.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/TAM- 1_5030/2021, complete genome	2022	21J	G210T	210	G	T	intergenic			noncoding
+OQ084179.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/TAM- 1_5030/2021, complete genome	2022	21J	C241T	241	C	T	intergenic			noncoding
+OQ084179.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/TAM- 1_5030/2021, complete genome	2022	21J	C2061T	2061	C	T	ORF1a	599	ORF1a:A599V	nonsynonymous
+OQ084179.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/TAM- 1_5030/2021, complete genome	2022	21J	C3037T	3037	C	T	ORF1a	924		synonymous
+OQ084179.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/TAM- 1_5030/2021, complete genome	2022	21J	C3619T	3619	C	T	ORF1a	1118		synonymous
+OQ084179.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/TAM- 1_5030/2021, complete genome	2022	21J	G4181T	4181	G	T	ORF1a	1306	ORF1a:A1306S	nonsynonymous
+OQ084179.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/TAM- 1_5030/2021, complete genome	2022	21J	C6402T	6402	C	T	ORF1a	2046	ORF1a:P2046L	nonsynonymous
+OQ084179.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/TAM- 1_5030/2021, complete genome	2022	21J	C7124T	7124	C	T	ORF1a	2287	ORF1a:P2287S	nonsynonymous
+OQ084179.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/TAM- 1_5030/2021, complete genome	2022	21J	C8880T	8880	C	T	ORF1a	2872	ORF1a:T2872M	nonsynonymous
+OQ084179.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/TAM- 1_5030/2021, complete genome	2022	21J	C8986T	8986	C	T	ORF1a	2907		synonymous
+OQ084179.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/TAM- 1_5030/2021, complete genome	2022	21J	G9053T	9053	G	T	ORF1a	2930	ORF1a:V2930L	nonsynonymous
+OQ084179.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/TAM- 1_5030/2021, complete genome	2022	21J	G9190T	9190	G	T	ORF1a	2975		synonymous
+OQ084179.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/TAM- 1_5030/2021, complete genome	2022	21J	C10029T	10029	C	T	ORF1a	3255	ORF1a:T3255I	nonsynonymous
+OQ084179.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/TAM- 1_5030/2021, complete genome	2022	21J	A11201G	11201	A	G	ORF1a	3646	ORF1a:T3646A	nonsynonymous
+OQ084179.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/TAM- 1_5030/2021, complete genome	2022	21J	A11332G	11332	A	G	ORF1a	3689		synonymous
+OQ084179.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/TAM- 1_5030/2021, complete genome	2022	21J	G13903A	13903	G	A	ORF1b	146	ORF1b:D146N	nonsynonymous
+OQ084179.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/TAM- 1_5030/2021, complete genome	2022	21J	C14408T	14408	C	T	ORF1b	314	ORF1b:P314L	nonsynonymous
+OQ084179.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/TAM- 1_5030/2021, complete genome	2022	21J	C14676T	14676	C	T	ORF1b	403		synonymous
+OQ084179.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/TAM- 1_5030/2021, complete genome	2022	21J	G15451A	15451	G	A	ORF1b	662	ORF1b:G662S	nonsynonymous
+OQ084179.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/TAM- 1_5030/2021, complete genome	2022	21J	C16466T	16466	C	T	ORF1b	1000	ORF1b:P1000L	nonsynonymous
+OQ084179.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/TAM- 1_5030/2021, complete genome	2022	21J	C19220T	19220	C	T	ORF1b	1918	ORF1b:A1918V	nonsynonymous
+OQ084179.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/TAM- 1_5030/2021, complete genome	2022	21J	C21618G	21618	C	G	S	19	S:T19R	nonsynonymous
+OQ084179.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/TAM- 1_5030/2021, complete genome	2022	21J	C21846T	21846	C	T	S	95	S:T95I	nonsynonymous
+OQ084179.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/TAM- 1_5030/2021, complete genome	2022	21J	T22917G	22917	T	G	S	452	S:L452R	nonsynonymous
+OQ084179.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/TAM- 1_5030/2021, complete genome	2022	21J	C22995A	22995	C	A	S	478	S:T478K	nonsynonymous
+OQ084179.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/TAM- 1_5030/2021, complete genome	2022	21J	A23403G	23403	A	G	S	614	S:D614G	nonsynonymous
+OQ084179.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/TAM- 1_5030/2021, complete genome	2022	21J	C23604G	23604	C	G	S	681	S:P681R	nonsynonymous
+OQ084179.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/TAM- 1_5030/2021, complete genome	2022	21J	G24410A	24410	G	A	S	950	S:D950N	nonsynonymous
+OQ084179.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/TAM- 1_5030/2021, complete genome	2022	21J	G24872T	24872	G	T	S	1104	S:V1104L	nonsynonymous
+OQ084179.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/TAM- 1_5030/2021, complete genome	2022	21J	C25469T	25469	C	T	ORF3a	26	ORF3a:S26L	nonsynonymous
+OQ084179.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/TAM- 1_5030/2021, complete genome	2022	21J	C25810T	25810	C	T	ORF3a	140	ORF3a:L140F	nonsynonymous
+OQ084179.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/TAM- 1_5030/2021, complete genome	2022	21J	C25919T	25919	C	T	ORF3a	176	ORF3a:T176I	nonsynonymous
+OQ084179.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/TAM- 1_5030/2021, complete genome	2022	21J	C26110T	26110	C	T	ORF3a	240	ORF3a:P240S	nonsynonymous
+OQ084179.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/TAM- 1_5030/2021, complete genome	2022	21J	T26767C	26767	T	C	M	82	M:I82T	nonsynonymous
+OQ084179.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/TAM- 1_5030/2021, complete genome	2022	21J	C27393T	27393	C	T	intergenic			noncoding
+OQ084179.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/TAM- 1_5030/2021, complete genome	2022	21J	T27638C	27638	T	C	ORF7a	82	ORF7a:V82A	nonsynonymous
+OQ084179.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/TAM- 1_5030/2021, complete genome	2022	21J	C27752T	27752	C	T	ORF7a	120	ORF7a:T120I	nonsynonymous
+OQ084179.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/TAM- 1_5030/2021, complete genome	2022	21J	C27874T	27874	C	T	ORF7b	40	ORF7b:T40I	nonsynonymous
+OQ084179.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/TAM- 1_5030/2021, complete genome	2022	21J	C28000T	28000	C	T	ORF8	36	ORF8:P36L	nonsynonymous
+OQ084179.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/TAM- 1_5030/2021, complete genome	2022	21J	A28461G	28461	A	G	N	63	N:D63G	nonsynonymous
+OQ084179.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/TAM- 1_5030/2021, complete genome	2022	21J	A28461G	28461	A	G	ORF9b	60	ORF9b:T60A	nonsynonymous
+OQ084179.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/TAM- 1_5030/2021, complete genome	2022	21J	G28881T	28881	G	T	N	203	N:R203M	nonsynonymous
+OQ084179.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/TAM- 1_5030/2021, complete genome	2022	21J	G28916T	28916	G	T	N	215	N:G215C	nonsynonymous
+OQ084179.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/TAM- 1_5030/2021, complete genome	2022	21J	G29402T	29402	G	T	N	377	N:D377Y	nonsynonymous
+OQ084179.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/TAM- 1_5030/2021, complete genome	2022	21J	G29513T	29513	G	T	N	414	N:A414S	nonsynonymous
+OQ084179.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/TAM- 1_5030/2021, complete genome	2022	21J	A29532G	29532	A	G	N	420		synonymous
+OQ084179.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/TAM- 1_5030/2021, complete genome	2022	21J	G29737T	29737	G	T	intergenic			noncoding
+OQ084179.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/TAM- 1_5030/2021, complete genome	2022	21J	G29742T	29742	G	T	intergenic			noncoding
 OQ368993.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/USA/NMDOH-2022155067/2022, complete genome	2022	22D	C241T	241	C	T	intergenic			noncoding
 OQ368993.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/USA/NMDOH-2022155067/2022, complete genome	2022	22D	T670G	670	T	G	ORF1a	135	ORF1a:S135R	nonsynonymous
 OQ368993.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/USA/NMDOH-2022155067/2022, complete genome	2022	22D	C2790T	2790	C	T	ORF1a	842	ORF1a:T842I	nonsynonymous
@@ -7576,6 +8172,68 @@ OQ090705.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/hu
 OQ090705.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/PUE-4_6204/2022, complete genome	2022	21K	G28881A	28881	G	A	N	203	N:R203K	nonsynonymous
 OQ090705.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/PUE-4_6204/2022, complete genome	2022	21K	G28882A	28882	G	A	N	203	N:R203K	nonsynonymous
 OQ090705.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/PUE-4_6204/2022, complete genome	2022	21K	G28883C	28883	G	C	N	204	N:G204R	nonsynonymous
+OQ088309.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/CHH-6_202201012961/2022, complete genome	2022	21K	C241T	241	C	T	intergenic			noncoding
+OQ088309.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/CHH-6_202201012961/2022, complete genome	2022	21K	C1057T	1057	C	T	ORF1a	264		synonymous
+OQ088309.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/CHH-6_202201012961/2022, complete genome	2022	21K	C1191T	1191	C	T	ORF1a	309	ORF1a:P309L	nonsynonymous
+OQ088309.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/CHH-6_202201012961/2022, complete genome	2022	21K	C2470T	2470	C	T	ORF1a	735		synonymous
+OQ088309.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/CHH-6_202201012961/2022, complete genome	2022	21K	A2832G	2832	A	G	ORF1a	856	ORF1a:K856R	nonsynonymous
+OQ088309.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/CHH-6_202201012961/2022, complete genome	2022	21K	C3037T	3037	C	T	ORF1a	924		synonymous
+OQ088309.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/CHH-6_202201012961/2022, complete genome	2022	21K	C4320T	4320	C	T	ORF1a	1352	ORF1a:A1352V	nonsynonymous
+OQ088309.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/CHH-6_202201012961/2022, complete genome	2022	21K	T5386G	5386	T	G	ORF1a	1707		synonymous
+OQ088309.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/CHH-6_202201012961/2022, complete genome	2022	21K	G8393A	8393	G	A	ORF1a	2710	ORF1a:A2710T	nonsynonymous
+OQ088309.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/CHH-6_202201012961/2022, complete genome	2022	21K	C8818T	8818	C	T	ORF1a	2851		synonymous
+OQ088309.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/CHH-6_202201012961/2022, complete genome	2022	21K	C10029T	10029	C	T	ORF1a	3255	ORF1a:T3255I	nonsynonymous
+OQ088309.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/CHH-6_202201012961/2022, complete genome	2022	21K	C10449A	10449	C	A	ORF1a	3395	ORF1a:P3395H	nonsynonymous
+OQ088309.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/CHH-6_202201012961/2022, complete genome	2022	21K	C11235T	11235	C	T	ORF1a	3657	ORF1a:A3657V	nonsynonymous
+OQ088309.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/CHH-6_202201012961/2022, complete genome	2022	21K	A11537G	11537	A	G	ORF1a	3758	ORF1a:I3758V	nonsynonymous
+OQ088309.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/CHH-6_202201012961/2022, complete genome	2022	21K	T13195C	13195	T	C	ORF1a	4310		synonymous
+OQ088309.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/CHH-6_202201012961/2022, complete genome	2022	21K	C14408T	14408	C	T	ORF1b	314	ORF1b:P314L	nonsynonymous
+OQ088309.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/CHH-6_202201012961/2022, complete genome	2022	21K	C15240T	15240	C	T	ORF1b	591		synonymous
+OQ088309.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/CHH-6_202201012961/2022, complete genome	2022	21K	C15656T	15656	C	T	ORF1b	730	ORF1b:T730I	nonsynonymous
+OQ088309.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/CHH-6_202201012961/2022, complete genome	2022	21K	A18163G	18163	A	G	ORF1b	1566	ORF1b:I1566V	nonsynonymous
+OQ088309.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/CHH-6_202201012961/2022, complete genome	2022	21K	C21595T	21595	C	T	S	11		synonymous
+OQ088309.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/CHH-6_202201012961/2022, complete genome	2022	21K	C21846T	21846	C	T	S	95	S:T95I	nonsynonymous
+OQ088309.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/CHH-6_202201012961/2022, complete genome	2022	21K	G22578A	22578	G	A	S	339	S:G339D	nonsynonymous
+OQ088309.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/CHH-6_202201012961/2022, complete genome	2022	21K	G22599A	22599	G	A	S	346	S:R346K	nonsynonymous
+OQ088309.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/CHH-6_202201012961/2022, complete genome	2022	21K	T22673C	22673	T	C	S	371	S:S371L	nonsynonymous
+OQ088309.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/CHH-6_202201012961/2022, complete genome	2022	21K	C22674T	22674	C	T	S	371	S:S371L	nonsynonymous
+OQ088309.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/CHH-6_202201012961/2022, complete genome	2022	21K	T22679C	22679	T	C	S	373	S:S373P	nonsynonymous
+OQ088309.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/CHH-6_202201012961/2022, complete genome	2022	21K	C22686T	22686	C	T	S	375	S:S375F	nonsynonymous
+OQ088309.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/CHH-6_202201012961/2022, complete genome	2022	21K	G22813T	22813	G	T	S	417	S:K417N	nonsynonymous
+OQ088309.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/CHH-6_202201012961/2022, complete genome	2022	21K	T22882G	22882	T	G	S	440	S:N440K	nonsynonymous
+OQ088309.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/CHH-6_202201012961/2022, complete genome	2022	21K	G22898A	22898	G	A	S	446	S:G446S	nonsynonymous
+OQ088309.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/CHH-6_202201012961/2022, complete genome	2022	21K	G22992A	22992	G	A	S	477	S:S477N	nonsynonymous
+OQ088309.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/CHH-6_202201012961/2022, complete genome	2022	21K	C22995A	22995	C	A	S	478	S:T478K	nonsynonymous
+OQ088309.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/CHH-6_202201012961/2022, complete genome	2022	21K	A23013C	23013	A	C	S	484	S:E484A	nonsynonymous
+OQ088309.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/CHH-6_202201012961/2022, complete genome	2022	21K	A23040G	23040	A	G	S	493	S:Q493R	nonsynonymous
+OQ088309.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/CHH-6_202201012961/2022, complete genome	2022	21K	G23048A	23048	G	A	S	496	S:G496S	nonsynonymous
+OQ088309.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/CHH-6_202201012961/2022, complete genome	2022	21K	A23055G	23055	A	G	S	498	S:Q498R	nonsynonymous
+OQ088309.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/CHH-6_202201012961/2022, complete genome	2022	21K	A23063T	23063	A	T	S	501	S:N501Y	nonsynonymous
+OQ088309.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/CHH-6_202201012961/2022, complete genome	2022	21K	T23075C	23075	T	C	S	505	S:Y505H	nonsynonymous
+OQ088309.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/CHH-6_202201012961/2022, complete genome	2022	21K	C23202A	23202	C	A	S	547	S:T547K	nonsynonymous
+OQ088309.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/CHH-6_202201012961/2022, complete genome	2022	21K	A23403G	23403	A	G	S	614	S:D614G	nonsynonymous
+OQ088309.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/CHH-6_202201012961/2022, complete genome	2022	21K	C23525T	23525	C	T	S	655	S:H655Y	nonsynonymous
+OQ088309.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/CHH-6_202201012961/2022, complete genome	2022	21K	T23599G	23599	T	G	S	679	S:N679K	nonsynonymous
+OQ088309.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/CHH-6_202201012961/2022, complete genome	2022	21K	C23604A	23604	C	A	S	681	S:P681H	nonsynonymous
+OQ088309.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/CHH-6_202201012961/2022, complete genome	2022	21K	C23854A	23854	C	A	S	764	S:N764K	nonsynonymous
+OQ088309.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/CHH-6_202201012961/2022, complete genome	2022	21K	G23948T	23948	G	T	S	796	S:D796Y	nonsynonymous
+OQ088309.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/CHH-6_202201012961/2022, complete genome	2022	21K	C24130A	24130	C	A	S	856	S:N856K	nonsynonymous
+OQ088309.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/CHH-6_202201012961/2022, complete genome	2022	21K	A24424T	24424	A	T	S	954	S:Q954H	nonsynonymous
+OQ088309.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/CHH-6_202201012961/2022, complete genome	2022	21K	T24469A	24469	T	A	S	969	S:N969K	nonsynonymous
+OQ088309.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/CHH-6_202201012961/2022, complete genome	2022	21K	C24503T	24503	C	T	S	981	S:L981F	nonsynonymous
+OQ088309.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/CHH-6_202201012961/2022, complete genome	2022	21K	C25584T	25584	C	T	ORF3a	64		synonymous
+OQ088309.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/CHH-6_202201012961/2022, complete genome	2022	21K	C26270T	26270	C	T	E	9	E:T9I	nonsynonymous
+OQ088309.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/CHH-6_202201012961/2022, complete genome	2022	21K	A26530G	26530	A	G	M	3	M:D3G	nonsynonymous
+OQ088309.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/CHH-6_202201012961/2022, complete genome	2022	21K	C26577G	26577	C	G	M	19	M:Q19E	nonsynonymous
+OQ088309.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/CHH-6_202201012961/2022, complete genome	2022	21K	G26709A	26709	G	A	M	63	M:A63T	nonsynonymous
+OQ088309.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/CHH-6_202201012961/2022, complete genome	2022	21K	A27259C	27259	A	C	ORF6	20		synonymous
+OQ088309.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/CHH-6_202201012961/2022, complete genome	2022	21K	C27807T	27807	C	T	ORF7b	18		synonymous
+OQ088309.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/CHH-6_202201012961/2022, complete genome	2022	21K	A28271T	28271	A	T	intergenic			noncoding
+OQ088309.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/CHH-6_202201012961/2022, complete genome	2022	21K	C28311T	28311	C	T	N	13	N:P13L	nonsynonymous
+OQ088309.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/CHH-6_202201012961/2022, complete genome	2022	21K	C28311T	28311	C	T	ORF9b	10	ORF9b:P10S	nonsynonymous
+OQ088309.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/CHH-6_202201012961/2022, complete genome	2022	21K	G28881A	28881	G	A	N	203	N:R203K	nonsynonymous
+OQ088309.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/CHH-6_202201012961/2022, complete genome	2022	21K	G28882A	28882	G	A	N	203	N:R203K	nonsynonymous
+OQ088309.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/CHH-6_202201012961/2022, complete genome	2022	21K	G28883C	28883	G	C	N	204	N:G204R	nonsynonymous
 OQ088387.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/CMX-4_5766/2022, complete genome	2022	21K	C241T	241	C	T	intergenic			noncoding
 OQ088387.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/CMX-4_5766/2022, complete genome	2022	21K	C384T	384	C	T	ORF1a	40	ORF1a:S40L	nonsynonymous
 OQ088387.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/CMX-4_5766/2022, complete genome	2022	21K	C1404T	1404	C	T	ORF1a	380	ORF1a:P380L	nonsynonymous
@@ -8376,6 +9034,81 @@ OP995656.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/hu
 OP995656.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/USA/NMDOH-2022139953/2022, complete genome	2022	22B	G28882A	28882	G	A	N	203	N:R203K	nonsynonymous
 OP995656.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/USA/NMDOH-2022139953/2022, complete genome	2022	22B	G28883C	28883	G	C	N	204	N:G204R	nonsynonymous
 OP995656.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/USA/NMDOH-2022139953/2022, complete genome	2022	22B	A29510C	29510	A	C	N	413	N:S413R	nonsynonymous
+OR152178.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/JAL_8039/2022, complete genome	2022	22C	C241T	241	C	T	intergenic			noncoding
+OR152178.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/JAL_8039/2022, complete genome	2022	22C	T670G	670	T	G	ORF1a	135	ORF1a:S135R	nonsynonymous
+OR152178.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/JAL_8039/2022, complete genome	2022	22C	A1123G	1123	A	G	ORF1a	286		synonymous
+OR152178.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/JAL_8039/2022, complete genome	2022	22C	C3037T	3037	C	T	ORF1a	924		synonymous
+OR152178.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/JAL_8039/2022, complete genome	2022	22C	G4184A	4184	G	A	ORF1a	1307	ORF1a:G1307S	nonsynonymous
+OR152178.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/JAL_8039/2022, complete genome	2022	22C	C4321T	4321	C	T	ORF1a	1352		synonymous
+OR152178.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/JAL_8039/2022, complete genome	2022	22C	G6446A	6446	G	A	ORF1a	2061	ORF1a:V2061I	nonsynonymous
+OR152178.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/JAL_8039/2022, complete genome	2022	22C	C9344T	9344	C	T	ORF1a	3027	ORF1a:L3027F	nonsynonymous
+OR152178.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/JAL_8039/2022, complete genome	2022	22C	A9424G	9424	A	G	ORF1a	3053		synonymous
+OR152178.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/JAL_8039/2022, complete genome	2022	22C	C9534T	9534	C	T	ORF1a	3090	ORF1a:T3090I	nonsynonymous
+OR152178.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/JAL_8039/2022, complete genome	2022	22C	C9866T	9866	C	T	ORF1a	3201	ORF1a:L3201F	nonsynonymous
+OR152178.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/JAL_8039/2022, complete genome	2022	22C	C10029T	10029	C	T	ORF1a	3255	ORF1a:T3255I	nonsynonymous
+OR152178.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/JAL_8039/2022, complete genome	2022	22C	C10198T	10198	C	T	ORF1a	3311		synonymous
+OR152178.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/JAL_8039/2022, complete genome	2022	22C	G10447A	10447	G	A	ORF1a	3394		synonymous
+OR152178.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/JAL_8039/2022, complete genome	2022	22C	C10449A	10449	C	A	ORF1a	3395	ORF1a:P3395H	nonsynonymous
+OR152178.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/JAL_8039/2022, complete genome	2022	22C	C11674T	11674	C	T	ORF1a	3803		synonymous
+OR152178.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/JAL_8039/2022, complete genome	2022	22C	C12880T	12880	C	T	ORF1a	4205		synonymous
+OR152178.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/JAL_8039/2022, complete genome	2022	22C	C14408T	14408	C	T	ORF1b	314	ORF1b:P314L	nonsynonymous
+OR152178.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/JAL_8039/2022, complete genome	2022	22C	T15009C	15009	T	C	ORF1b	514		synonymous
+OR152178.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/JAL_8039/2022, complete genome	2022	22C	C15714T	15714	C	T	ORF1b	749		synonymous
+OR152178.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/JAL_8039/2022, complete genome	2022	22C	C17410T	17410	C	T	ORF1b	1315	ORF1b:R1315C	nonsynonymous
+OR152178.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/JAL_8039/2022, complete genome	2022	22C	A18163G	18163	A	G	ORF1b	1566	ORF1b:I1566V	nonsynonymous
+OR152178.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/JAL_8039/2022, complete genome	2022	22C	C19955T	19955	C	T	ORF1b	2163	ORF1b:T2163I	nonsynonymous
+OR152178.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/JAL_8039/2022, complete genome	2022	22C	A20055G	20055	A	G	ORF1b	2196		synonymous
+OR152178.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/JAL_8039/2022, complete genome	2022	22C	C21618T	21618	C	T	S	19	S:T19I	nonsynonymous
+OR152178.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/JAL_8039/2022, complete genome	2022	22C	C21721T	21721	C	T	S	53		synonymous
+OR152178.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/JAL_8039/2022, complete genome	2022	22C	G21987A	21987	G	A	S	142	S:G142D	nonsynonymous
+OR152178.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/JAL_8039/2022, complete genome	2022	22C	T22200G	22200	T	G	S	213	S:V213G	nonsynonymous
+OR152178.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/JAL_8039/2022, complete genome	2022	22C	G22578A	22578	G	A	S	339	S:G339D	nonsynonymous
+OR152178.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/JAL_8039/2022, complete genome	2022	22C	T22679C	22679	T	C	S	373	S:S373P	nonsynonymous
+OR152178.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/JAL_8039/2022, complete genome	2022	22C	C22686T	22686	C	T	S	375	S:S375F	nonsynonymous
+OR152178.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/JAL_8039/2022, complete genome	2022	22C	A22688G	22688	A	G	S	376	S:T376A	nonsynonymous
+OR152178.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/JAL_8039/2022, complete genome	2022	22C	G22775A	22775	G	A	S	405	S:D405N	nonsynonymous
+OR152178.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/JAL_8039/2022, complete genome	2022	22C	A22786C	22786	A	C	S	408	S:R408S	nonsynonymous
+OR152178.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/JAL_8039/2022, complete genome	2022	22C	G22813T	22813	G	T	S	417	S:K417N	nonsynonymous
+OR152178.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/JAL_8039/2022, complete genome	2022	22C	T22882G	22882	T	G	S	440	S:N440K	nonsynonymous
+OR152178.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/JAL_8039/2022, complete genome	2022	22C	T22917A	22917	T	A	S	452	S:L452Q	nonsynonymous
+OR152178.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/JAL_8039/2022, complete genome	2022	22C	G22992A	22992	G	A	S	477	S:S477N	nonsynonymous
+OR152178.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/JAL_8039/2022, complete genome	2022	22C	C22995A	22995	C	A	S	478	S:T478K	nonsynonymous
+OR152178.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/JAL_8039/2022, complete genome	2022	22C	A23013C	23013	A	C	S	484	S:E484A	nonsynonymous
+OR152178.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/JAL_8039/2022, complete genome	2022	22C	A23040G	23040	A	G	S	493	S:Q493R	nonsynonymous
+OR152178.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/JAL_8039/2022, complete genome	2022	22C	A23055G	23055	A	G	S	498	S:Q498R	nonsynonymous
+OR152178.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/JAL_8039/2022, complete genome	2022	22C	A23063T	23063	A	T	S	501	S:N501Y	nonsynonymous
+OR152178.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/JAL_8039/2022, complete genome	2022	22C	T23075C	23075	T	C	S	505	S:Y505H	nonsynonymous
+OR152178.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/JAL_8039/2022, complete genome	2022	22C	A23403G	23403	A	G	S	614	S:D614G	nonsynonymous
+OR152178.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/JAL_8039/2022, complete genome	2022	22C	C23525T	23525	C	T	S	655	S:H655Y	nonsynonymous
+OR152178.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/JAL_8039/2022, complete genome	2022	22C	T23599G	23599	T	G	S	679	S:N679K	nonsynonymous
+OR152178.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/JAL_8039/2022, complete genome	2022	22C	C23604A	23604	C	A	S	681	S:P681H	nonsynonymous
+OR152178.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/JAL_8039/2022, complete genome	2022	22C	C23673T	23673	C	T	S	704	S:S704L	nonsynonymous
+OR152178.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/JAL_8039/2022, complete genome	2022	22C	C23854A	23854	C	A	S	764	S:N764K	nonsynonymous
+OR152178.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/JAL_8039/2022, complete genome	2022	22C	G23948T	23948	G	T	S	796	S:D796Y	nonsynonymous
+OR152178.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/JAL_8039/2022, complete genome	2022	22C	A24424T	24424	A	T	S	954	S:Q954H	nonsynonymous
+OR152178.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/JAL_8039/2022, complete genome	2022	22C	T24469A	24469	T	A	S	969	S:N969K	nonsynonymous
+OR152178.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/JAL_8039/2022, complete genome	2022	22C	C25000T	25000	C	T	S	1146		synonymous
+OR152178.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/JAL_8039/2022, complete genome	2022	22C	C25416T	25416	C	T	ORF3a	8		synonymous
+OR152178.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/JAL_8039/2022, complete genome	2022	22C	C25584T	25584	C	T	ORF3a	64		synonymous
+OR152178.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/JAL_8039/2022, complete genome	2022	22C	C26060T	26060	C	T	ORF3a	223	ORF3a:T223I	nonsynonymous
+OR152178.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/JAL_8039/2022, complete genome	2022	22C	C26270T	26270	C	T	E	9	E:T9I	nonsynonymous
+OR152178.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/JAL_8039/2022, complete genome	2022	22C	C26577G	26577	C	G	M	19	M:Q19E	nonsynonymous
+OR152178.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/JAL_8039/2022, complete genome	2022	22C	G26709A	26709	G	A	M	63	M:A63T	nonsynonymous
+OR152178.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/JAL_8039/2022, complete genome	2022	22C	C26858T	26858	C	T	M	112		synonymous
+OR152178.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/JAL_8039/2022, complete genome	2022	22C	A27259C	27259	A	C	ORF6	20		synonymous
+OR152178.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/JAL_8039/2022, complete genome	2022	22C	G27382C	27382	G	C	ORF6	61	ORF6:D61L	nonsynonymous
+OR152178.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/JAL_8039/2022, complete genome	2022	22C	A27383T	27383	A	T	ORF6	61	ORF6:D61L	nonsynonymous
+OR152178.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/JAL_8039/2022, complete genome	2022	22C	T27384C	27384	T	C	ORF6	61	ORF6:D61L	nonsynonymous
+OR152178.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/JAL_8039/2022, complete genome	2022	22C	C27807T	27807	C	T	ORF7b	18		synonymous
+OR152178.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/JAL_8039/2022, complete genome	2022	22C	A28271T	28271	A	T	intergenic			noncoding
+OR152178.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/JAL_8039/2022, complete genome	2022	22C	C28311T	28311	C	T	N	13	N:P13L	nonsynonymous
+OR152178.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/JAL_8039/2022, complete genome	2022	22C	C28311T	28311	C	T	ORF9b	10	ORF9b:P10S	nonsynonymous
+OR152178.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/JAL_8039/2022, complete genome	2022	22C	A28877T	28877	A	T	N	202		synonymous
+OR152178.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/JAL_8039/2022, complete genome	2022	22C	G28878C	28878	G	C	N	202		synonymous
+OR152178.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/JAL_8039/2022, complete genome	2022	22C	G28881A	28881	G	A	N	203	N:R203K	nonsynonymous
+OR152178.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/JAL_8039/2022, complete genome	2022	22C	G28882A	28882	G	A	N	203	N:R203K	nonsynonymous
+OR152178.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/JAL_8039/2022, complete genome	2022	22C	G28883C	28883	G	C	N	204	N:G204R	nonsynonymous
+OR152178.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/JAL_8039/2022, complete genome	2022	22C	A29510C	29510	A	C	N	413	N:S413R	nonsynonymous
 OQ362797.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/USA/NMDOH-2022148083/2022, complete genome	2022	22B	C241T	241	C	T	intergenic			noncoding
 OQ362797.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/USA/NMDOH-2022148083/2022, complete genome	2022	22B	C593T	593	C	T	ORF1a	110	ORF1a:H110Y	nonsynonymous
 OQ362797.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/USA/NMDOH-2022148083/2022, complete genome	2022	22B	T670G	670	T	G	ORF1a	135	ORF1a:S135R	nonsynonymous
@@ -11631,6 +12364,86 @@ OQ620333.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/hu
 OQ620333.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/USA/NM-UNM-TRL_0722_477/2022, complete genome	2023	22C	G28883C	28883	G	C	N	204	N:G204R	nonsynonymous
 OQ620333.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/USA/NM-UNM-TRL_0722_477/2022, complete genome	2023	22C	A29510C	29510	A	C	N	413	N:S413R	nonsynonymous
 OQ620333.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/USA/NM-UNM-TRL_0722_477/2022, complete genome	2023	22C	C29625T	29625	C	T	intergenic			noncoding
+OR155144.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/PUE_10130/2022, complete genome	2023	22C	C241T	241	C	T	intergenic			noncoding
+OR155144.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/PUE_10130/2022, complete genome	2023	22C	A257G	257	A	G	intergenic			noncoding
+OR155144.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/PUE_10130/2022, complete genome	2023	22C	T670G	670	T	G	ORF1a	135	ORF1a:S135R	nonsynonymous
+OR155144.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/PUE_10130/2022, complete genome	2023	22C	C2790T	2790	C	T	ORF1a	842	ORF1a:T842I	nonsynonymous
+OR155144.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/PUE_10130/2022, complete genome	2023	22C	C3037T	3037	C	T	ORF1a	924		synonymous
+OR155144.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/PUE_10130/2022, complete genome	2023	22C	G4184A	4184	G	A	ORF1a	1307	ORF1a:G1307S	nonsynonymous
+OR155144.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/PUE_10130/2022, complete genome	2023	22C	C5239T	5239	C	T	ORF1a	1658		synonymous
+OR155144.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/PUE_10130/2022, complete genome	2023	22C	C9344T	9344	C	T	ORF1a	3027	ORF1a:L3027F	nonsynonymous
+OR155144.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/PUE_10130/2022, complete genome	2023	22C	A9424G	9424	A	G	ORF1a	3053		synonymous
+OR155144.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/PUE_10130/2022, complete genome	2023	22C	C9534T	9534	C	T	ORF1a	3090	ORF1a:T3090I	nonsynonymous
+OR155144.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/PUE_10130/2022, complete genome	2023	22C	C9866T	9866	C	T	ORF1a	3201	ORF1a:L3201F	nonsynonymous
+OR155144.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/PUE_10130/2022, complete genome	2023	22C	C10029T	10029	C	T	ORF1a	3255	ORF1a:T3255I	nonsynonymous
+OR155144.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/PUE_10130/2022, complete genome	2023	22C	C10198T	10198	C	T	ORF1a	3311		synonymous
+OR155144.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/PUE_10130/2022, complete genome	2023	22C	G10447A	10447	G	A	ORF1a	3394		synonymous
+OR155144.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/PUE_10130/2022, complete genome	2023	22C	C10449A	10449	C	A	ORF1a	3395	ORF1a:P3395H	nonsynonymous
+OR155144.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/PUE_10130/2022, complete genome	2023	22C	C11674T	11674	C	T	ORF1a	3803		synonymous
+OR155144.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/PUE_10130/2022, complete genome	2023	22C	A12180G	12180	A	G	ORF1a	3972	ORF1a:D3972G	nonsynonymous
+OR155144.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/PUE_10130/2022, complete genome	2023	22C	C12880T	12880	C	T	ORF1a	4205		synonymous
+OR155144.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/PUE_10130/2022, complete genome	2023	22C	C14408T	14408	C	T	ORF1b	314	ORF1b:P314L	nonsynonymous
+OR155144.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/PUE_10130/2022, complete genome	2023	22C	T15009C	15009	T	C	ORF1b	514		synonymous
+OR155144.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/PUE_10130/2022, complete genome	2023	22C	C15714T	15714	C	T	ORF1b	749		synonymous
+OR155144.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/PUE_10130/2022, complete genome	2023	22C	C17410T	17410	C	T	ORF1b	1315	ORF1b:R1315C	nonsynonymous
+OR155144.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/PUE_10130/2022, complete genome	2023	22C	A18163G	18163	A	G	ORF1b	1566	ORF1b:I1566V	nonsynonymous
+OR155144.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/PUE_10130/2022, complete genome	2023	22C	C18747T	18747	C	T	ORF1b	1760		synonymous
+OR155144.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/PUE_10130/2022, complete genome	2023	22C	C19955T	19955	C	T	ORF1b	2163	ORF1b:T2163I	nonsynonymous
+OR155144.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/PUE_10130/2022, complete genome	2023	22C	A20055G	20055	A	G	ORF1b	2196		synonymous
+OR155144.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/PUE_10130/2022, complete genome	2023	22C	A21215G	21215	A	G	ORF1b	2583	ORF1b:H2583R	nonsynonymous
+OR155144.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/PUE_10130/2022, complete genome	2023	22C	C21618T	21618	C	T	S	19	S:T19I	nonsynonymous
+OR155144.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/PUE_10130/2022, complete genome	2023	22C	C21721T	21721	C	T	S	53		synonymous
+OR155144.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/PUE_10130/2022, complete genome	2023	22C	G21987A	21987	G	A	S	142	S:G142D	nonsynonymous
+OR155144.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/PUE_10130/2022, complete genome	2023	22C	T22200G	22200	T	G	S	213	S:V213G	nonsynonymous
+OR155144.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/PUE_10130/2022, complete genome	2023	22C	G22578A	22578	G	A	S	339	S:G339D	nonsynonymous
+OR155144.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/PUE_10130/2022, complete genome	2023	22C	C22674T	22674	C	T	S	371	S:S371F	nonsynonymous
+OR155144.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/PUE_10130/2022, complete genome	2023	22C	T22679C	22679	T	C	S	373	S:S373P	nonsynonymous
+OR155144.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/PUE_10130/2022, complete genome	2023	22C	C22686T	22686	C	T	S	375	S:S375F	nonsynonymous
+OR155144.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/PUE_10130/2022, complete genome	2023	22C	A22688G	22688	A	G	S	376	S:T376A	nonsynonymous
+OR155144.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/PUE_10130/2022, complete genome	2023	22C	G22775A	22775	G	A	S	405	S:D405N	nonsynonymous
+OR155144.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/PUE_10130/2022, complete genome	2023	22C	A22786C	22786	A	C	S	408	S:R408S	nonsynonymous
+OR155144.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/PUE_10130/2022, complete genome	2023	22C	G22813T	22813	G	T	S	417	S:K417N	nonsynonymous
+OR155144.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/PUE_10130/2022, complete genome	2023	22C	T22882G	22882	T	G	S	440	S:N440K	nonsynonymous
+OR155144.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/PUE_10130/2022, complete genome	2023	22C	T22917A	22917	T	A	S	452	S:L452Q	nonsynonymous
+OR155144.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/PUE_10130/2022, complete genome	2023	22C	G22992A	22992	G	A	S	477	S:S477N	nonsynonymous
+OR155144.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/PUE_10130/2022, complete genome	2023	22C	C22995A	22995	C	A	S	478	S:T478K	nonsynonymous
+OR155144.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/PUE_10130/2022, complete genome	2023	22C	A23013C	23013	A	C	S	484	S:E484A	nonsynonymous
+OR155144.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/PUE_10130/2022, complete genome	2023	22C	A23040G	23040	A	G	S	493	S:Q493R	nonsynonymous
+OR155144.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/PUE_10130/2022, complete genome	2023	22C	A23055G	23055	A	G	S	498	S:Q498R	nonsynonymous
+OR155144.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/PUE_10130/2022, complete genome	2023	22C	A23063T	23063	A	T	S	501	S:N501Y	nonsynonymous
+OR155144.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/PUE_10130/2022, complete genome	2023	22C	T23075C	23075	T	C	S	505	S:Y505H	nonsynonymous
+OR155144.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/PUE_10130/2022, complete genome	2023	22C	A23403G	23403	A	G	S	614	S:D614G	nonsynonymous
+OR155144.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/PUE_10130/2022, complete genome	2023	22C	C23525T	23525	C	T	S	655	S:H655Y	nonsynonymous
+OR155144.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/PUE_10130/2022, complete genome	2023	22C	T23599G	23599	T	G	S	679	S:N679K	nonsynonymous
+OR155144.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/PUE_10130/2022, complete genome	2023	22C	C23604A	23604	C	A	S	681	S:P681H	nonsynonymous
+OR155144.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/PUE_10130/2022, complete genome	2023	22C	C23673T	23673	C	T	S	704	S:S704L	nonsynonymous
+OR155144.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/PUE_10130/2022, complete genome	2023	22C	C23854A	23854	C	A	S	764	S:N764K	nonsynonymous
+OR155144.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/PUE_10130/2022, complete genome	2023	22C	G23948T	23948	G	T	S	796	S:D796Y	nonsynonymous
+OR155144.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/PUE_10130/2022, complete genome	2023	22C	A24424T	24424	A	T	S	954	S:Q954H	nonsynonymous
+OR155144.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/PUE_10130/2022, complete genome	2023	22C	T24469A	24469	T	A	S	969	S:N969K	nonsynonymous
+OR155144.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/PUE_10130/2022, complete genome	2023	22C	C25000T	25000	C	T	S	1146		synonymous
+OR155144.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/PUE_10130/2022, complete genome	2023	22C	C25416T	25416	C	T	ORF3a	8		synonymous
+OR155144.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/PUE_10130/2022, complete genome	2023	22C	C25584T	25584	C	T	ORF3a	64		synonymous
+OR155144.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/PUE_10130/2022, complete genome	2023	22C	C26060T	26060	C	T	ORF3a	223	ORF3a:T223I	nonsynonymous
+OR155144.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/PUE_10130/2022, complete genome	2023	22C	C26270T	26270	C	T	E	9	E:T9I	nonsynonymous
+OR155144.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/PUE_10130/2022, complete genome	2023	22C	C26577G	26577	C	G	M	19	M:Q19E	nonsynonymous
+OR155144.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/PUE_10130/2022, complete genome	2023	22C	G26709A	26709	G	A	M	63	M:A63T	nonsynonymous
+OR155144.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/PUE_10130/2022, complete genome	2023	22C	C26858T	26858	C	T	M	112		synonymous
+OR155144.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/PUE_10130/2022, complete genome	2023	22C	A27259C	27259	A	C	ORF6	20		synonymous
+OR155144.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/PUE_10130/2022, complete genome	2023	22C	G27382C	27382	G	C	ORF6	61	ORF6:D61L	nonsynonymous
+OR155144.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/PUE_10130/2022, complete genome	2023	22C	A27383T	27383	A	T	ORF6	61	ORF6:D61L	nonsynonymous
+OR155144.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/PUE_10130/2022, complete genome	2023	22C	T27384C	27384	T	C	ORF6	61	ORF6:D61L	nonsynonymous
+OR155144.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/PUE_10130/2022, complete genome	2023	22C	C27807T	27807	C	T	ORF7b	18		synonymous
+OR155144.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/PUE_10130/2022, complete genome	2023	22C	C28093T	28093	C	T	ORF8	67	ORF8:S67F	nonsynonymous
+OR155144.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/PUE_10130/2022, complete genome	2023	22C	A28271T	28271	A	T	intergenic			noncoding
+OR155144.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/PUE_10130/2022, complete genome	2023	22C	T28297C	28297	T	C	N	8		synonymous
+OR155144.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/PUE_10130/2022, complete genome	2023	22C	T28297C	28297	T	C	ORF9b	5	ORF9b:I5T	nonsynonymous
+OR155144.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/PUE_10130/2022, complete genome	2023	22C	C28311T	28311	C	T	N	13	N:P13L	nonsynonymous
+OR155144.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/PUE_10130/2022, complete genome	2023	22C	C28311T	28311	C	T	ORF9b	10	ORF9b:P10S	nonsynonymous
+OR155144.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/PUE_10130/2022, complete genome	2023	22C	G28881A	28881	G	A	N	203	N:R203K	nonsynonymous
+OR155144.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/PUE_10130/2022, complete genome	2023	22C	G28882A	28882	G	A	N	203	N:R203K	nonsynonymous
+OR155144.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/PUE_10130/2022, complete genome	2023	22C	G28883C	28883	G	C	N	204	N:G204R	nonsynonymous
+OR155144.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/PUE_10130/2022, complete genome	2023	22C	A29510C	29510	A	C	N	413	N:S413R	nonsynonymous
 OR151288.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/MIC_6474/2022, complete genome	2023	21L	C241T	241	C	T	intergenic			noncoding
 OR151288.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/MIC_6474/2022, complete genome	2023	21L	T670G	670	T	G	ORF1a	135	ORF1a:S135R	nonsynonymous
 OR151288.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/MIC_6474/2022, complete genome	2023	21L	C2790T	2790	C	T	ORF1a	842	ORF1a:T842I	nonsynonymous
@@ -13571,6 +14384,75 @@ OR153680.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/hu
 OR153680.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/YUC_9450/2022, complete genome	2023	21L	G28882A	28882	G	A	N	203	N:R203K	nonsynonymous
 OR153680.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/YUC_9450/2022, complete genome	2023	21L	G28883C	28883	G	C	N	204	N:G204R	nonsynonymous
 OR153680.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/YUC_9450/2022, complete genome	2023	21L	A29510C	29510	A	C	N	413	N:S413R	nonsynonymous
+OR152349.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/MEX_8324/2022, complete genome	2023	21L	C241T	241	C	T	intergenic			noncoding
+OR152349.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/MEX_8324/2022, complete genome	2023	21L	T670G	670	T	G	ORF1a	135	ORF1a:S135R	nonsynonymous
+OR152349.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/MEX_8324/2022, complete genome	2023	21L	C3037T	3037	C	T	ORF1a	924		synonymous
+OR152349.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/MEX_8324/2022, complete genome	2023	21L	G4184A	4184	G	A	ORF1a	1307	ORF1a:G1307S	nonsynonymous
+OR152349.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/MEX_8324/2022, complete genome	2023	21L	C4321T	4321	C	T	ORF1a	1352		synonymous
+OR152349.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/MEX_8324/2022, complete genome	2023	21L	C6636T	6636	C	T	ORF1a	2124	ORF1a:T2124I	nonsynonymous
+OR152349.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/MEX_8324/2022, complete genome	2023	21L	C9344T	9344	C	T	ORF1a	3027	ORF1a:L3027F	nonsynonymous
+OR152349.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/MEX_8324/2022, complete genome	2023	21L	A9424G	9424	A	G	ORF1a	3053		synonymous
+OR152349.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/MEX_8324/2022, complete genome	2023	21L	C9534T	9534	C	T	ORF1a	3090	ORF1a:T3090I	nonsynonymous
+OR152349.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/MEX_8324/2022, complete genome	2023	21L	C9866T	9866	C	T	ORF1a	3201	ORF1a:L3201F	nonsynonymous
+OR152349.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/MEX_8324/2022, complete genome	2023	21L	C10029T	10029	C	T	ORF1a	3255	ORF1a:T3255I	nonsynonymous
+OR152349.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/MEX_8324/2022, complete genome	2023	21L	C10198T	10198	C	T	ORF1a	3311		synonymous
+OR152349.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/MEX_8324/2022, complete genome	2023	21L	G10447A	10447	G	A	ORF1a	3394		synonymous
+OR152349.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/MEX_8324/2022, complete genome	2023	21L	C10449A	10449	C	A	ORF1a	3395	ORF1a:P3395H	nonsynonymous
+OR152349.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/MEX_8324/2022, complete genome	2023	21L	C12880T	12880	C	T	ORF1a	4205		synonymous
+OR152349.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/MEX_8324/2022, complete genome	2023	21L	C14408T	14408	C	T	ORF1b	314	ORF1b:P314L	nonsynonymous
+OR152349.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/MEX_8324/2022, complete genome	2023	21L	C15714T	15714	C	T	ORF1b	749		synonymous
+OR152349.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/MEX_8324/2022, complete genome	2023	21L	C17410T	17410	C	T	ORF1b	1315	ORF1b:R1315C	nonsynonymous
+OR152349.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/MEX_8324/2022, complete genome	2023	21L	A18163G	18163	A	G	ORF1b	1566	ORF1b:I1566V	nonsynonymous
+OR152349.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/MEX_8324/2022, complete genome	2023	21L	C19955T	19955	C	T	ORF1b	2163	ORF1b:T2163I	nonsynonymous
+OR152349.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/MEX_8324/2022, complete genome	2023	21L	A20055G	20055	A	G	ORF1b	2196		synonymous
+OR152349.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/MEX_8324/2022, complete genome	2023	21L	C21618T	21618	C	T	S	19	S:T19I	nonsynonymous
+OR152349.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/MEX_8324/2022, complete genome	2023	21L	G21987A	21987	G	A	S	142	S:G142D	nonsynonymous
+OR152349.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/MEX_8324/2022, complete genome	2023	21L	T22200G	22200	T	G	S	213	S:V213G	nonsynonymous
+OR152349.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/MEX_8324/2022, complete genome	2023	21L	G22578A	22578	G	A	S	339	S:G339D	nonsynonymous
+OR152349.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/MEX_8324/2022, complete genome	2023	21L	T22679C	22679	T	C	S	373	S:S373P	nonsynonymous
+OR152349.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/MEX_8324/2022, complete genome	2023	21L	C22686T	22686	C	T	S	375	S:S375F	nonsynonymous
+OR152349.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/MEX_8324/2022, complete genome	2023	21L	A22688G	22688	A	G	S	376	S:T376A	nonsynonymous
+OR152349.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/MEX_8324/2022, complete genome	2023	21L	G22775A	22775	G	A	S	405	S:D405N	nonsynonymous
+OR152349.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/MEX_8324/2022, complete genome	2023	21L	A22786C	22786	A	C	S	408	S:R408S	nonsynonymous
+OR152349.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/MEX_8324/2022, complete genome	2023	21L	C22792T	22792	C	T	S	410		synonymous
+OR152349.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/MEX_8324/2022, complete genome	2023	21L	G22813T	22813	G	T	S	417	S:K417N	nonsynonymous
+OR152349.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/MEX_8324/2022, complete genome	2023	21L	T22882G	22882	T	G	S	440	S:N440K	nonsynonymous
+OR152349.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/MEX_8324/2022, complete genome	2023	21L	G22992A	22992	G	A	S	477	S:S477N	nonsynonymous
+OR152349.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/MEX_8324/2022, complete genome	2023	21L	C22995A	22995	C	A	S	478	S:T478K	nonsynonymous
+OR152349.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/MEX_8324/2022, complete genome	2023	21L	A23013C	23013	A	C	S	484	S:E484A	nonsynonymous
+OR152349.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/MEX_8324/2022, complete genome	2023	21L	A23055G	23055	A	G	S	498	S:Q498R	nonsynonymous
+OR152349.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/MEX_8324/2022, complete genome	2023	21L	A23063T	23063	A	T	S	501	S:N501Y	nonsynonymous
+OR152349.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/MEX_8324/2022, complete genome	2023	21L	T23075C	23075	T	C	S	505	S:Y505H	nonsynonymous
+OR152349.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/MEX_8324/2022, complete genome	2023	21L	A23403G	23403	A	G	S	614	S:D614G	nonsynonymous
+OR152349.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/MEX_8324/2022, complete genome	2023	21L	T23487G	23487	T	G	S	642	S:V642G	nonsynonymous
+OR152349.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/MEX_8324/2022, complete genome	2023	21L	C23525T	23525	C	T	S	655	S:H655Y	nonsynonymous
+OR152349.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/MEX_8324/2022, complete genome	2023	21L	T23599G	23599	T	G	S	679	S:N679K	nonsynonymous
+OR152349.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/MEX_8324/2022, complete genome	2023	21L	C23604A	23604	C	A	S	681	S:P681H	nonsynonymous
+OR152349.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/MEX_8324/2022, complete genome	2023	21L	C23854A	23854	C	A	S	764	S:N764K	nonsynonymous
+OR152349.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/MEX_8324/2022, complete genome	2023	21L	G23948T	23948	G	T	S	796	S:D796Y	nonsynonymous
+OR152349.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/MEX_8324/2022, complete genome	2023	21L	A24424T	24424	A	T	S	954	S:Q954H	nonsynonymous
+OR152349.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/MEX_8324/2022, complete genome	2023	21L	A24433G	24433	A	G	S	957		synonymous
+OR152349.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/MEX_8324/2022, complete genome	2023	21L	T24469A	24469	T	A	S	969	S:N969K	nonsynonymous
+OR152349.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/MEX_8324/2022, complete genome	2023	21L	C25000T	25000	C	T	S	1146		synonymous
+OR152349.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/MEX_8324/2022, complete genome	2023	21L	C25584T	25584	C	T	ORF3a	64		synonymous
+OR152349.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/MEX_8324/2022, complete genome	2023	21L	C25624T	25624	C	T	ORF3a	78	ORF3a:H78Y	nonsynonymous
+OR152349.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/MEX_8324/2022, complete genome	2023	21L	C26060T	26060	C	T	ORF3a	223	ORF3a:T223I	nonsynonymous
+OR152349.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/MEX_8324/2022, complete genome	2023	21L	C26270T	26270	C	T	E	9	E:T9I	nonsynonymous
+OR152349.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/MEX_8324/2022, complete genome	2023	21L	C26577G	26577	C	G	M	19	M:Q19E	nonsynonymous
+OR152349.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/MEX_8324/2022, complete genome	2023	21L	G26709A	26709	G	A	M	63	M:A63T	nonsynonymous
+OR152349.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/MEX_8324/2022, complete genome	2023	21L	C26858T	26858	C	T	M	112		synonymous
+OR152349.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/MEX_8324/2022, complete genome	2023	21L	A27259C	27259	A	C	ORF6	20		synonymous
+OR152349.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/MEX_8324/2022, complete genome	2023	21L	G27382C	27382	G	C	ORF6	61	ORF6:D61L	nonsynonymous
+OR152349.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/MEX_8324/2022, complete genome	2023	21L	A27383T	27383	A	T	ORF6	61	ORF6:D61L	nonsynonymous
+OR152349.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/MEX_8324/2022, complete genome	2023	21L	T27384C	27384	T	C	ORF6	61	ORF6:D61L	nonsynonymous
+OR152349.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/MEX_8324/2022, complete genome	2023	21L	C27807T	27807	C	T	ORF7b	18		synonymous
+OR152349.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/MEX_8324/2022, complete genome	2023	21L	A28271T	28271	A	T	intergenic			noncoding
+OR152349.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/MEX_8324/2022, complete genome	2023	21L	C28311T	28311	C	T	N	13	N:P13L	nonsynonymous
+OR152349.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/MEX_8324/2022, complete genome	2023	21L	C28311T	28311	C	T	ORF9b	10	ORF9b:P10S	nonsynonymous
+OR152349.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/MEX_8324/2022, complete genome	2023	21L	G28881A	28881	G	A	N	203	N:R203K	nonsynonymous
+OR152349.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/MEX_8324/2022, complete genome	2023	21L	G28882A	28882	G	A	N	203	N:R203K	nonsynonymous
+OR152349.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/MEX_8324/2022, complete genome	2023	21L	G28883C	28883	G	C	N	204	N:G204R	nonsynonymous
+OR152349.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/MEX_8324/2022, complete genome	2023	21L	A29510C	29510	A	C	N	413	N:S413R	nonsynonymous
 OR157593.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/ROO_11134/2022, complete genome	2023	22B	C241T	241	C	T	intergenic			noncoding
 OR157593.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/ROO_11134/2022, complete genome	2023	22B	T670G	670	T	G	ORF1a	135	ORF1a:S135R	nonsynonymous
 OR157593.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/ROO_11134/2022, complete genome	2023	22B	C2790T	2790	C	T	ORF1a	842	ORF1a:T842I	nonsynonymous
@@ -14429,6 +15311,88 @@ OR903071.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/hu
 OR903071.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/USA/NMDOH-2023043581/2023, complete genome	2023	23E	G28883C	28883	G	C	N	204	N:G204R	nonsynonymous
 OR903071.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/USA/NMDOH-2023043581/2023, complete genome	2023	23E	A29510C	29510	A	C	N	413	N:S413R	nonsynonymous
 OR903071.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/USA/NMDOH-2023043581/2023, complete genome	2023	23E	G29706T	29706	G	T	intergenic			noncoding
+OR157320.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/NLE_11004/2022, complete genome	2023	22B	C241T	241	C	T	intergenic			noncoding
+OR157320.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/NLE_11004/2022, complete genome	2023	22B	G440T	440	G	T	ORF1a	59	ORF1a:G59C	nonsynonymous
+OR157320.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/NLE_11004/2022, complete genome	2023	22B	T670G	670	T	G	ORF1a	135	ORF1a:S135R	nonsynonymous
+OR157320.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/NLE_11004/2022, complete genome	2023	22B	C1627T	1627	C	T	ORF1a	454		synonymous
+OR157320.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/NLE_11004/2022, complete genome	2023	22B	C2790T	2790	C	T	ORF1a	842	ORF1a:T842I	nonsynonymous
+OR157320.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/NLE_11004/2022, complete genome	2023	22B	C3037T	3037	C	T	ORF1a	924		synonymous
+OR157320.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/NLE_11004/2022, complete genome	2023	22B	G4184A	4184	G	A	ORF1a	1307	ORF1a:G1307S	nonsynonymous
+OR157320.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/NLE_11004/2022, complete genome	2023	22B	C4321T	4321	C	T	ORF1a	1352		synonymous
+OR157320.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/NLE_11004/2022, complete genome	2023	22B	T6979G	6979	T	G	ORF1a	2238		synonymous
+OR157320.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/NLE_11004/2022, complete genome	2023	22B	G9220A	9220	G	A	ORF1a	2985		synonymous
+OR157320.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/NLE_11004/2022, complete genome	2023	22B	C9344T	9344	C	T	ORF1a	3027	ORF1a:L3027F	nonsynonymous
+OR157320.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/NLE_11004/2022, complete genome	2023	22B	A9424G	9424	A	G	ORF1a	3053		synonymous
+OR157320.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/NLE_11004/2022, complete genome	2023	22B	C9534T	9534	C	T	ORF1a	3090	ORF1a:T3090I	nonsynonymous
+OR157320.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/NLE_11004/2022, complete genome	2023	22B	C10029T	10029	C	T	ORF1a	3255	ORF1a:T3255I	nonsynonymous
+OR157320.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/NLE_11004/2022, complete genome	2023	22B	C10198T	10198	C	T	ORF1a	3311		synonymous
+OR157320.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/NLE_11004/2022, complete genome	2023	22B	G10447A	10447	G	A	ORF1a	3394		synonymous
+OR157320.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/NLE_11004/2022, complete genome	2023	22B	C10449A	10449	C	A	ORF1a	3395	ORF1a:P3395H	nonsynonymous
+OR157320.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/NLE_11004/2022, complete genome	2023	22B	C10615T	10615	C	T	ORF1a	3450		synonymous
+OR157320.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/NLE_11004/2022, complete genome	2023	22B	G11053C	11053	G	C	ORF1a	3596	ORF1a:Q3596H	nonsynonymous
+OR157320.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/NLE_11004/2022, complete genome	2023	22B	G12160A	12160	G	A	ORF1a	3965		synonymous
+OR157320.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/NLE_11004/2022, complete genome	2023	22B	C12880T	12880	C	T	ORF1a	4205		synonymous
+OR157320.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/NLE_11004/2022, complete genome	2023	22B	C14408T	14408	C	T	ORF1b	314	ORF1b:P314L	nonsynonymous
+OR157320.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/NLE_11004/2022, complete genome	2023	22B	C15714T	15714	C	T	ORF1b	749		synonymous
+OR157320.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/NLE_11004/2022, complete genome	2023	22B	C16859T	16859	C	T	ORF1b	1131	ORF1b:A1131V	nonsynonymous
+OR157320.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/NLE_11004/2022, complete genome	2023	22B	C17410T	17410	C	T	ORF1b	1315	ORF1b:R1315C	nonsynonymous
+OR157320.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/NLE_11004/2022, complete genome	2023	22B	A18163G	18163	A	G	ORF1b	1566	ORF1b:I1566V	nonsynonymous
+OR157320.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/NLE_11004/2022, complete genome	2023	22B	C19955T	19955	C	T	ORF1b	2163	ORF1b:T2163I	nonsynonymous
+OR157320.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/NLE_11004/2022, complete genome	2023	22B	A20055G	20055	A	G	ORF1b	2196		synonymous
+OR157320.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/NLE_11004/2022, complete genome	2023	22B	T20565A	20565	T	A	ORF1b	2366		synonymous
+OR157320.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/NLE_11004/2022, complete genome	2023	22B	T21348C	21348	T	C	ORF1b	2627		synonymous
+OR157320.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/NLE_11004/2022, complete genome	2023	22B	C21618T	21618	C	T	S	19	S:T19I	nonsynonymous
+OR157320.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/NLE_11004/2022, complete genome	2023	22B	G21987A	21987	G	A	S	142	S:G142D	nonsynonymous
+OR157320.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/NLE_11004/2022, complete genome	2023	22B	T22200G	22200	T	G	S	213	S:V213G	nonsynonymous
+OR157320.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/NLE_11004/2022, complete genome	2023	22B	G22578A	22578	G	A	S	339	S:G339D	nonsynonymous
+OR157320.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/NLE_11004/2022, complete genome	2023	22B	C22674T	22674	C	T	S	371	S:S371F	nonsynonymous
+OR157320.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/NLE_11004/2022, complete genome	2023	22B	T22679C	22679	T	C	S	373	S:S373P	nonsynonymous
+OR157320.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/NLE_11004/2022, complete genome	2023	22B	C22686T	22686	C	T	S	375	S:S375F	nonsynonymous
+OR157320.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/NLE_11004/2022, complete genome	2023	22B	A22688G	22688	A	G	S	376	S:T376A	nonsynonymous
+OR157320.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/NLE_11004/2022, complete genome	2023	22B	G22775A	22775	G	A	S	405	S:D405N	nonsynonymous
+OR157320.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/NLE_11004/2022, complete genome	2023	22B	A22786C	22786	A	C	S	408	S:R408S	nonsynonymous
+OR157320.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/NLE_11004/2022, complete genome	2023	22B	G22813T	22813	G	T	S	417	S:K417N	nonsynonymous
+OR157320.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/NLE_11004/2022, complete genome	2023	22B	T22882G	22882	T	G	S	440	S:N440K	nonsynonymous
+OR157320.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/NLE_11004/2022, complete genome	2023	22B	A22893G	22893	A	G	S	444	S:K444R	nonsynonymous
+OR157320.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/NLE_11004/2022, complete genome	2023	22B	T22917G	22917	T	G	S	452	S:L452R	nonsynonymous
+OR157320.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/NLE_11004/2022, complete genome	2023	22B	G22992A	22992	G	A	S	477	S:S477N	nonsynonymous
+OR157320.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/NLE_11004/2022, complete genome	2023	22B	C22995A	22995	C	A	S	478	S:T478K	nonsynonymous
+OR157320.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/NLE_11004/2022, complete genome	2023	22B	A23013C	23013	A	C	S	484	S:E484A	nonsynonymous
+OR157320.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/NLE_11004/2022, complete genome	2023	22B	T23018G	23018	T	G	S	486	S:F486V	nonsynonymous
+OR157320.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/NLE_11004/2022, complete genome	2023	22B	A23055G	23055	A	G	S	498	S:Q498R	nonsynonymous
+OR157320.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/NLE_11004/2022, complete genome	2023	22B	A23063T	23063	A	T	S	501	S:N501Y	nonsynonymous
+OR157320.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/NLE_11004/2022, complete genome	2023	22B	T23075C	23075	T	C	S	505	S:Y505H	nonsynonymous
+OR157320.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/NLE_11004/2022, complete genome	2023	22B	A23403G	23403	A	G	S	614	S:D614G	nonsynonymous
+OR157320.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/NLE_11004/2022, complete genome	2023	22B	C23525T	23525	C	T	S	655	S:H655Y	nonsynonymous
+OR157320.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/NLE_11004/2022, complete genome	2023	22B	T23599G	23599	T	G	S	679	S:N679K	nonsynonymous
+OR157320.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/NLE_11004/2022, complete genome	2023	22B	C23604A	23604	C	A	S	681	S:P681H	nonsynonymous
+OR157320.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/NLE_11004/2022, complete genome	2023	22B	C23854A	23854	C	A	S	764	S:N764K	nonsynonymous
+OR157320.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/NLE_11004/2022, complete genome	2023	22B	G23948T	23948	G	T	S	796	S:D796Y	nonsynonymous
+OR157320.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/NLE_11004/2022, complete genome	2023	22B	A24424T	24424	A	T	S	954	S:Q954H	nonsynonymous
+OR157320.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/NLE_11004/2022, complete genome	2023	22B	T24469A	24469	T	A	S	969	S:N969K	nonsynonymous
+OR157320.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/NLE_11004/2022, complete genome	2023	22B	C25000T	25000	C	T	S	1146		synonymous
+OR157320.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/NLE_11004/2022, complete genome	2023	22B	C25584T	25584	C	T	ORF3a	64		synonymous
+OR157320.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/NLE_11004/2022, complete genome	2023	22B	C26060T	26060	C	T	ORF3a	223	ORF3a:T223I	nonsynonymous
+OR157320.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/NLE_11004/2022, complete genome	2023	22B	C26270T	26270	C	T	E	9	E:T9I	nonsynonymous
+OR157320.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/NLE_11004/2022, complete genome	2023	22B	G26529A	26529	G	A	M	3	M:D3N	nonsynonymous
+OR157320.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/NLE_11004/2022, complete genome	2023	22B	C26577G	26577	C	G	M	19	M:Q19E	nonsynonymous
+OR157320.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/NLE_11004/2022, complete genome	2023	22B	G26709A	26709	G	A	M	63	M:A63T	nonsynonymous
+OR157320.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/NLE_11004/2022, complete genome	2023	22B	A27038G	27038	A	G	M	172		synonymous
+OR157320.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/NLE_11004/2022, complete genome	2023	22B	C27807T	27807	C	T	ORF7b	18		synonymous
+OR157320.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/NLE_11004/2022, complete genome	2023	22B	C27889T	27889	C	T	intergenic			noncoding
+OR157320.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/NLE_11004/2022, complete genome	2023	22B	A28271T	28271	A	T	intergenic			noncoding
+OR157320.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/NLE_11004/2022, complete genome	2023	22B	C28311T	28311	C	T	N	13	N:P13L	nonsynonymous
+OR157320.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/NLE_11004/2022, complete genome	2023	22B	C28311T	28311	C	T	ORF9b	10	ORF9b:P10S	nonsynonymous
+OR157320.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/NLE_11004/2022, complete genome	2023	22B	A28330G	28330	A	G	N	19		synonymous
+OR157320.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/NLE_11004/2022, complete genome	2023	22B	A28330G	28330	A	G	ORF9b	16	ORF9b:D16G	nonsynonymous
+OR157320.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/NLE_11004/2022, complete genome	2023	22B	A28387G	28387	A	G	N	38		synonymous
+OR157320.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/NLE_11004/2022, complete genome	2023	22B	A28387G	28387	A	G	ORF9b	35	ORF9b:N35S	nonsynonymous
+OR157320.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/NLE_11004/2022, complete genome	2023	22B	C28651T	28651	C	T	N	126		synonymous
+OR157320.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/NLE_11004/2022, complete genome	2023	22B	C28657T	28657	C	T	N	128		synonymous
+OR157320.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/NLE_11004/2022, complete genome	2023	22B	G28881A	28881	G	A	N	203	N:R203K	nonsynonymous
+OR157320.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/NLE_11004/2022, complete genome	2023	22B	G28882A	28882	G	A	N	203	N:R203K	nonsynonymous
+OR157320.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/NLE_11004/2022, complete genome	2023	22B	G28883C	28883	G	C	N	204	N:G204R	nonsynonymous
+OR157320.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/MEX/NLE_11004/2022, complete genome	2023	22B	A29510C	29510	A	C	N	413	N:S413R	nonsynonymous
 OQ157710.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/USA/NM-CDC-LC0965671/2022, complete genome	2023	22E	C241T	241	C	T	intergenic			noncoding
 OQ157710.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/USA/NM-CDC-LC0965671/2022, complete genome	2023	22E	T670G	670	T	G	ORF1a	135	ORF1a:S135R	nonsynonymous
 OQ157710.1 Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/USA/NM-CDC-LC0965671/2022, complete genome	2023	22E	C1931A	1931	C	A	ORF1a	556	ORF1a:Q556K	nonsynonymous
