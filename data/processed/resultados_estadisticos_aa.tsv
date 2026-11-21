@@ -1,0 +1,11 @@
+mutation	gene	year1	year2	freq_year1	freq_year2	delta	test	p_value_periodos	significativo	coef_year	odds_ratio	p_value_tendencia	significativo_periodos	significativo_tendencia	direccion
+S:T478K	S	2021	2022	0.925	0.9875	0.0625	fisher	0.116747	False	2.0153	7.5033	0.0	False	True	aumenta
+ORF1a:T3255I	ORF1a	2021	2022	0.7125	1.0	0.2875	chi2	0.0	True	1.7103	5.5309	0.0	True	True	aumenta
+S:N501Y	S	2021	2022	0.1125	0.8875	0.775	chi2	0.0	True	2.171	8.7666	0.0	True	True	aumenta
+E:T9I	E	2021	2022	0.075	0.9	0.825	chi2	0.0	True	2.2806	9.7821	0.0	True	True	aumenta
+M:A63T	M	2021	2022	0.075	0.9	0.825	chi2	0.0	True	2.2806	9.7821	0.0	True	True	aumenta
+ORF1b:I1566V	ORF1b	2021	2022	0.075	0.9	0.825	chi2	0.0	True	2.2806	9.7821	0.0	True	True	aumenta
+S:D796Y	S	2021	2022	0.075	0.9	0.825	chi2	0.0	True	2.2806	9.7821	0.0	True	True	aumenta
+S:H655Y	S	2021	2022	0.075	0.9	0.825	chi2	0.0	True	2.2806	9.7821	0.0	True	True	aumenta
+S:N679K	S	2021	2022	0.075	0.9	0.825	chi2	0.0	True	2.2806	9.7821	0.0	True	True	aumenta
+S:S477N	S	2021	2022	0.075	0.9	0.825	chi2	0.0	True	2.2806	9.7821	0.0	True	True	aumenta
