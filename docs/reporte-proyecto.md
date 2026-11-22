@@ -1,4 +1,4 @@
-﻿# Análisis de variantes del SARS-CoV-2 en México (2020–2024)
+﻿# Análisis de variantes de SARS-CoV-2 en México (2020–2024)
 
 <!-- AYUDA: Escriban un título breve, específico y descriptivo. Puede ser provisional.
 EJEMPLO: Comparación de genes de resistencia antimicrobiana en genomas de
@@ -12,7 +12,7 @@ Escherichia coli. -->
 | Integrante 2 | Jana Noemí Azamar Ramírez |
 | Integrante 3 | Mario Alejandro Samano Basilio |
 | Fecha de creación | 25/08/2026 |
-| Última actualización | 12/10/2026 |
+| Última actualización | 23/11/2026 |
 | Repositorio | https://github.com/Mario-Samano/analisis_var_gene |
 
 <!-- AYUDA: Mantengan actualizados el estado, la fecha y la versión. La versión debe coincidir con una etiqueta de Git cuando exista una entrega identificable. -->
@@ -27,7 +27,7 @@ que obtenga los datos y genere tablas y visualizaciones comparativas. -->
 
 *Versión preliminar*
 
-El SARS-CoV-2 sigue mutando desde su aparición en 2019, y México fue uno de los países con más defunciones por COVID-19. Este proyecto caracteriza cómo cambió el genoma del virus en México entre 2020 y 2024. Se descargarán de NCBI las secuencias genómicas mexicanas de ese periodo mediante Biopython (`Bio.Entrez`) y se filtrarán por longitud y por contenido de bases ambiguas. Después se alinearán contra la referencia de Wuhan (NC_045512.2) con Nextclade, que asigna clados, llama mutaciones de nucleótidos y aminoácidos y evalúa la calidad de cada secuencia. Con pandas se anotarán las mutaciones por gen, se clasificarán como sinónimas o no sinónimas y se calcularán sus frecuencias por año o mes y la densidad de variación por gen. Con SciPy y Statsmodels se evaluará si los cambios de frecuencia son estadísticamente significativos, y los resultados se visualizarán con Matplotlib y Seaborn. Todo el análisis estará en un notebook reproducible y versionado en GitHub.
+El SARS-CoV-2 sigue mutando desde su aparición en 2019, y México fue uno de los países con más defunciones por COVID-19. Este proyecto caracteriza cómo cambió el genoma del virus en México entre 2020 y 2024. Se descargarán de NCBI las secuencias genómicas mexicanas de ese periodo mediante Biopython (`Bio.Entrez`) y se filtrarán por longitud y por contenido de bases ambiguas. Después se alinearán contra la referencia de Wuhan (NC_045512.2) con Nextclade, que asigna clados, llama mutaciones de nucleótidos y aminoácidos y evalúa la calidad de cada secuencia. Con pandas se anotarán las mutaciones por gen, se clasificarán como sinónimas o no sinónimas y se calcularán sus frecuencias por año o mes y la densidad de variación por gen. Con SciPy y Statsmodels se evaluará si los cambios de frecuencia son estadísticamente significativos, y los resultados se visualizarán con Matplotlib y Seaborn. Con `BioKEGG` se obtendrán imagenes que ayuden a explicar la vía de transmisión del virus. Todo el análisis estará en un notebook reproducible y versionado en GitHub.
 
 ## 1. Contexto y antecedentes
 
@@ -76,7 +76,8 @@ ser alcanzable durante el semestre.
 EJEMPLO: Desarrollar un flujo reproducible en Python para identificar y comparar
 genes de resistencia en un conjunto de genomas de E. coli. -->
 
-Desarrollar un pipeline reproducible en Python que identifique las mutaciones presentes en genomas de SARS-CoV-2 de México (2020–2023), calcule su frecuencia a lo largo del tiempo y evalúe si los cambios observados son estadísticamente significativos.
+Desarrollo de una herramienta/flujo de trabajo (?) reproducicle en Python que identifique mutaciones presentes en genomas de SARS-CoV-2 de México de los años 2020-2024, clasifique y calcule la frecuencia de las mutaciones y evalúe si los cambios observados son estadísticamente significativos. 
+
 
 ## 5. Preguntas de investigación
 
@@ -96,7 +97,7 @@ de presencia y ausencia obtenida de las anotaciones. -->
 
 **Pregunta:** ¿Son estadísticamente significativos los cambios en la frecuencia de las mutaciones a lo largo del tiempo?
 
-**Evidencia necesaria:** Resultados de pruebas de Chi-cuadrado o exacta de Fisher entre periodos (por ejemplo, 2020 vs 2022) y de una prueba de tendencia temporal (regresión logística o prueba de Cochran-Armitage), con sus valores p.
+**Evidencia necesaria:** Resultados de pruebas de Chi-cuadrado y/o exacta de Fisher entre periodos (por ejemplo, 2021 vs 2022) y de una prueba de tendencia temporal (regresión logística), con sus valores p.
 
 ## 6. Alcance y limitaciones
 
@@ -114,7 +115,6 @@ utilizarán datos clínicos ni se realizará validación experimental. -->
 - Cálculo de frecuencias de mutaciones por periodo y de la densidad de variación por gen.
 - Pruebas estadísticas de comparación entre periodos y de tendencia temporal.
 - Visualización de los resultados.
-- Como paso opcional, validación o búsqueda de recombinación con alineamiento local (BLAST) de regiones específicas, como el gen S.
 
 ### No incluye
 
@@ -170,10 +170,12 @@ EJEMPLO: NCBI RefSeq, GCF_000005845.2, consultado el dd/mm/aaaa. -->
 
 | Fuente | Identificador o versión | URL | Fecha de consulta | Condiciones de uso |
 |:--|:--|:--|:--|:--|
-| NCBI Nucleotide | Búsqueda descrita abajo | https://www.ncbi.nlm.nih.gov/nuccore | Pendiente | Datos públicos |
-| NCBI RefSeq | NC_045512.2 (Wuhan-Hu-1) | https://www.ncbi.nlm.nih.gov/nuccore/NC_045512.2 | Pendiente | Datos públicos |
-| GISAID | Genoma temprano de México (2020); EPI_ISL pendiente | https://gisaid.org | Pendiente | Acceso restringido; no se redistribuye |
-| Nextclade | Dataset nextstrain/sars-cov-2/wuhan-hu-1/orfs; versión pendiente | https://docs.nextstrain.org/projects/nextclade | Pendiente | Código abierto; revisar licencia |
+| NCBI Nucleotide | Búsqueda descrita abajo | https://www.ncbi.nlm.nih.gov/nuccore | 10/10/2026 | Datos públicos |
+| NCBI RefSeq | NC_045512.2 (Wuhan-Hu-1) | https://www.ncbi.nlm.nih.gov/nuccore/NC_045512.2 | 10/10/2026 | Datos públicos |
+| GISAID | Genoma temprano de México (2020); EPI_ISL_412972 | https://gisaid.org | 02/10/2026 | Acceso restringido; no se redistribuye |
+| Nextclade | Dataset nextstrain/sars-cov-2/wuhan-hu-1/orfs; 3.25.0 | https://docs.nextstrain.org/projects/nextclade | 15/10/2026 | Código abierto; revisar licencia |
+| KEGG | KEGG PATHWAY Dataset; versión 120 | https://www.genome.jp/kegg/pathway.html | 16/11/2026 | Código abierto; revisar licencia |
+
 
 **Consulta en NCBI Nucleotide:** `"SARS-CoV-2"[Organism] AND "Mexico"[Location] AND 2020:2023[dp]`
 
@@ -218,7 +220,8 @@ proyecto/
 ├── tests/                 # Pruebas del código
 ├── .gitignore             # Excluye datos grandes y datos de GISAID
 ├── LICENSE                # Detalles de la licencia
-└── README.md              # Introducción y guía rápida de uso
+├── README.md              # Introducción y guía rápida de uso
+└── codemeta.json          # Metadatos del proyecto
 ```
 
 Los datos de NCBI no se guardan en Git; el notebook los descarga con la consulta indicada en 8.1. El genoma de GISAID debe obtenerse con acceso propio y colocarse en `data/raw/gisaid/`.
@@ -284,15 +287,14 @@ EJEMPLO: descarga, validación, transformación, análisis, visualización y pru
 | 1 | Control de calidad | Descartar secuencias < 29 000 bp o con exceso de N | Biopython, pandas | P1, P2 |
 | 2 | Referencias | Descargar NC_045512.2 y usar el genoma de GISAID | Bio.Entrez | P1 |
 | 3 | Alineamiento global | Ejecutar nextclade run y obtener nextclade.tsv | Nextclade CLI | P1 |
-| 4 | Alineamiento local (opcional) | Comparar el gen S con BLAST | Bio.Blast, BLAST+ | P1 |
-| 5 | Anotación de mutaciones | Asignar mutaciones a genes (GFF3); clasificarlas como sinónimas o no sinónimas | pandas, Bio.Seq | P1 |
-| 6 | Frecuencias | Frecuencia por año o mes y densidad de variación por gen | pandas | P1 |
-| 7 | Pruebas estadísticas | Chi-cuadrado o Fisher entre periodos; regresión logística o Cochran-Armitage | SciPy, Statsmodels | P2 |
-| 8 | Visualización | Barras apiladas, líneas, heatmaps y boxplots | Matplotlib, Seaborn | P1, P2 |
-| 9 | Reproducibilidad | Notebook documentado y repositorio en GitHub | Jupyter, Git | Todas |
+| 4 | Anotación de mutaciones | Asignar mutaciones a genes (GFF3); clasificarlas como sinónimas o no sinónimas | pandas, Bio.Seq | P1 |
+| 5 | Frecuencias | Frecuencia por año o mes y densidad de variación por gen | pandas | P1 |
+| 6 | Pruebas estadísticas | Chi-cuadrado y Fisher entre periodos; regresión logística para análisis de tendencia | SciPy, Statsmodels | P2 |
+| 7 | Visualización | Barras apiladas, líneas, heatmaps y boxplots | Matplotlib, Seaborn, BioKEGG | P1, P2 |
+| 8 | Reproducibilidad | Notebook documentado y repositorio en GitHub | Jupyter, Git | Todas |
 
 
-**Flujo general:** Descarga de secuencias (NCBI) → Control de calidad y filtrado → Referencias (NC_045512.2 y genoma de GISAID) → Alineamiento y llamado de mutaciones (Nextclade) → Anotación por gen y clasificación sinónima/no sinónima → Frecuencias temporales y densidad por gen → Pruebas estadísticas → Visualización.
+**Flujo general:** Descarga de secuencias (NCBI) → Control de calidad y filtrado → Referencias (NC_045512.2 y genoma de GISAID) → Alineamiento y llamado de mutaciones (Nextclade) → Anotación por gen y clasificación sinónima/no sinónima → Frecuencias temporales y densidad por gen → Pruebas estadísticas → Visualización → Anotación funcional.
 
 **Pendiente:** Definir el umbral de bases ambiguas (N) para el filtrado y el uso exacto del genoma temprano de GISAID en el análisis (por ejemplo, como segunda referencia para contextualizar la evolución local).
 
@@ -305,17 +307,17 @@ visualización. -->
 
 | Herramienta | Versión | Propósito |
 |:--|:--|:--|
-| Python | Pendiente | Lenguaje principal del pipeline |
-| Biopython (`Bio.Entrez`, `Bio.Seq`, `Bio.Blast`) | Pendiente | Descargar datos de NCBI, leer FASTA/GenBank, traducir secuencias y ejecutar BLAST |
+| Python | 3.13 | Lenguaje principal del pipeline |
+| Biopython (`Bio.Entrez`, `Bio.Seq`) | Pendiente | Descargar datos de NCBI, leer FASTA/GenBank y traducir secuencias |
 | pandas | Pendiente | Gestión de metadatos, lectura de `nextclade.tsv`, frecuencias y densidades |
-| Nextclade CLI | Pendiente | Alineamiento contra la referencia, asignación de clados, llamado de mutaciones y control de calidad |
-| BLAST+ (opcional) | Pendiente | Alineamiento local de regiones específicas |
+| Nextclade CLI | 3.25.0 | Alineamiento contra la referencia, asignación de clados, llamado de mutaciones y control de calidad |
 | SciPy (`scipy.stats`) | Pendiente | Pruebas de Chi-cuadrado y exacta de Fisher |
 | Statsmodels | Pendiente | Regresión logística y análisis de tendencia |
 | Matplotlib | Pendiente | Gráficas base |
 | Seaborn | 0.13.2 | Visualización de frecuencias y densidades |
 | Jupyter Notebook | Pendiente | Documentación y ejecución reproducible del análisis |
 | Git y GitHub | Pendiente | Control de versiones y repositorio |
+| BioKEGG   | Pendiente | Importante para la obtención de material visual para la anotación funcional |
 
 ### 9.3 Estrategia de validación
 
@@ -330,7 +332,8 @@ válidas, identificadores inexistentes y archivos incompletos. -->
 - **Filtrado:** pruebas unitarias con secuencias sintéticas de longitud y contenido de N conocidos, para comprobar que se aplican los umbrales.
 - **Mutaciones:** verificar con mutaciones conocidas, por ejemplo que D614G aparezca en las secuencias del clado correspondiente, y revisar manualmente algunas secuencias en el alineamiento.
 - **Clasificación sinónima/no sinónima:** probar la función con codones de resultado conocido.
-- **Estadística:** confirmar que Chi-cuadrado y Fisher dan resultados coherentes en tablas con conteos altos, y probar el código con datos simulados cuyo cambio de frecuencia se conoce.
+- **Estadística:** Chi-cuadrado y Fisher dan resultados coherentes en tablas con conteos altos y bajos respectivamente. Regresión logística para análisis de tendencia.
+- **Análisis de anotación funcional**: Uso de KEGG Pathway database y discusión de los datos y su relación con la funcionalidad biológica
 - **Revisión cruzada:** toda contribución importante se revisa mediante Pull Request por otra persona del equipo.
 
 ### 9.4 Justificación de la elección de datos y herramientas
@@ -345,6 +348,7 @@ válidas, identificadores inexistentes y archivos incompletos. -->
 - **Genoma temprano de México (GISAID).** Aporta un punto de comparación local de la etapa inicial. Su uso exacto en el análisis está pendiente (ver 9.1).
 - **BLAST como paso opcional.** El alineamiento global ya basta para llamar mutaciones. El local solo se agrega si se quiere estudiar con más detalle una región concreta, como el gen S, o buscar posible recombinación.
 - **pandas, Jupyter, Git y GitHub.** pandas maneja las tablas de metadatos y mutaciones; el notebook documenta cada paso con sus parámetros, y Git y GitHub dan control de versiones y permiten revisar el trabajo por Pull Request.
+- **Bio-Kegg** para obtener las imágenes que ejemplifican visualmente la via de infección de SARS-CoV-2 y su estructura.
 
 ### 9.5 Enfoque del análisis estadístico
 
@@ -358,9 +362,9 @@ válidas, identificadores inexistentes y archivos incompletos. -->
 
 | Objetivo | Prueba | Cuándo se usa |
 |:--|:--|:--|
-| Comparar dos periodos (por ejemplo, 2020 vs 2022) | Prueba exacta de Fisher | Opción por defecto en tablas de 2x2 |
-| Comparar dos periodos | Chi-cuadrado | Cuando todas las frecuencias esperadas son al menos 5 |
-| Tendencia a lo largo de varios periodos | Regresión logística (presencia 0/1 contra tiempo) | Opción principal; da un odds ratio por unidad de tiempo |
+| Comparar dos periodos (2021 vs 2022) | Prueba exacta de Fisher | Opción por defecto en tablas de 2x2 |
+| Comparar dos periodos (2021 vs 2022) | Chi-cuadrado | Cuando todas las frecuencias esperadas son al menos 5 y mayores |
+| Tendencia a lo largo de varios periodos (2020-2024) | Regresión logística (presencia 0/1 contra tiempo) | Opción principal; da un odds ratio por unidad de tiempo |
 
 
 **Justificación de la elección de las pruebas.**
@@ -369,11 +373,11 @@ válidas, identificadores inexistentes y archivos incompletos. -->
 - **Por qué Fisher como opción por defecto.** La prueba exacta de Fisher no depende de una aproximación y es válida con conteos pequeños. Esto importa aquí porque habrá mutaciones raras y periodos con pocas secuencias. El Chi-cuadrado es una aproximación que solo es confiable cuando las frecuencias esperadas son suficientes (al menos 5), pero es la prueba más usada para comparar proporciones. Con muestras grandes ambas dan resultados casi iguales, así que usar las dos sirve también como verificación cruzada (ver 9.3).
 - **Por qué regresión logística para la tendencia.** La respuesta es binaria y el predictor es el tiempo, que es una variable ordenada. Un solo coeficiente resume la tendencia como un odds ratio por unidad de tiempo, con su intervalo de confianza y su valor p. Aprovecha todos los periodos a la vez, mientras que comparar pares de periodos obliga a elegir cuáles comparar y multiplica el número de pruebas. Además, el modelo puede ampliarse con covariables, como el clado. Se prefiere a una regresión lineal sobre las frecuencias, porque esa ignora cuántas secuencias hay en cada periodo y puede dar valores fuera de 0 a 1.
 - **Limitación de ambas pruebas de tendencia.** Suponen un cambio en una sola dirección. Una mutación que aumenta y luego desaparece (por ejemplo, la de un clado que circuló unos meses) puede no mostrar tendencia significativa. Por eso estas pruebas se interpretan junto con las gráficas de línea de la etapa 8, y las comparaciones entre periodos de Fisher o Chi-cuadrado ayudan a detectar esos cambios.
-- **Por qué Benjamini-Hochberg para las comparaciones múltiples.** La corrección de Bonferroni es muy conservadora cuando se prueban muchas mutaciones y podría ocultar cambios reales. Benjamini-Hochberg controla la proporción esperada de falsos positivos entre los resultados declarados significativos, lo que es adecuado para un análisis exploratorio como este. Como las mutaciones de un mismo clado están correlacionadas, este método se mantiene válido bajo dependencia positiva, aunque conviene mencionarlo como limitación.
-- **Nivel de significancia.** Se usa 0.05 por convención, aplicado a los valores p ajustados.
+- **Nivel de significancia.** Se usa un p-value = 0.05 por convención, aplicado a los valores p ajustados.
 
 **Cómo se reportan los resultados.** Además del valor p se reportará el tamaño del efecto (diferencia de frecuencias u odds ratio con su intervalo de confianza). Con muchos genomas, diferencias muy pequeñas pueden resultar significativas sin importancia biológica, por lo que el valor p no se interpretará solo.
 
+#### Checar este punto y el de arriba (mención a intervalos de confianza)
 **Comparaciones múltiples.** Al probar muchas mutaciones aumenta la probabilidad de falsos positivos. Se propone corregir los valores p con el método de Benjamini-Hochberg (tasa de falsos descubrimientos, disponible en `statsmodels.stats.multitest`) y considerar significativos los valores ajustados menores a 0.05. Este criterio debe confirmarlo el equipo.
 
 **Supuestos y cuidados.**
@@ -411,7 +415,7 @@ número de genomas usando criterios documentados. -->
 | Pérdida de datos o código | Baja | Alto | Usar Git y GitHub con commits frecuentes; conservar copias de los datos crudos |
 | Tiempo insuficiente para el análisis opcional de BLAST | Media | Bajo | Mantenerlo como opcional y priorizar las etapas 0 a 8 |
 
-## 11. Resultados
+## 11. Resultados (Discutirlo entre los 3)
 
 <!-- AYUDA: Presenten resultados vinculados con preguntas y objetivos. Incluyan
 tablas o figuras con títulos, leyendas y archivos de origen. Describan aquí lo
@@ -420,7 +424,6 @@ EJEMPLO: Tabla de presencia y ausencia generada por src/compare_genes.py.
 PRIMERA SESIÓN: dejen esta sección como pendiente. -->
 
 > Estado: pendiente. Se completará durante el desarrollo.
-
 ## 12. Discusión
 
 <!-- AYUDA: Interpreten los resultados, expliquen si responden las preguntas,
@@ -448,9 +451,9 @@ release final y, cuando corresponda, un DOI.
 EJEMPLO: Código en GitHub bajo MIT; cita disponible en CITATION.cff. -->
 
 **Código:** Almacenado en GitHub (https://github.com/Mario-Samano/analisis_var_gene)  
-**Datos:** Las secuencias de NCBI pueden reobtenerse con la consulta indicada en 8.1. El genoma de GISAID no se distribuye por sus términos de uso; *pendiente* documentar cómo solicitarlo.  
+**Datos:** Las secuencias de NCBI pueden reobtenerse con la consulta indicada en 8.1. El genoma de GISAID no se distribuye por sus términos de uso; pero puede acceder a él si cuenta con un usuario de **GISAID** o descargando el archivo fasta en presente en este repositorio en `data/raw`.  
 **Licencia del código:** [MIT License](https://github.com/Mario-Samano/analisis_var_gene/blob/main/LICENSE)  
-**Cómo citar:** *Pendiente*  
+**Cómo citar:** [CITATION.cff](https://github.com/Mario-Samano/analisis_var_gene/blob/main/CITATION.cff)
 **Versión o release:** *Pendiente*
 
 ## 15. Referencias
@@ -477,6 +480,8 @@ https://doi.org/10.1126/science.277.5331.1453 -->
 6. Korber, B., Fischer, W.M., Gnanakaran, S., Yoon, H., Theiler, J., Abfalterer, W., et al. (2020). Tracking changes in SARS-CoV-2 Spike: evidence that D614G increases infectivity of the COVID-19 virus. *Cell, 182*(4), 812–827. https://doi.org/10.1016/j.cell.2020.06.043
 
 7. Wu, F., Zhao, S., Yu, B., Chen, Y.-M., Wang, W., Song, Z.-G., et al. (2020). A new coronavirus associated with human respiratory disease in China. *Nature, 579*, 265–269. https://doi.org/10.1038/s41586-020-2008-3
+
+8. Taboada B, Zárate S, Iša P, Boukadida C, Vazquez-Perez JA, Muñoz-Medina JE, Ramírez-González JE, Comas-García A, Grajales-Muñiz C, Rincón-Rubio A, Matías-Florentino M, Sanchez-Flores A, Mendieta-Condado E, Verleyen J, Barrera-Badillo G, Hernández-Rivas L, Mejía-Nepomuceno F, Martínez-Orozco JA, Becerril-Vargas E, López S, López-Martínez I, Ávila-Ríos S, Arias CF. Genetic Analysis of SARS-CoV-2 Variants in Mexico during the First Year of the COVID-19 Pandemic. Viruses. 2021 Oct 26;13(11):2161. doi: 10.3390/v13112161. PMID: 34834967; PMCID: PMC8622467. 
 
 ---
 
