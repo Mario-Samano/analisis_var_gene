@@ -39,7 +39,6 @@ proyecto/
 ├── notebooks/  # Carpeta que contiene y organiza los códigos generados dependiendo de su función
 ├── results/   # Se guardarán aquí posteriormente los resultados obtenidos
 ├── src/   # Carpeta que contiene el código que se desarrollará 
-└── tests/   # Resultados de pruebas realizadas a lo largo del proyecto
 ├── LICENSE    # Detalles de la licencia
 ├── README.md    # Introducción y guía rápida de uso
 ├── CITATION.cff  # Archivo con instrucciones para citar este repositorio
@@ -65,7 +64,6 @@ proyecto/
 | Seaborn     | Importante para la visualización de frecuencias y de densidades                                                                                                | 0.11.1 |
 | BioKEGG     | Importante para la obtención de material visual para la anotación funcional                                                                                    | 1.88 |
 
-- [Recurso computacional o condición de acceso]
 
 
 ## Datos
@@ -111,8 +109,6 @@ La procedencia y características detalladas se describen en el
 
 ## Uso
 
-[Expliquen qué hace el siguiente comando y qué entradas necesita.]
-
 Para descargas los datos y ver sus outputs, ejecute:
 ```bash
     python notebooks/download_genomes.ipynb 
@@ -122,7 +118,7 @@ El comando generará en `/data/raw/`:
 - ncbi_{year}.fasta (2020-2024)
 - reference/wuhan_ref.fasta
 
-Y en "data/processed/":
+Y en `data/processed/`:
 - boxplots_scatterplots_generales.png
 - tendencias_genomas_longitud.png
 
@@ -236,8 +232,8 @@ figuras utilizadas en el reporte. Sus nombres esperados deben indicarse aquí.
 ## Documentación
 
 - [Reporte del proyecto]([docs/reporte-proyecto.md](https://github.com/Mario-Samano/analisis_var_gene/blob/main/docs/reporte-proyecto.md)): contiene el problema, las preguntas, la metodología y los resultados obtenidos.
-- [CITATION]([CITATION.cff](https://github.com/Mario-Samano/analisis_var_gene/tree/main/results/images)): contiene la información para citar este proyeecto.
-- codemeta.json ([codemeta.json](**_agregar_**)): archivo con la metadadta del proyecto.
+- [CITATION]([CITATION.cff](https://github.com/Mario-Samano/analisis_var_gene/tree/main/results/images)): contiene la información para citar este proyecto.
+- [codemeta.json]([codemeta.json](https://github.com/Mario-Samano/analisis_var_gene/blob/main/codemeta.json)): archivo con la metadadta del proyecto.
 - [LICENSE](https://github.com/Mario-Samano/analisis_var_gene/blob/main/LICENSE): Licencia utilizada en el proyecto. 
 
 <!--

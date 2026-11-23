@@ -25,8 +25,6 @@ EJEMPLO: Se analizarán genomas de E. coli disponibles en NCBI para identificar
 y comparar genes de resistencia. Se desarrollará un flujo reproducible en Python
 que obtenga los datos y genere tablas y visualizaciones comparativas. -->
 
-*Versión preliminar*
-
 El SARS-CoV-2 sigue mutando desde su aparición en 2019, y México fue uno de los países con más defunciones por COVID-19. Este proyecto caracteriza cómo cambió el genoma del virus en México entre 2020 y 2024. Se descargarán de NCBI las secuencias genómicas mexicanas de ese periodo mediante Biopython (`Bio.Entrez`) y se filtrarán por longitud y por contenido de bases ambiguas. Después se alinearán contra la referencia de Wuhan (NC_045512.2) con Nextclade, que asigna clados, llama mutaciones de nucleótidos y aminoácidos y evalúa la calidad de cada secuencia. Con pandas se anotarán las mutaciones por gen, se clasificarán como sinónimas o no sinónimas y se calcularán sus frecuencias por año o mes y la densidad de variación por gen. Con SciPy y Statsmodels se evaluará si los cambios de frecuencia son estadísticamente significativos, y los resultados se visualizarán con Matplotlib y Seaborn. Con `BioKEGG` se obtendrán imagenes que ayuden a explicar la vía de transmisión del virus. Todo el análisis estará en un notebook reproducible y versionado en GitHub.
 
 ## 1. Contexto y antecedentes
@@ -215,7 +213,6 @@ proyecto/
 │   ├── images/                      # Imagenes (.png) generadas por los notebooks
 │   └── nextclade/                   # Alineamientos globales realizados por NextClade en fasta y .tsv
 ├── src/                             # Código modular (funciones y clases)
-├── tests/                           # Pruebas del código
 ├── .gitignore                       # Excluye datos grandes y datos de GISAID
 ├── LICENSE                          # Detalles de la licencia
 ├── README.md                        # Introducción y guía rápida de uso
@@ -402,7 +399,9 @@ Toda contribución importante debe ser revisada mediante Pull Request por otra
 persona.
 EJEMPLO: Ana desarrolla la descarga y revisa el módulo de visualización. -->
 
-> Estado: pendiente. El equipo definirá las responsabilidades y las revisiones por Pull Request.
+Mario: Análisis estadístico, alineamientos con NextClade y bases de datos.
+Abril: Descarga de genomas, cálculo de frecuencias y densidades de mutaciones y análisis funcional con KEGG.
+Jana: Documentación, análisis estadístico y análisis funcional con KEGG.
 
 ### 10.2 Riesgos y alternativas
 
@@ -429,6 +428,557 @@ tablas o figuras con títulos, leyendas y archivos de origen. Describan aquí lo
 obtenido; interprétenlo en Discusión.
 EJEMPLO: Tabla de presencia y ausencia generada por src/compare_genes.py.
 PRIMERA SESIÓN: dejen esta sección como pendiente. -->
+##### Resultados para contestar la pregunta 1. En los genomas de SARS-CoV-2 de México entre 2020 y 2024, ¿qué mutaciones (de nucleótidos y de aminoácidos) están presentes, en qué genes se concentran y cómo cambia su frecuencia a lo largo del tiempo?
+
+###### Para la creación de las siguientes tablas se utilizaron los archivos .tsv generados por los alineamientos realizados con NextClade.
+
+##### Tabla de conteo del mapeo de los genes, sus coordenadas (start-end) y su longitud; generada por `notebooks/calculating_density_frequencies.ipynb`:
+
+| gene  | start  | end   | length |
+|-------|--------|-------|--------|
+| ORF1a | 266    | 13468 | 13203  |
+| ORF1b | 13468  | 21555 | 8088   |
+| S     | 21563  | 25384 | 3822   |
+| ORF3a | 25393  | 26220 | 828    |
+| E     | 26245  | 26472 | 228    |
+| M     | 26523  | 27191 | 669    |
+| ORF6  | 27202  | 27387 | 186    |
+| ORF7a | 27394  | 27759 | 366    |
+| ORF7b | 27756  | 27887 | 132    |
+| ORF8  | 27894  | 28259 | 366    |
+| N     | 28274  | 29533 | 1260   |
+| ORF9b | 28284  | 26577 | 294    |
+
+Genomas por año: {2020: 80, 2021: 80, 2022: 80, 2023: 80, 2024: 80}
+
+##### Tablas con el conteo general de la clasficación de mutaciones entre sinónimas y no sinónimas generada por `notebooks/calculating_density_frequencies.ipynb` y la tabla con los genes específicos:
+
+| type          |       |
+|---------------|-------|
+| nonsynonymous | 18538 |
+| synonymous    | 5409  |
+| noncoding     | 1001  |
+| unknown       | 51    |
+| deleted_codon | 12    |
+| nonsense      | 7     |
+
+Name: count, dtype: int64
+
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>type</th>
+      <th>deleted_codon</th>
+      <th>noncoding</th>
+      <th>nonsense</th>
+      <th>nonsynonymous</th>
+      <th>synonymous</th>
+      <th>unknown</th>
+      <th>total</th>
+      <th>frac_nonsyn</th>
+    </tr>
+    <tr>
+      <th>gene</th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>S</th>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>9380</td>
+      <td>563</td>
+      <td>51</td>
+      <td>9994</td>
+      <td>0.943</td>
+    </tr>
+    <tr>
+      <th>ORF1a</th>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>3213</td>
+      <td>2593</td>
+      <td>0</td>
+      <td>5806</td>
+      <td>0.553</td>
+    </tr>
+    <tr>
+      <th>ORF1b</th>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>1554</td>
+      <td>1091</td>
+      <td>0</td>
+      <td>2645</td>
+      <td>0.588</td>
+    </tr>
+    <tr>
+      <th>N</th>
+      <td>6</td>
+      <td>0</td>
+      <td>0</td>
+      <td>1730</td>
+      <td>152</td>
+      <td>0</td>
+      <td>1888</td>
+      <td>0.919</td>
+    </tr>
+    <tr>
+      <th>M</th>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>829</td>
+      <td>258</td>
+      <td>0</td>
+      <td>1087</td>
+      <td>0.763</td>
+    </tr>
+    <tr>
+      <th>intergenic</th>
+      <td>0</td>
+      <td>1001</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>1001</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>ORF3a</th>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>427</td>
+      <td>282</td>
+      <td>0</td>
+      <td>709</td>
+      <td>0.602</td>
+    </tr>
+    <tr>
+      <th>ORF6</th>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>384</td>
+      <td>159</td>
+      <td>0</td>
+      <td>543</td>
+      <td>0.707</td>
+    </tr>
+    <tr>
+      <th>ORF9b</th>
+      <td>6</td>
+      <td>0</td>
+      <td>0</td>
+      <td>399</td>
+      <td>15</td>
+      <td>0</td>
+      <td>420</td>
+      <td>0.964</td>
+    </tr>
+    <tr>
+      <th>ORF7b</th>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>149</td>
+      <td>228</td>
+      <td>0</td>
+      <td>377</td>
+      <td>0.395</td>
+    </tr>
+    <tr>
+      <th>E</th>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>242</td>
+      <td>3</td>
+      <td>0</td>
+      <td>245</td>
+      <td>0.988</td>
+    </tr>
+    <tr>
+      <th>ORF7a</th>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>181</td>
+      <td>47</td>
+      <td>0</td>
+      <td>228</td>
+      <td>0.794</td>
+    </tr>
+    <tr>
+      <th>ORF8</th>
+      <td>0</td>
+      <td>0</td>
+      <td>7</td>
+      <td>50</td>
+      <td>18</td>
+      <td>0</td>
+      <td>75</td>
+      <td>0.760</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+
+
+##### Tabla de las frecuencias de las mutaciones a nivel de nucleótidos y de aminoácidos a lo largo de los años y con calculando su frecuencia máxima. Generada por `notebooks/calculating_density_frequencies.ipynb`:
+
+Filas en la tabla nt: 2019 | mutaciones aa distintas: 1070
+
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th></th>
+      <th>2020</th>
+      <th>2021</th>
+      <th>2022</th>
+      <th>2023</th>
+      <th>2024</th>
+      <th>max_frequency</th>
+    </tr>
+    <tr>
+      <th>aa_mutation</th>
+      <th>gene</th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>ORF1a:T3255I</th>
+      <th>ORF1a</th>
+      <td>0.038</td>
+      <td>0.712</td>
+      <td>1.000</td>
+      <td>0.95</td>
+      <td>0.925</td>
+      <td>1.000</td>
+    </tr>
+    <tr>
+      <th>ORF1b:P314L</th>
+      <th>ORF1b</th>
+      <td>0.938</td>
+      <td>1.000</td>
+      <td>1.000</td>
+      <td>1.00</td>
+      <td>1.000</td>
+      <td>1.000</td>
+    </tr>
+    <tr>
+      <th>S:D614G</th>
+      <th>S</th>
+      <td>0.938</td>
+      <td>1.000</td>
+      <td>1.000</td>
+      <td>1.00</td>
+      <td>1.000</td>
+      <td>1.000</td>
+    </tr>
+    <tr>
+      <th>S:T478K</th>
+      <th>S</th>
+      <td>0.025</td>
+      <td>0.925</td>
+      <td>0.988</td>
+      <td>0.95</td>
+      <td>0.950</td>
+      <td>0.988</td>
+    </tr>
+    <tr>
+      <th>E:T9I</th>
+      <th>E</th>
+      <td>0.000</td>
+      <td>0.075</td>
+      <td>0.900</td>
+      <td>0.95</td>
+      <td>0.925</td>
+      <td>0.950</td>
+    </tr>
+    <tr>
+      <th>M:A63T</th>
+      <th>M</th>
+      <td>0.000</td>
+      <td>0.075</td>
+      <td>0.900</td>
+      <td>0.95</td>
+      <td>0.925</td>
+      <td>0.950</td>
+    </tr>
+    <tr>
+      <th>M:Q19E</th>
+      <th>M</th>
+      <td>0.000</td>
+      <td>0.075</td>
+      <td>0.888</td>
+      <td>0.95</td>
+      <td>0.925</td>
+      <td>0.950</td>
+    </tr>
+    <tr>
+      <th>N:G204R</th>
+      <th>N</th>
+      <td>0.138</td>
+      <td>0.138</td>
+      <td>0.900</td>
+      <td>0.95</td>
+      <td>0.775</td>
+      <td>0.950</td>
+    </tr>
+    <tr>
+      <th>N:R203K</th>
+      <th>N</th>
+      <td>0.150</td>
+      <td>0.138</td>
+      <td>0.900</td>
+      <td>0.95</td>
+      <td>0.925</td>
+      <td>0.950</td>
+    </tr>
+    <tr>
+      <th>ORF1a:L3027F</th>
+      <th>ORF1a</th>
+      <td>0.000</td>
+      <td>0.000</td>
+      <td>0.575</td>
+      <td>0.95</td>
+      <td>0.925</td>
+      <td>0.950</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+
+##### Tabla de mutaciones únicas y las densidades generada por `notebooks/calculating_density_frequencies.ipynb`
+
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>length_nt</th>
+      <th>unique_mutations</th>
+      <th>mutations_per_kb</th>
+    </tr>
+    <tr>
+      <th>gene</th>
+      <th></th>
+      <th></th>
+      <th></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>N</th>
+      <td>1260</td>
+      <td>148</td>
+      <td>117.46</td>
+    </tr>
+    <tr>
+      <th>ORF3a</th>
+      <td>828</td>
+      <td>94</td>
+      <td>113.53</td>
+    </tr>
+    <tr>
+      <th>ORF9b</th>
+      <td>294</td>
+      <td>32</td>
+      <td>108.84</td>
+    </tr>
+    <tr>
+      <th>ORF8</th>
+      <td>366</td>
+      <td>32</td>
+      <td>87.43</td>
+    </tr>
+    <tr>
+      <th>ORF6</th>
+      <td>186</td>
+      <td>16</td>
+      <td>86.02</td>
+    </tr>
+    <tr>
+      <th>ORF7a</th>
+      <td>366</td>
+      <td>31</td>
+      <td>84.70</td>
+    </tr>
+    <tr>
+      <th>S</th>
+      <td>3822</td>
+      <td>316</td>
+      <td>82.68</td>
+    </tr>
+    <tr>
+      <th>M</th>
+      <td>669</td>
+      <td>48</td>
+      <td>71.75</td>
+    </tr>
+    <tr>
+      <th>E</th>
+      <td>228</td>
+      <td>14</td>
+      <td>61.40</td>
+    </tr>
+    <tr>
+      <th>ORF7b</th>
+      <td>132</td>
+      <td>8</td>
+      <td>60.61</td>
+    </tr>
+    <tr>
+      <th>ORF1a</th>
+      <td>13203</td>
+      <td>771</td>
+      <td>58.40</td>
+    </tr>
+    <tr>
+      <th>ORF1b</th>
+      <td>8088</td>
+      <td>431</td>
+      <td>53.29</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+
+##### Para contestar la pregunta 2: ¿Son estadísticamente significativos los cambios en la frecuencia de las mutaciones a lo largo del tiempo?
+
+##### Las siguientes tablas utilizaron la información generada con `/notebooks/calculating_density_frequencies-ipynb`, como las tablas anteriores, para obtener los p-value.
+
+##### Tablas de los resultados p valor de los análisis estadísticos usando Prueba Exacta de Fisher y Chi^2 creada por `pruebas_estadisticas.ipynb`:
+
+AA entre periodos (2021 vs 2022)
+| mutation           | gene | year1 | year2  | freq_year1 | freq_year2 | delta  | test   | p_value  | significativo |
+|--------------------|------|-------|--------|------------|------------|--------|--------|----------|---------------|
+| S:T478K            | S    | 2021  | 2022   | 0.9250     | 0.9875     | 0.0625 | fisher | 0.116747 | False         |
+| ORF1a:T3255I ORF1a | 2021 | 2022  | 0.7125 | 1.0000     | 0.2875     | 0.2875 | chi2   | 0.000000 | True          |
+| S:N501Y            | S    | 2021  | 2022   | 0.1125     | 0.8875     | 0.7750 | chi2   | 0.000000 | True          |
+| E:T9I              | E    | 2021  | 2022   | 0.0750     | 0.9000     | 0.8250 | chi2   | 0.000000 | True          |
+| M:A63T             | M    | 2021  | 2022   | 0.0750     | 0.9000     | 0.8250 | chi2   | 0.000000 | True          |
+| ORF1b:I1566V ORF1b | 2021 | 2022  | 0.0750 | 0.9000     | 0.8250     | 0.0000 | chi2   | 0.000000 | True          |
+| S:D796Y            | S    | 2021  | 2022   | 0.0750     | 0.9000     | 0.8250 | chi2   | 0.000000 | True          |
+| S:H655Y            | S    | 2021  | 2022   | 0.0750     | 0.9000     | 0.8250 | chi2   | 0.000000 | True          |
+| S:N679K            | S    | 2021  | 2022   | 0.0750     | 0.9000     | 0.8250 | chi2   | 0.000000 | True          |
+| S:S477N            | S    | 2021  | 2022   | 0.0750     | 0.9000     | 0.8250 | chi2   | 0.000000 | True          |
+
+NT entre periodos (2021 vs 2022)
+| mutation | gene  | year1 | year2 | freq_year1 | freq_year2 | delta   | test   | p_value  | significativo |
+|----------|-------|-------|-------|------------|------------|---------|--------|----------|---------------|
+| A23403G  | S     | 2021  | 2022  | 1.0000     | 1.0000     | 0.0000  | fisher | 1.000000 | False         |
+| C14408T  | ORF1b | 2021  | 2022  | 1.0000     | 1.0000     | 0.0000  | fisher | 1.000000 | False         |
+| C3037T   | ORF1a | 2021  | 2022  | 1.0000     | 1.0000     | 0.0000  | fisher | 1.000000 | False         |
+| C22995A  | S     | 2021  | 2022  | 0.9250     | 0.9875     | 0.0625  | fisher | 0.116747 | False         |
+| C10029T  | ORF1a | 2021  | 2022  | 0.7125     | 1.0000     | 0.2875  | chi2   | 0.000000 | True          |
+| G28881A  | N     | 2021  | 2022  | 0.1375     | 0.9000     | 0.7625  | chi2   | 0.000000 | True          |
+| G28882A  | N     | 2021  | 2022  | 0.1375     | 0.9000     | 0.7625  | chi2   | 0.000000 | True          |
+| G28883C  | N     | 2021  | 2022  | 0.1375     | 0.9000     | 0.7625  | chi2   | 0.000000 | True          |
+| T22917G  | S     | 2021  | 2022  | 0.8250     | 0.5250     | -0.3000 | chi2   | 0.000051 | True          |
+| G21987A  | S     | 2021  | 2022  | 0.5125     | 0.6000     | 0.0875  | chi2   | 0.265336 | False         |
+| C28311T  | ORF9b | 2021  | 2022  | 0.0875     | 0.9000     | 0.8125  | chi2   | 0.000000 | True          |
+| C28311T  | N     | 2021  | 2022  | 0.0875     | 0.9000     | 0.8125  | chi2   | 0.000000 | True          |
+| C26060T  | ORF3a | 2021  | 2022  | 0.0125     | 0.5750     | 0.5625  | chi2   | 0.000000 | True          |
+| C23604A  | S     | 2021  | 2022  | 0.1375     | 0.9000     | 0.7625  | chi2   | 0.000000 | True          |
+
+
+##### Tabla con los resultados de regresión Regresión Logística creada por `pruebas_estadisticas.ipynb`:
+
+=== Tendencia AA ===
+| mutation           | gene  | coef_year | odds_ratio | p_value | n_with_mut | n_total | test  |  
+|--------------------|-------|-----------|------------|---------|------------|---------|-------|
+| S:T478K            | S     | 2.0153    | 7.5033     | 0.0     | 290        | 383     | logit | 
+| ORF1a:T3255I ORF1a | ORF1a | 1.7103    | 5.5309     | 0.0     | 276        | 383     | logit | 
+| S:N501Y            | S     | 2.1710    | 8.7666     | 0.0     | 223        | 383     | logit | 
+| E:T9I              | E     | 2.2806    | 9.7821     | 0.0     | 221        | 383     | logit |  
+| M:A63T             | M     | 2.2806    | 9.7821     | 0.0     | 221        | 383     | logit | 
+| ORF1b:I1566V       | ORF1b | 2.2806    | 9.7821     | 0.0     | 221        | 282     | logit |  
+| S:D796Y            | S     | 2.2806    | 9.7821     | 0.0     | 221        | 383     | logit |  
+| S:H655Y            | S     | 2.2806    | 9.7821     | 0.0     | 221        | 383     | logit |  
+| S:N679K            | S     | 2.2806    | 9.7821     | 0.0     | 221        | 383     | logit | 
+| S:S477N            | S     | 2.2806    | 9.7821     | 0.0     | 221        | 383     | logit | 
+
+=== Tendencia NT ===
+| mutation | gene  | coef_year | odds_ratio        | p_value  | n_with_mut | n_total | test  |  
+|----------|-------|-----------|-------------------|----------|------------|---------|-------|
+| A23403G  | S     | 6.6910    | 805.1637 0.602522 | 0.602522 | 378        | 383     | logit |  
+| C14408T  | ORF1b | 6.6910    | 805.1637          | 0.602522 | 378        | 383     | logit |   
+| C3037T   | ORF1b | 6.6910    | 805.1637          | 0.602522 | 378        | 383     | logit |  
+| C22995A  | S     | 2.0153    | 7.5033            | 0.000000 | 290        | 383     | logit |  
+| C10029T  | ORF1a | 1.7103    | 5.5309            | 0.000000 | 276        | 383     | logit | 
+| G28881A  | N     | 1.5366    | 4.6485            | 0.000000 | 239        | 383     | logit |  
+| G28882A  | N     | 1.5692    | 4.8026            | 0.000000 | 238        | 383     | logit |  
+| G28883C  | N     | 1.5692    | 4.8026            | 0.000000 | 238        | 383     | logit |  
+| T22917G  | S     | 0.8884    | 2.4311            | 0.000000 | 231        | 383     | logit |  
+| G21987A  | S     | 1.4727    | 4.3609            | 0.000000 | 235        | 383     | logit |  
+| C28311T  | ORF9b | 2.1264    | 8.3845            | 0.000000 | 223        | 383     | logit | 
+| C28311T  | N     | 2.1264    | 8.3845            | 0.000000 | 223        | 383     | logit |   
+| C26060T  | ORF3a | 2.1471    | 8.55999           | 0.000000 | 193        | 383     | logit |   
+| C23604A  | S     | 0.3416    | 1.4072            | 0.000007 | 159        | 383     | logit |   
+
 
 ## 12. Discusión
 
@@ -480,9 +1030,14 @@ EJEMPLO: Código en GitHub bajo MIT; cita disponible en CITATION.cff. -->
 
 **Código:** Almacenado en GitHub (https://github.com/Mario-Samano/analisis_var_gene)  
 **Datos:** Las secuencias de NCBI pueden reobtenerse con la consulta indicada en 8.1. El genoma de GISAID no se distribuye por sus términos de uso; pero puede acceder a él si cuenta con un usuario de **GISAID** o descargando el archivo fasta en presente en este repositorio en `data/raw`.  
-**Licencia del código:** [MIT License](https://github.com/Mario-Samano/analisis_var_gene/blob/main/LICENSE)  
+
+**Licencia del código:** [MIT License](https://github.com/Mario-Samano/analisis_var_gene/blob/main/LICENSE)
+
 **Cómo citar:** [CITATION.cff](https://github.com/Mario-Samano/analisis_var_gene/blob/main/CITATION.cff)
-**Versión o release:** *Pendiente*
+
+**Metadatos del proyecto:** [codemeta.json]([codemeta.json](https://github.com/Mario-Samano/analisis_var_gene/blob/main/codemeta.json))
+
+**Versión o release:** 2.1.0
 
 ## 15. Referencias
 

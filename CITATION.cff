@@ -8,7 +8,7 @@ authors:
     given-names: "Jana Noemí"
   - family-names: "Gómez Martínez"
     given-names: "Fátima Abril"
-version: 1.1.0
+version: 2.1.0
 date-released: "2026-10-19"
 license: MIT
 repository-code: "https://github.com/Mario-Samano/analisis_var_gene"
