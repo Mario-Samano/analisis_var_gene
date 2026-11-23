@@ -7,16 +7,14 @@ Para conocer el planteamiento, las preguntas de investigación, la metodología 
 los resultados, consulta el [reporte-proyecto.md](https://github.com/Mario-Samano/analisis_var_gene/blob/main/docs/reporte-proyecto.md).
 
 
-
 ## Funcionalidades
-#### _Pendientes, se agregarán más mediante el desarrollo del proyecto:_
 
 - Descarga de genomas mediante identificadores de NCBI de los años 2020-2024 especificamente
 - Alineamiento de genomas con la herramienta NextClade contra un genoma de referencia
 - Mapeo de las regiones de los genomas en donde se encuentran mutaciones a nivel de aminoácidos y nucleótidos 
-- Evaluación de frecuencias de mutaciones a nivel de aminoácidos y nucleótidos en los genomas de los años 2020-2024
+- Evaluación de frecuencias y de densidades de mutaciones por gen a nivel de aminoácidos y nucleótidos en los genomas de los años 2020-2024
 - Análisis estadísticos de las tablas de mutaciones generadas para conocer la signifcancia de los datos
-- Obtención de imaágenes dessde KEGG para ilustrar la anotación funcional del virus SARS-CoV-2
+- Obtención de imágenes desde KEGG para ilustrar la anotación funcional del virus SARS-CoV-2
 
 
 <!--
@@ -44,8 +42,8 @@ proyecto/
 └── tests/   # Resultados de pruebas realizadas a lo largo del proyecto
 ├── LICENSE    # Detalles de la licencia
 ├── README.md    # Introducción y guía rápida de uso
-├── CITATION.cff 
-└── codemeta.json
+├── CITATION.cff  # Archivo con instrucciones para citar este repositorio
+└── codemeta.json  # Archivo con los metadatos del proyecto
 ```
 
 
@@ -58,14 +56,14 @@ proyecto/
 
 | Herramienta | Descripción breve de uso                                                                                                                                       | Versión   |
 |-------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------|
-| BioPython   | Uso de: Bio.Entrez para descarga de genomas de NCBI  Bio.Seq para manipular los genomas obtenidos de NCBI y GISAID | Pendiente |
-| pandas      | En general su uso se hace para manipular con los datos estructurados de los datos obtenidos                                                                    | Pendiente |
-| Nextclade    | Uso de Nexclade para el alineamiento global de genomas con el de Referencia (Wuhan-Hu-1)                                                                      | 3.25.0 |
-| SciPy       | Se usa esta libreria para las pruebas estadisticas                                                                                                             | Pendiente |
-| Statsmodels | Se usa para regresión lineal y análisis de tendencia                                                                                                           | Pendiente |
-| Matplotlib  | Su uso recae en volver en difentes formatos gráficos los resultados obtenidos de las pruebas estádisticas                                                      | Pendiente |
-| Seaborn     | Importante para la visualización de frecuencias y de densidades                                                                                                | Pendiente |
-| BioKEGG     | Importante para la obtención de material visual para la anotación funcional                                                                                    | Pendiente |
+| BioPython   | Uso de: Bio.Entrez para descarga de genomas de NCBI  Bio.Seq para manipular los genomas obtenidos de NCBI y GISAID | 1.88 |
+| pandas      | En general su uso se hace para manipular con los datos estructurados de los datos obtenidos                                                                    | 2.2.3 |
+| Nextclade   | Uso de Nexclade para el alineamiento global de genomas con el de Referencia (Wuhan-Hu-1)                                                                      | 3.25.0 |
+| SciPy       | Se usa esta libreria para las pruebas estadisticas                                                                                                             | 1.15.2 |
+| Statsmodels | Se usa para regresión lineal y análisis de tendencia                                                                                                           | 2.2.5 |
+| Matplotlib  | Su uso recae en volver en difentes formatos gráficos los resultados obtenidos de las pruebas estádisticas                                                      | 3.11.2 |
+| Seaborn     | Importante para la visualización de frecuencias y de densidades                                                                                                | 0.11.1 |
+| BioKEGG     | Importante para la obtención de material visual para la anotación funcional                                                                                    | 1.88 |
 
 - [Recurso computacional o condición de acceso]
 
@@ -98,7 +96,7 @@ Para su descarga, ejecute:
 Los datos del genoma de referencia mexicano se obtuvieron de **GISAID** con el ID: EPI_ISL_412972.
 Si cuenta con un usuario en dicha plataforma, puede descargarlo con su ID directamente, de otra manera, puede acceder a él en la carpeta de data de este repositorio.
 
-Los resultados los encontrará con el nombre de "wuhan_ref.fasta" y como "gisaid_hcov-19_2026_10_02_20.fasta" en la carpeta raw en data:
+Los resultados los encontrará con el nombre de "wuhan_ref.fasta" y como "gisaid_hcov-19_2026_10_02_20.fasta" en la carpeta `raw` en `data`:
 
 ```text
 proyecto/
@@ -137,7 +135,7 @@ El comando generará 11 archivos fasta en `/results/nextclade/` con los nombres:
 - alineamiento.{year}.fasta (year= 2020-2024)
 - nextclade_{year}.tsv (year= 2020-2024)
 - input_2020_con_mexicano.fasta
-Además que con un subproceso usando `run_nexclade.py`, se bajará la base de datos de NextClade correspondiente a SARS-CoV-2, esta carpeta está en `data´, llamada ´sars-cov-2´ y contiene 7 archivos:
+Además que con un subproceso usando `run_nexclade.py` se bajará la base de datos de NextClade correspondiente a SARS-CoV-2, esta carpeta está en `data`, llamada `sars-cov-2` y contiene 7 archivos:
 - reference.fasta
 - sequences.fasta
 - genome_annotation.gff3
@@ -254,8 +252,8 @@ EJEMPLO:
 ## Equipo
 
 #### Pendiente detalles de la siguiente información:
-- Fátima Abril Gómez Martínez — Descarga de datos, visualizaicón, análisis de frecuencias, análisis de datos de anotación funcional.
-- Mario Alejandro Samano — Descarga de datos, visualización, alineamientos globales, análisis de frecuencias y estadísticos.
+- Fátima Abril Gómez Martínez — Descarga de datos, visualización, análisis de frecuencias, análisis de datos de anotación funcional.
+- Mario Alejandro Samano Basilio — Descarga de datos, visualización, alineamientos globales, análisis de frecuencias y estadísticos.
 - Jana Noemí Azamar Ramírez — Documentación, análisis de datos de anotación funcional y estadísticos.
 
 <!--

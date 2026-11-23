@@ -76,8 +76,7 @@ ser alcanzable durante el semestre.
 EJEMPLO: Desarrollar un flujo reproducible en Python para identificar y comparar
 genes de resistencia en un conjunto de genomas de E. coli. -->
 
-Desarrollo de una herramienta/flujo de trabajo (?) reproducicle en Python que identifique mutaciones presentes en genomas de SARS-CoV-2 de México de los años 2020-2024, clasifique y calcule la frecuencia de las mutaciones y evalúe si los cambios observados son estadísticamente significativos. 
-
+Analizar mutaciones a nivel de nucleótidos y de aminoácidos presentes en genomas de SARS-CoV-2 de México de los años 2020-2024, clasificando las mutaciones entre sinónimas y no-sinónimas y calculando sus frecuencias, además de evaluar si los cambios observados a lo largo de los años son estadísticamente significativos. 
 
 ## 5. Preguntas de investigación
 
@@ -97,7 +96,7 @@ de presencia y ausencia obtenida de las anotaciones. -->
 
 **Pregunta:** ¿Son estadísticamente significativos los cambios en la frecuencia de las mutaciones a lo largo del tiempo?
 
-**Evidencia necesaria:** Resultados de pruebas de Chi-cuadrado y/o exacta de Fisher entre periodos (por ejemplo, 2021 vs 2022) y de una prueba de tendencia temporal (regresión logística), con sus valores p.
+**Evidencia necesaria:** Resultados de pruebas de Chi-cuadrado y exacta de Fisher entre periodos (2021 vs 2022) y de una prueba de tendencia temporal (regresión logística), con sus valores p.
 
 ## 6. Alcance y limitaciones
 
@@ -173,8 +172,8 @@ EJEMPLO: NCBI RefSeq, GCF_000005845.2, consultado el dd/mm/aaaa. -->
 | NCBI Nucleotide | Búsqueda descrita abajo | https://www.ncbi.nlm.nih.gov/nuccore | 10/10/2026 | Datos públicos |
 | NCBI RefSeq | NC_045512.2 (Wuhan-Hu-1) | https://www.ncbi.nlm.nih.gov/nuccore/NC_045512.2 | 10/10/2026 | Datos públicos |
 | GISAID | Genoma temprano de México (2020); EPI_ISL_412972 | https://gisaid.org | 02/10/2026 | Acceso restringido; no se redistribuye |
-| Nextclade | Dataset nextstrain/sars-cov-2/wuhan-hu-1/orfs; 3.25.0 | https://docs.nextstrain.org/projects/nextclade | 15/10/2026 | Código abierto; revisar licencia |
-| KEGG | KEGG PATHWAY Dataset; versión 120 | https://www.genome.jp/kegg/pathway.html | 16/11/2026 | Código abierto; revisar licencia |
+| NextClade | Dataset nextstrain/sars-cov-2/wuhan-hu-1/orfs; 3.25.0 | https://docs.nextstrain.org/projects/nextclade | 15/10/2026 | Código abierto; revisar licencia |
+| KEGG | KEGG PATHWAY Dataset; versión 120 | https://www.genome.jp/kegg/pathway.html | 16/11/2026 | Código abierto |
 
 
 **Consulta en NCBI Nucleotide:** `"SARS-CoV-2"[Organism] AND "Mexico"[Location] AND 2020:2023[dp]`
@@ -203,25 +202,25 @@ EJEMPLO: data/raw conserva originales y data/processed los derivados. -->
 
 ```text
 proyecto/
-├── data/                  # Información usada en el proyecto
-│   ├── raw/               # Datos crudos, sin modificar
-│   │   ├── ncbi/          # Secuencias y metadatos descargados con Entrez
-│   │   ├── reference/     # Referencia NC_045512.2
-│   │   └── gisaid/        # Genoma temprano de México (privado, excluido en .gitignore)
-│   └── processed/         # Datos derivados
-│       ├── filtered/      # Secuencias que pasaron el control de calidad
-│       └── nextclade/     # Salida de Nextclade (nextclade.tsv)
-├── docs/                  # Documentación del proyecto
-├── notebooks/             # Notebook de análisis reproducible
-├── results/               # Resultados
-│   ├── tables/            # Tablas de frecuencias y pruebas estadísticas
-│   └── figures/           # Figuras finales
-├── src/                   # Código modular (funciones y clases)
-├── tests/                 # Pruebas del código
-├── .gitignore             # Excluye datos grandes y datos de GISAID
-├── LICENSE                # Detalles de la licencia
-├── README.md              # Introducción y guía rápida de uso
-└── codemeta.json          # Metadatos del proyecto
+├── data/                            # Información usada en el proyecto
+│   ├── raw/                         # Datos crudos, sin modificar
+│   │   ├── ncbi_{year}.fasta/       # Secuencias y metadatos descargados con Entrez
+│   │   ├── reference/               # Referencia NC_045512.2
+│   │   └── gisaid_hcov.../          # Genoma temprano de México
+│   ├── processed/                   # Datos derivados de notebooks como archivos .tsv
+│   └── sars-cov-2/                  # Archivos de SARS-CoV-2 que necesita y descarga NextClade
+├── docs/                            # Documentación del proyecto
+├── notebooks/                       # Notebook de análisis reproducible
+├── results/                         # Resultados
+│   ├── images/                      # Imagenes (.png) generadas por los notebooks
+│   └── nextclade/                   # Alineamientos globales realizados por NextClade en fasta y .tsv
+├── src/                             # Código modular (funciones y clases)
+├── tests/                           # Pruebas del código
+├── .gitignore                       # Excluye datos grandes y datos de GISAID
+├── LICENSE                          # Detalles de la licencia
+├── README.md                        # Introducción y guía rápida de uso
+├── CITATION.cff                     # Instrucciones para citar este repositorio
+└── codemeta.json                    # Metadatos del proyecto
 ```
 
 Los datos de NCBI no se guardan en Git; el notebook los descarga con la consulta indicada en 8.1. El genoma de GISAID debe obtenerse con acceso propio y colocarse en `data/raw/gisaid/`.
@@ -268,6 +267,15 @@ EJEMPLO: En GFF3, seqid identifica la secuencia; type indica gene, CDS, etc. -->
 |:--|:--|:--|
 | Frecuencias | mutación, periodo, n_con_mutación, n_total, frecuencia | Frecuencia de cada mutación por año o mes (0 a 1) |
 | Densidad por gen | gen, n_mutaciones, longitud, densidad | Mutaciones observadas entre longitud del gen |
+
+
+**e) Pruebas estadísticas
+| Tabla | Campos | Descripción |
+|:--|:--|:--|
+| Chi^2 | mutation, gene, coef_year, odds_ratio, p_value, n_with_mut, n_total, test | Se evalúa la dependencia entre las mutaciones que hubo entre 2021-2022 con el p-valor |
+| Prueba exacta de Fisher | mutation, gene, coef_year, odds_ratio, p_value, n_with_mut, n_total, test | Se evalúa la dependencia entre las mutaciones que hubo entre 2021-2022 con el p-valor |
+| Regresión lineal | mutation, gene, coef_year, odds_ratio, p_value, n_with_mut, n_total, test | Se evalúa si existe una tendencia en los datos desde 2020-2024 |
+
 
 
 ## 9. Metodología
@@ -326,15 +334,14 @@ datos conocidos, comparación con otra herramienta o revisión manual.
 EJEMPLO: Se compararán cinco anotaciones conocidas y se probarán entradas
 válidas, identificadores inexistentes y archivos incompletos. -->
 
-*Propuesta inicial, por confirmar por el equipo:*
 
 - **Descarga:** comparar el número de registros que devuelve la búsqueda en Entrez con el número de secuencias descargadas, y revisar que no haya archivos truncados.
 - **Filtrado:** pruebas unitarias con secuencias sintéticas de longitud y contenido de N conocidos, para comprobar que se aplican los umbrales.
 - **Mutaciones:** verificar con mutaciones conocidas, por ejemplo que D614G aparezca en las secuencias del clado correspondiente, y revisar manualmente algunas secuencias en el alineamiento.
 - **Clasificación sinónima/no sinónima:** probar la función con codones de resultado conocido.
 - **Estadística:** Chi-cuadrado y Fisher dan resultados coherentes en tablas con conteos altos y bajos respectivamente. Regresión logística para análisis de tendencia.
-- **Análisis de anotación funcional**: Uso de KEGG Pathway database y discusión de los datos y su relación con la funcionalidad biológica
 - **Revisión cruzada:** toda contribución importante se revisa mediante Pull Request por otra persona del equipo.
+- **Análisis de anotación funcional (opcional)**: Uso de KEGG Pathway database y discusión de los datos y su relación con la funcionalidad biológica
 
 ### 9.4 Justificación de la elección de datos y herramientas
 
@@ -348,7 +355,7 @@ válidas, identificadores inexistentes y archivos incompletos. -->
 - **Genoma temprano de México (GISAID).** Aporta un punto de comparación local de la etapa inicial. Su uso exacto en el análisis está pendiente (ver 9.1).
 - **BLAST como paso opcional.** El alineamiento global ya basta para llamar mutaciones. El local solo se agrega si se quiere estudiar con más detalle una región concreta, como el gen S, o buscar posible recombinación.
 - **pandas, Jupyter, Git y GitHub.** pandas maneja las tablas de metadatos y mutaciones; el notebook documenta cada paso con sus parámetros, y Git y GitHub dan control de versiones y permiten revisar el trabajo por Pull Request.
-- **Bio-Kegg** para obtener las imágenes que ejemplifican visualmente la via de infección de SARS-CoV-2 y su estructura.
+- **Bio-Kegg** para obtener las imágenes que ejemplifican visualmente la via de infección de SARS-CoV-2 y su estructura (virión).
 
 ### 9.5 Enfoque del análisis estadístico
 
@@ -375,7 +382,7 @@ válidas, identificadores inexistentes y archivos incompletos. -->
 - **Limitación de ambas pruebas de tendencia.** Suponen un cambio en una sola dirección. Una mutación que aumenta y luego desaparece (por ejemplo, la de un clado que circuló unos meses) puede no mostrar tendencia significativa. Por eso estas pruebas se interpretan junto con las gráficas de línea de la etapa 8, y las comparaciones entre periodos de Fisher o Chi-cuadrado ayudan a detectar esos cambios.
 - **Nivel de significancia.** Se usa un p-value = 0.05 por convención, aplicado a los valores p ajustados.
 
-**Cómo se reportan los resultados.** Además del valor p se reportará el tamaño del efecto (diferencia de frecuencias u odds ratio con su intervalo de confianza). Con muchos genomas, diferencias muy pequeñas pueden resultar significativas sin importancia biológica, por lo que el valor p no se interpretará solo.
+**Cómo se reportan los resultados.** Además del valor p se reportará el tamaño del efecto (diferencia de frecuencias u odds ratio). Con muchos genomas, diferencias muy pequeñas pueden resultar significativas sin importancia biológica, por lo que el valor p no se interpretará solo.
 
 #### Checar este punto y el de arriba (mención a intervalos de confianza)
 **Comparaciones múltiples.** Al probar muchas mutaciones aumenta la probabilidad de falsos positivos. Se propone corregir los valores p con el método de Benjamini-Hochberg (tasa de falsos descubrimientos, disponible en `statsmodels.stats.multitest`) y considerar significativos los valores ajustados menores a 0.05. Este criterio debe confirmarlo el equipo.
@@ -415,7 +422,7 @@ número de genomas usando criterios documentados. -->
 | Pérdida de datos o código | Baja | Alto | Usar Git y GitHub con commits frecuentes; conservar copias de los datos crudos |
 | Tiempo insuficiente para el análisis opcional de BLAST | Media | Bajo | Mantenerlo como opcional y priorizar las etapas 0 a 8 |
 
-## 11. Resultados (Discutirlo entre los 3)
+## 11. Resultados
 
 <!-- AYUDA: Presenten resultados vinculados con preguntas y objetivos. Incluyan
 tablas o figuras con títulos, leyendas y archivos de origen. Describan aquí lo
@@ -423,8 +430,25 @@ obtenido; interprétenlo en Discusión.
 EJEMPLO: Tabla de presencia y ausencia generada por src/compare_genes.py.
 PRIMERA SESIÓN: dejen esta sección como pendiente. -->
 
-> Estado: pendiente. Se completará durante el desarrollo.
 ## 12. Discusión
+
+Con los datos que se obtuvieron de los alineamientos con NextClade y la posterior clasificación de las mutaciones que identificaron y mapearon, se pudo identificar que sí hay cambios de nucleótidos y de aminoácidos a lo largo de los años y que se encuentran en regiones que son de importancia funcional para SARS-CoV-2 como la proteína Spyke, N (nucleocapside), M (membrana) y ORF1a y ORF1b importantes para la sintesis de proteínas estructurales y no estrucuturales que tienen un rol para la virulencia del virus. 
+
+Además que la clasificación de las mutaciones entre sinónimas y no sinónimas enriqueció la información al poder identificar que las mutaciones cambiaron aminoácidos que afectaron la proteína, sin embargo, por la limitación de no probar experimentalmente los resultados y conocer de esa forma los cambios en la funcionalidad que las mutaciones pudieron haber conferido, no podemos explicar cómo los cambios afectaron realmente al virus y si tuvo un papel para que la tasa de virulencia aumentara o no, pero el haber encontrado en qué parte del genoma de SARS-CoV-2 existen mayores cambios, nos da una visión de la importancia de las proteínas que estuvieron mutando y de las cuáles ya existe información en la literatura que explica su funcionalidad. 
+
+Por otro lado, las mutaciones encontradas y su incremento en los años 2020, 2021 y 2022 coinciden con la evidencia en la literatura sobre la aparición de las cepas que se identificaron en esos años, como la transición de la variante Delta en 2021 a la variante Omicrón en 2022 (Taboada B., 2021). 
+
+Con este trasfondo, nuestro análisis estadístico se enfocó en estos dos años y en las diez proteínas con mayor mutación que se a lo largo de los años con el fin de evaluar si los datos observados eran producto del azar o si tenían respaldo estadístico y dichas mutaciones pudieron haberse dado por presión selectiva, aunque es necesario aclarar que no podemos afirmar que haya sido presión selectiva positiva unicamente con los datos que evaluamos. 
+
+A pesar de esta consideración, los resultados de valor p referentes a estos análisis a nivel de aminoácidos y nucleótidos sugieren que las mutaciones no fueron producto meramente del azar y que entre las mutaciones que ocurrieron entre 2020 y 2021 hay una relación que podría explicarse con una razón posiblemente biológica, aunque no podemos explicar con exactitud de qué manera y qué rol exacto tuvieron las mutaciones.
+
+Además que, la interpretación y los resultados que se registran en este proyecto están limitados por el tamaño de la muestra (80 genomas por año), una muestra de 400 genomas no puede explicar el contexto total de la evolución del virus en México durante los años que duró la pandemia y lo que pudo significar para la salud pública en el país. 
+
+Otro punto importante a mencionar es que las muestras fueron obtenidas al azar y no contamos con información de dónde se tomó la muestra o datos del paciente, como su edad o su sexo, para poder hacer un análisis geográfico que amplie y arroje información relacionada a dónde pudo haber existido más presencia de variantes altamente mortales y a quiénes afectaron más.
+
+Pero aún así, con los datos arrojados de la regresión logística realizada entre las frecuencias de mutaciones en los 5 años de la pandemia, pudimos notar que sí existe una tendencia y una relación entre las mutaciones y el tiempo, aunque la tendencia no siempre fue positiva y en algunas mutaciones hubo una disminución en los años 2023 y 2024 no fue realmente grande.
+
+Así que los resultados que este proyecto obtuvo pueden servir como un esbozo y como dirección a futuras investigaciones experimentales o bioinformáticas que busquen comprender mejor la evolución del virus.
 
 <!-- AYUDA: Interpreten los resultados, expliquen si responden las preguntas,
 compárenlos con los antecedentes y señalen limitaciones. No repitan únicamente
@@ -432,7 +456,6 @@ los valores.
 EJEMPLO: La distribución observada sugiere..., aunque la interpretación está
 limitada por la calidad de las anotaciones. -->
 
-> Estado: pendiente. Se completará después de obtener resultados.
 
 ## 13. Conclusiones
 
@@ -441,7 +464,12 @@ alcanzaron los objetivos. Incluyan aportes, limitaciones y trabajo futuro. No
 introduzcan resultados nuevos.
 EJEMPLO: El flujo permitió identificar..., pero será necesario incorporar... -->
 
-> Estado: pendiente. Se completará al finalizar el proyecto.
+El flujo que el proyecto siguió nos permitió identificar las mutaciones que ocurrieron en los genomas descargados de los diferentes años y dónde es que estas caían, logrando la identificación y caracterización de algunas de ellas a grandes rasgos y con apoyo únicamente de la literatura existente de la funcionalidad de las proteínas mutadas.
+
+La clasificación de las mutaciones también fue crucial para poder reconocer que no solo ocurrieron mutaciones de nucleótidos que no cambiaban la cadena de aminoácidos de las proteínas, sino que sí hubieron mutaciones que las cambiaron y pudieron haber tenido cambios funcionales; los calculos de frecuencia y de densidad de mutaciones por gen arrojaron más luz a qué mutaciones y a qué proteínas afectaban, sin embargo, con solo este análisis no podemos identificar y explicar el impacto de las mutaciones a nivel funcional en el ciclo de vida y de virulencia del virus, ya que se requieren análisis experimentales para caracterizar y comprender el papel de las mutaciones que se hallaron con el análisis computacional.
+
+Aún con estas limitaciones, este proyecto logró sus objetivos al poder identificar las frecuencias y densidades de mutaciones a lo largo del tiempo, identificar las regiones en el genoma en que estas caían y comprobar su significancia estadística, pero para enriquecer y ampliar la información a la vez que construir un panorama más amplio y completo, es necesario incorporar más genomas para agrandar la muestra y añadir verificaciones experimentales para caracterizar el cambio de funcionalidad que confirieron las mutaciones.
+
 
 ## 14. Disponibilidad, licencia y citación
 
