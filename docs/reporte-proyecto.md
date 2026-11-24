@@ -1002,7 +1002,7 @@ EJEMPLO: Código en GitHub bajo MIT; cita disponible en CITATION.cff. -->
 
 **Cómo citar:** [CITATION.cff](https://github.com/Mario-Samano/analisis_var_gene/blob/main/CITATION.cff)
 
-**Metadatos del proyecto:** [codemeta.json]([codemeta.json](https://github.com/Mario-Samano/analisis_var_gene/blob/main/codemeta.json))
+**Metadatos del proyecto:** [codemeta.json](https://github.com/Mario-Samano/analisis_var_gene/blob/main/codemeta.json)
 
 **Versión o release:** 3.1.1
 
