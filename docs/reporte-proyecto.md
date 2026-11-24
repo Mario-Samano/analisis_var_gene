@@ -399,7 +399,9 @@ persona.
 EJEMPLO: Ana desarrolla la descarga y revisa el módulo de visualización. -->
 
 Mario: Análisis estadístico, alineamientos con NextClade y bases de datos.
+
 Abril: Descarga de genomas, cálculo de frecuencias y densidades de mutaciones y análisis funcional con KEGG.
+
 Jana: Documentación, análisis estadístico y análisis funcional con KEGG.
 
 ### 10.2 Riesgos y alternativas
@@ -465,7 +467,7 @@ Name: count, dtype: int64
 
 <div>
 
-</style>
+
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -645,7 +647,6 @@ Filas en la tabla nt: 2019 | mutaciones aa distintas: 1070
 
 <div>
 
-</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -778,7 +779,6 @@ Filas en la tabla nt: 2019 | mutaciones aa distintas: 1070
 
 <div>
 
-</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
