@@ -213,6 +213,7 @@ proyecto/
 │   ├── images/                      # Imagenes (.png) generadas por los notebooks
 │   └── nextclade/                   # Alineamientos globales realizados por NextClade en fasta y .tsv
 ├── src/                             # Código modular (funciones y clases)
+├── test/                            # Archivos pruebas de los códigos principales
 ├── .gitignore                       # Excluye datos grandes y datos de GISAID
 ├── LICENSE                          # Detalles de la licencia
 ├── README.md                        # Introducción y guía rápida de uso
@@ -266,11 +267,11 @@ EJEMPLO: En GFF3, seqid identifica la secuencia; type indica gene, CDS, etc. -->
 | Densidad por gen | gen, n_mutaciones, longitud, densidad | Mutaciones observadas entre longitud del gen |
 
 
-**e) Pruebas estadísticas
+**e) Pruebas estadísticas**
 | Tabla | Campos | Descripción |
 |:--|:--|:--|
-| Chi^2 | mutation, gene, coef_year, odds_ratio, p_value, n_with_mut, n_total, test | Se evalúa la dependencia entre las mutaciones que hubo entre 2021-2022 con el p-valor |
-| Prueba exacta de Fisher | mutation, gene, coef_year, odds_ratio, p_value, n_with_mut, n_total, test | Se evalúa la dependencia entre las mutaciones que hubo entre 2021-2022 con el p-valor |
+| Chi^2 | mutation, gene,	year1, year2,	freq_year1,	freq_year2,	delta,	test,	p_value,	significativo | Se evalúa la dependencia entre las mutaciones que hubo entre 2021-2022 con el p-valor |
+| Prueba exacta de Fisher | mutation, gene,	year1, year2,	freq_year1,	freq_year2,	delta,	test,	p_value,	significativo | Se evalúa la dependencia entre las mutaciones que hubo entre 2021-2022 con el p-valor |
 | Regresión lineal | mutation, gene, coef_year, odds_ratio, p_value, n_with_mut, n_total, test | Se evalúa si existe una tendencia en los datos desde 2020-2024 |
 
 
@@ -301,8 +302,6 @@ EJEMPLO: descarga, validación, transformación, análisis, visualización y pru
 
 **Flujo general:** Descarga de secuencias (NCBI) → Control de calidad y filtrado → Referencias (NC_045512.2 y genoma de GISAID) → Alineamiento y llamado de mutaciones (Nextclade) → Anotación por gen y clasificación sinónima/no sinónima → Frecuencias temporales y densidad por gen → Pruebas estadísticas → Visualización → Anotación funcional.
 
-**Pendiente:** Definir el umbral de bases ambiguas (N) para el filtrado y el uso exacto del genoma temprano de GISAID en el análisis (por ejemplo, como segunda referencia para contextualizar la evolución local).
-
 ### 9.2 Herramientas y tecnologías
 
 <!-- AYUDA: Registren lenguajes, bibliotecas y programas con sus versiones y
@@ -313,16 +312,16 @@ visualización. -->
 | Herramienta | Versión | Propósito |
 |:--|:--|:--|
 | Python | 3.13 | Lenguaje principal del pipeline |
-| Biopython (`Bio.Entrez`, `Bio.Seq`) | Pendiente | Descargar datos de NCBI, leer FASTA/GenBank y traducir secuencias |
-| pandas | Pendiente | Gestión de metadatos, lectura de `nextclade.tsv`, frecuencias y densidades |
+| Biopython (`Bio.Entrez`, `Bio.Seq`) | 1.88 | Descargar datos de NCBI, leer FASTA/GenBank y traducir secuencias |
+| pandas | 2.2.3 | Gestión de metadatos, lectura de `nextclade.tsv`, frecuencias y densidades |
 | Nextclade CLI | 3.25.0 | Alineamiento contra la referencia, asignación de clados, llamado de mutaciones y control de calidad |
-| SciPy (`scipy.stats`) | Pendiente | Pruebas de Chi-cuadrado y exacta de Fisher |
-| Statsmodels | Pendiente | Regresión logística y análisis de tendencia |
-| Matplotlib | Pendiente | Gráficas base |
+| SciPy (`scipy.stats`) | 1.15.2 | Pruebas de Chi-cuadrado y exacta de Fisher |
+| Statsmodels | 2.2.5 | Regresión logística y análisis de tendencia |
+| Matplotlib | 3.11.2 | Gráficas base |
 | Seaborn | 0.13.2 | Visualización de frecuencias y densidades |
-| Jupyter Notebook | Pendiente | Documentación y ejecución reproducible del análisis |
-| Git y GitHub | Pendiente | Control de versiones y repositorio |
-| BioKEGG   | Pendiente | Importante para la obtención de material visual para la anotación funcional |
+| Jupyter Notebook | 2.21.0 | Documentación y ejecución reproducible del análisis |
+| Git y GitHub | 3.7 y 3.23 | Control de versiones y repositorio |
+| BioKEGG   | 1.88 | Importante para la obtención de material visual para la anotación funcional |
 
 ### 9.3 Estrategia de validación
 
@@ -349,7 +348,7 @@ válidas, identificadores inexistentes y archivos incompletos. -->
 - **Filtro de longitud mayor a 29 000 pb.** El genoma de referencia (NC_045512.2) mide 29 903 pb. Ese umbral descarta los genomas incompletos y tolera pérdidas pequeñas en los extremos. El filtro de bases ambiguas (N) se aplica porque las regiones sin base definida impiden llamar mutaciones de forma confiable.
 - **Nextclade en lugar de un alineamiento múltiple manual.** El alineamiento por pares no escala a cientos de genomas y un alineamiento múltiple propio sería costoso de implementar y de repetir. Nextclade alinea cada secuencia de forma independiente contra una sola referencia y entrega, en una tabla, las mutaciones de nucleótidos y aminoácidos, el clado y métricas de calidad. Además es una herramienta estándar en vigilancia genómica. Su costo es que los resultados dependen de la versión del programa y del dataset, por lo que se registran.
 - **Referencia NC_045512.2.** Es la referencia estándar del SARS-CoV-2, el dataset de Nextclade se construye sobre ella y facilita comparar con otros estudios, porque la nomenclatura de las mutaciones (por ejemplo, D614G) se define respecto a ella.
-- **Genoma temprano de México (GISAID).** Aporta un punto de comparación local de la etapa inicial. Su uso exacto en el análisis está pendiente (ver 9.1).
+- **Genoma temprano de México (GISAID).** Aporta un punto de comparación local de la etapa inicial.
 - **BLAST como paso opcional.** El alineamiento global ya basta para llamar mutaciones. El local solo se agrega si se quiere estudiar con más detalle una región concreta, como el gen S, o buscar posible recombinación.
 - **pandas, Jupyter, Git y GitHub.** pandas maneja las tablas de metadatos y mutaciones; el notebook documenta cada paso con sus parámetros, y Git y GitHub dan control de versiones y permiten revisar el trabajo por Pull Request.
 - **Bio-Kegg** para obtener las imágenes que ejemplifican visualmente la via de infección de SARS-CoV-2 y su estructura (virión).
@@ -465,18 +464,7 @@ Genomas por año: {2020: 80, 2021: 80, 2022: 80, 2023: 80, 2024: 80}
 Name: count, dtype: int64
 
 <div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
 
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
 </style>
 <table border="1" class="dataframe">
   <thead>
@@ -651,24 +639,12 @@ Name: count, dtype: int64
 </table>
 </div>
 
-
-##### Tabla de las frecuencias de las mutaciones a nivel de nucleótidos y de aminoácidos a lo largo de los años y con calculando su frecuencia máxima. Generada por `notebooks/calculating_density_frequencies.ipynb`:
+##### Tabla de las frecuencias de las mutaciones a nivel de aminoácidos a lo largo de los años y con calculando su frecuencia máxima. Generada por `notebooks/calculating_density_frequencies.ipynb` y output a pantalla son los resultados de los conteos realizados con los archivos `.tsv`s de NextClade:
 
 Filas en la tabla nt: 2019 | mutaciones aa distintas: 1070
 
 <div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
 
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
 </style>
 <table border="1" class="dataframe">
   <thead>
@@ -801,18 +777,7 @@ Filas en la tabla nt: 2019 | mutaciones aa distintas: 1070
 ##### Tabla de mutaciones únicas y las densidades generada por `notebooks/calculating_density_frequencies.ipynb`
 
 <div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
 
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
 </style>
 <table border="1" class="dataframe">
   <thead>
@@ -906,6 +871,8 @@ Filas en la tabla nt: 2019 | mutaciones aa distintas: 1070
 </table>
 </div>
 
+
+
 ##### Para contestar la pregunta 2: ¿Son estadísticamente significativos los cambios en la frecuencia de las mutaciones a lo largo del tiempo?
 
 ##### Las siguientes tablas utilizaron la información generada con `/notebooks/calculating_density_frequencies-ipynb`, como las tablas anteriores, para obtener los p-value.
@@ -945,7 +912,7 @@ NT entre periodos (2021 vs 2022)
 | C23604A  | S     | 2021  | 2022  | 0.1375     | 0.9000     | 0.7625  | chi2   | 0.000000 | True          |
 
 
-##### Tabla con los resultados de regresión Regresión Logística creada por `pruebas_estadisticas.ipynb`:
+##### Tablas con los resultados de regresión Regresión Logística creada por `pruebas_estadisticas.ipynb`:
 
 === Tendencia AA ===
 | mutation           | gene  | coef_year | odds_ratio | p_value | n_with_mut | n_total | test  |  
@@ -984,9 +951,9 @@ NT entre periodos (2021 vs 2022)
 
 Con los datos que se obtuvieron de los alineamientos con NextClade y la posterior clasificación de las mutaciones que identificaron y mapearon, se pudo identificar que sí hay cambios de nucleótidos y de aminoácidos a lo largo de los años y que se encuentran en regiones que son de importancia funcional para SARS-CoV-2 como la proteína Spyke, N (nucleocapside), M (membrana) y ORF1a y ORF1b importantes para la sintesis de proteínas estructurales y no estrucuturales que tienen un rol para la virulencia del virus. 
 
-Además que la clasificación de las mutaciones entre sinónimas y no sinónimas enriqueció la información al poder identificar que las mutaciones cambiaron aminoácidos que afectaron la proteína, sin embargo, por la limitación de no probar experimentalmente los resultados y conocer de esa forma los cambios en la funcionalidad que las mutaciones pudieron haber conferido, no podemos explicar cómo los cambios afectaron realmente al virus y si tuvo un papel para que la tasa de virulencia aumentara o no, pero el haber encontrado en qué parte del genoma de SARS-CoV-2 existen mayores cambios, nos da una visión de la importancia de las proteínas que estuvieron mutando y de las cuáles ya existe información en la literatura que explica su funcionalidad. 
+Por otro lado, llevar a cabo la clasificación de las mutaciones enriqueció nuestros resultados porque permitió la identificación de cambios que modificaron los aminoácidos presentes en la proteína. Sin embargo, con la información generada, solo es posible hipotetizar cómo estas mutaciones no sinónimas afectaron las propiedades del virus y si desempeñaron un papel para que la tasa de virulencia o infecciosidad aumentara o no. Para elucidar si nuestras predicciones son verdaderas, sería deseable revisar si ya existe información en la literatura sobre dichas variantes genéticas.
 
-Por otro lado, las mutaciones encontradas y su incremento en los años 2020, 2021 y 2022 coinciden con la evidencia en la literatura sobre la aparición de las cepas que se identificaron en esos años, como la transición de la variante Delta en 2021 a la variante Omicrón en 2022 (Taboada B., 2021). 
+Un punto interesante es que las mutaciones encontradas y su incremento en los años 2020, 2021 y 2022 coinciden con la evidencia en la literatura sobre la aparición de las cepas que se identificaron en esos años, como la transición de la variante Delta en 2021 a la variante Omicrón en 2022 (Taboada B., 2021). 
 
 Con este trasfondo, nuestro análisis estadístico se enfocó en estos dos años y en las diez proteínas con mayor mutación que se a lo largo de los años con el fin de evaluar si los datos observados eran producto del azar o si tenían respaldo estadístico y dichas mutaciones pudieron haberse dado por presión selectiva, aunque es necesario aclarar que no podemos afirmar que haya sido presión selectiva positiva unicamente con los datos que evaluamos. 
 
@@ -1037,7 +1004,7 @@ EJEMPLO: Código en GitHub bajo MIT; cita disponible en CITATION.cff. -->
 
 **Metadatos del proyecto:** [codemeta.json]([codemeta.json](https://github.com/Mario-Samano/analisis_var_gene/blob/main/codemeta.json))
 
-**Versión o release:** 2.1.0
+**Versión o release:** 3.1.0
 
 ## 15. Referencias
 
