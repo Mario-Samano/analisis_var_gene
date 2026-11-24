@@ -1004,7 +1004,7 @@ EJEMPLO: Código en GitHub bajo MIT; cita disponible en CITATION.cff. -->
 
 **Metadatos del proyecto:** [codemeta.json]([codemeta.json](https://github.com/Mario-Samano/analisis_var_gene/blob/main/codemeta.json))
 
-**Versión o release:** 3.1.0
+**Versión o release:** 3.1.1
 
 ## 15. Referencias
 
