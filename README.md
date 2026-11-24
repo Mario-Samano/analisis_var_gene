@@ -1,6 +1,6 @@
 # Análisis de variantes de SARS-CoV-2 en México (2020–2024)
 
-_Versión preliminar_. 
+
 Se buscarán variantes genéticas en genomas de SARS-CoV-2 (COVID-19) en regiones de genes potenciales a incidecia en la susceptibilidad de la enfermedad con el mismo nombre en pacientes mexicanos
 
 Para conocer el planteamiento, las preguntas de investigación, la metodología y
@@ -39,6 +39,7 @@ proyecto/
 ├── notebooks/  # Carpeta que contiene y organiza los códigos generados dependiendo de su función
 ├── results/   # Se guardarán aquí posteriormente los resultados obtenidos
 ├── src/   # Carpeta que contiene el código que se desarrollará 
+├── test/   # Carpeta con las pruebas de los códigos principales
 ├── LICENSE    # Detalles de la licencia
 ├── README.md    # Introducción y guía rápida de uso
 ├── CITATION.cff  # Archivo con instrucciones para citar este repositorio
@@ -47,7 +48,6 @@ proyecto/
 
 
 ## Requisitos
-#### Pendiente algunos detalles de la siguiente información:
 
 - Python 3.13 
 - Nextclade 3.25.0
@@ -247,7 +247,6 @@ EJEMPLO:
 
 ## Equipo
 
-#### Pendiente detalles de la siguiente información:
 - Fátima Abril Gómez Martínez — Descarga de datos, visualización, análisis de frecuencias, análisis de datos de anotación funcional.
 - Mario Alejandro Samano Basilio — Descarga de datos, visualización, alineamientos globales, análisis de frecuencias y estadísticos.
 - Jana Noemí Azamar Ramírez — Documentación, análisis de datos de anotación funcional y estadísticos.
@@ -285,9 +284,6 @@ los términos de uso.
 
 
 ## Agradecimientos
-#### Pendiente la siguiente información:
-
-[Incluyan reconocimientos institucionales o académicos]
 
 <!--
 AYUDA:
@@ -299,6 +295,10 @@ EJEMPLO:
 Proyecto desarrollado en la Licenciatura en Ciencias Genómicas, UNAM, como parte
 de la asignatura [nombre].
 -->
-
+Este proyecto no pudo ser posible sin el apoyo de:
+- La gata de Mario, por aguantarlo todas las noches.
+- Irma Ramírez, a Andromeda Coral y Leilani Cruz, por escuchar sobre este proyecto más veces de las que ellas hubieran deseado.
+- Pablo Salazar, por responder cada una de las preguntas que nos surgieron durante el desarrollo de este trabajo, incluso en fines de semana.
+- Veronica Jiménez, Leticia Vega y Shirley Alquicira, por habernos dado tiempo extracurrilar cuando necesitábamos dirección y conseguir nuestros datos.
 ---
 

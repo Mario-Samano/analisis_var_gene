@@ -11,7 +11,7 @@
         {
             "id": "_:author_2",
             "type": "Person",
-            "familyName": "Samano ",
+            "familyName": "Samano Basilio",
             "givenName": "Mario Alejandro"
         },
         {
@@ -33,7 +33,8 @@
         "genómica"
     ],
     "license": "https://spdx.org/licenses/MIT",
-    "name": "analisis_var_gene",
+    "name": "Análisis de variantes de SARS-CoV-2 en México (2020–2024) ",
     "programmingLanguage": "Python",
-    "version": "2.1.0"
+    "version": "3.1.0"
 }
+
