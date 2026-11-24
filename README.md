@@ -232,8 +232,8 @@ figuras utilizadas en el reporte. Sus nombres esperados deben indicarse aquí.
 ## Documentación
 
 - [Reporte del proyecto]([docs/reporte-proyecto.md](https://github.com/Mario-Samano/analisis_var_gene/blob/main/docs/reporte-proyecto.md)): contiene el problema, las preguntas, la metodología y los resultados obtenidos.
-- [CITATION]([CITATION.cff](https://github.com/Mario-Samano/analisis_var_gene/tree/main/results/images)): contiene la información para citar este proyecto.
-- [codemeta.json]([codemeta.json](https://github.com/Mario-Samano/analisis_var_gene/blob/main/codemeta.json)): archivo con la metadadta del proyecto.
+- [CITATION.cff](https://github.com/Mario-Samano/analisis_var_gene/blob/main/CITATION.cff): contiene la información para citar este proyecto.
+- [codemeta.json](https://github.com/Mario-Samano/analisis_var_gene/blob/main/codemeta.json): archivo con la metadata del proyecto.
 - [LICENSE](https://github.com/Mario-Samano/analisis_var_gene/blob/main/LICENSE): Licencia utilizada en el proyecto. 
 
 <!--
